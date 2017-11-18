@@ -1,0 +1,22 @@
+<Project name="BlackOrder">
+    <Package name="Common">
+        <Key ID="STR_BlackOrder_Common_BlackOrderTeam">
+            <English>Black Order-Team</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Common_flag_Display">
+            <English>Flag (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Common_flagsmall_Display">
+            <English>Flag Small (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Common_banner_Display">
+            <English>Banner (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Common_Faction_DisplayName">
+            <English>Black Order</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Common_FactionMP_DisplayName">
+            <English>Black Order (Military Police)</English>
+        </Key>
+    </Package>
+</Project>

@@ -1,0 +1,46 @@
+<Project name="BlackOrder">
+    <Package name="Characters_O">
+        <Key ID="STR_BlackOrder_Characters_O_Rifleman_Display">
+            <English>Rifleman</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Rifleman_LAT_Display">
+            <English>Rifleman (AT)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Rifleman_2_Display">
+            <English>Rifleman (ACOG)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Rifleman_Light_Display">
+            <English>Rifleman (Light)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Rifleman_Light_2_Display">
+            <English>Rifleman (Light, Beret)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_SquadLeader_Display">
+            <English>Squad Leader</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_TeamLeader_Display">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Autorifleman_Display">
+            <English>Autorifleman</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Marksmen_Display">
+            <English>Marksmen</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_CombatLifeSaver_Display">
+            <English>Combat Life Saver</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Pilot_Display">
+            <English>Pilot</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_FighterPilot_Display">
+            <English>Fighter Pilot</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_HeliPilot_Display">
+            <English>Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_HeliCrew_Display">
+            <English>Helicopter Crew</English>
+        </Key>
+    </Package>
+</Project>

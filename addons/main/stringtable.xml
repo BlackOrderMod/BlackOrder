@@ -1,0 +1,10 @@
+<Project name="BlackOrder">
+    <Package name="Main">
+        <Key ID="STR_BlackOrder_Main_BlackOrder">
+            <English>Black Order</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Main_URL">
+            <English>http://blackordermod.com</English>
+        </Key>
+    </Package>
+</Project>

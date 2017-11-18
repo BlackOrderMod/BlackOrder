@@ -1,0 +1,50 @@
+<Project name="BlackOrder">
+    <Package name="Gear">
+        <Key ID="STR_BlackOrder_Gear_Uniform_1_Display">
+            <English>CTRG Black Order Uniform</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Uniform_1_Medic_Display">
+            <English>CTRG Black Order Medic Uniform</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_PilotCoveralls_Display">
+            <English>Pilot Coveralls [Black Order]</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_HeliPilotCoveralls_Display">
+            <English>Heli Pilot Coveralls [Black Order]</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Gear_Vest_TacVest_1_Display">
+            <English>Tactical Vest (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Vest_Chestrig_Display">
+            <English>Chest Rig (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Vest_PlateCarrier_Display">
+            <English>Carrier Lite (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Vest_PlateCarrier_medic_Display">
+            <English>Carrier Lite (Black Order Medic)</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Gear_Headgear_CombatHelmet_Display">
+            <English>Combat Helmet (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Headgear_CombatHelmet_red_Display">
+            <English>Combat Helmet (Black Order Red)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Headgear_BlackOrder_PilotHelmet_Display">
+            <English>Jet Pilot Helmet (Black Order)</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Gear_Headgear_Beret_Display">
+            <English>Beret (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Headgear_Beret_red_Display">
+            <English>Beret (Black Order Red)</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Gear_Headgear_MilCap_Display">
+            <English>Military Cap (Black Order)</English>
+        </Key>
+    </Package>
+</Project>

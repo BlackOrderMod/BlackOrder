@@ -1,0 +1,10 @@
+<Project name="BlackOrder">
+    <Package name="Weapons">
+        <Key ID="STR_BlackOrder_Weapons_DMR_Display">
+            <English>Mk-I EMR 7.62 mm (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Weapons_m40a5_Display">
+            <English>M40A5 (Black Order)</English>
+        </Key>
+    </Package>
+</Project>

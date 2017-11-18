@@ -1,0 +1,10 @@
+<Project name="BlackOrder">
+    <Package name="Item">
+        <Key ID="STR_BlackOrder_Item_File1_Display">
+            <English>File (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Item_File2_Display">
+            <English>File (Black Order - Top Secret)</English>
+        </Key>
+    </Package>
+</Project>
