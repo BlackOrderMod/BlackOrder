@@ -73,7 +73,7 @@ dssignfile = ""
 prefix = "blackorder"
 pbo_name_prefix = "BlackOrder_"
 signature_blacklist = []
-importantFiles = ["mod.cpp", "meta.cpp", "README.md", "LICENSE.md", "logo_blackorder_ca.paa"]
+importantFiles = ["mod.cpp", "logo_blackorder_ca.paa"]
 versionFiles = ["mod.cpp"]
 
 ###############################################################################
@@ -524,7 +524,8 @@ def get_project_version():
     #do the magic based on https://github.com/acemod/ACE3/issues/806#issuecomment-95639048
 
     try:
-        scriptModPath = os.path.join(work_drive, prefix, "main\script_mod.hpp")
+        #scriptModPath = os.path.join(work_drive, prefix, "main\script_mod.hpp")
+        scriptModPath = os.path.join(work_drive, prefix, "main\script_version.hpp")
 
         if os.path.isfile(scriptModPath):
             f = open(scriptModPath, "r")
@@ -1098,6 +1099,7 @@ See the make.cfg file for additional build options.
         # For each module, prep files and then build.
         print_blue("\nBuilding...")
         for module in modules:
+            module = module.title()
             print_green("\nMaking {}".format(module + "-"*max(1, (60-len(module)))))
             missing = False
             sigMissing = False
