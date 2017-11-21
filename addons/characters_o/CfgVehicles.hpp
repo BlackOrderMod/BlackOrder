@@ -7,6 +7,7 @@ class CfgVehicles {
         scopeCurator = 1;
         displayName = CSTRING(Rifleman_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
 
         genericNames = "EnglishMen";
         icon = "iconMan";
@@ -30,6 +31,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Rifleman_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -88,6 +90,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Rifleman_2_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_2_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -148,6 +151,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Rifleman_Light_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -189,6 +193,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Rifleman_Light_2_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_2_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -230,6 +235,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(SquadLeader_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_SquadLeader_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -290,6 +296,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(TeamLeader_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_TeamLeader_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -350,6 +357,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Rifleman_LAT_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_LAT_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -410,6 +418,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Autorifleman_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Autorifleman_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -462,6 +471,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Marksmen_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Marksmen_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -522,6 +532,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(CombatLifeSaver_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_CombatLifeSaver_F.jpg);
 
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
         modelSides[] = {3,2,1,0};
@@ -589,6 +600,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Pilot_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Pilot_F.jpg);
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -628,6 +640,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(FighterPilot_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_FighterPilot_F.jpg);
 
         model = "\A3\characters_F\Common\pilot_f.p3d";
         modelSides[] = {3,2,1,0};
@@ -675,6 +688,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(HeliPilot_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_HeliPilot_F.jpg);
 
         model = "\A3\Characters_F\Common\coveralls.p3d";
         modelSides[] = {3,2,1,0};
@@ -685,7 +699,6 @@ class CfgVehicles {
         };
 
         uniformClass = "U_BlackOrder_HeliPilotCoveralls";
-        //uniformClass = "U_BlackOrder_Uniform_1_Medic";
 
         weapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
@@ -727,6 +740,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(HeliCrew_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_HeliCrew_F.jpg);
 
         linkedItems[] = {
             "rhsusf_hgu56p_mask_black",

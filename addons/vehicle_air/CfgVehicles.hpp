@@ -7,6 +7,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(BlackOrder_VTOL_Infantry_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_VTOL_Infantry_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -41,6 +42,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(BlackOrder_VTOL_Vehicle_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_VTOL_Vehicle_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
