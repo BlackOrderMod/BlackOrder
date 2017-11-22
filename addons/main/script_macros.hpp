@@ -77,7 +77,7 @@
     item = ##BARREL; \
 }
 
-#define MULT_OBJ_0(a) 
+#define MULT_OBJ_0(a)
 #define MULT_OBJ_1(a)  a
 #define MULT_OBJ_2(a)  a, a
 #define MULT_OBJ_3(a)  a, a, a
@@ -94,11 +94,10 @@
 #define MULT_OBJ_14(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MULT_OBJ_15(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MULT_OBJ_16(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_17(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a 
+#define MULT_OBJ_17(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MULT_OBJ_18(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MULT_OBJ_19(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MULT_OBJ_20(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ(TYPE,COUNT) MULT_OBJ_##COUNT(#TYPE)
 
 // item types
 #define TYPE_DEFAULT 0

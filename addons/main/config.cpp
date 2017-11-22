@@ -879,6 +879,9 @@ class CfgPatches {
             "3den",
             "map_vr",
 
+            // RHS
+            "rhsusf_main",
+
             // CBA
             "cba_ui",
             "cba_xeh",

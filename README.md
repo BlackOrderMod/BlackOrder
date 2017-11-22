@@ -5,18 +5,11 @@
 <p>The Black Order is a fictional Terrorist Organization inspired by many sources of mega corps and terror cells. The mod add a new faction creatively named Black Order and its more or less a retexturering mod that add some flavor to arma. </p>
 
 #### Content
-* Black Order Faction (OPFOR)
-* Army Units and Groups
-* Military Police Units
-* Science Division
-* Special Operations Units
-* Faction specific items
-* Faction specific vehicles
+WIP
 
 
 #### Addon required
 * <a href=https://github.com/CBATeam/CBA_A3/>CBA</a><br>
-* <a href=http://ace3mod.com/>ACE3</a><br>
 * <a href=http://www.rhsmods.org/>RHS: United States Armed Forces</a><br>
 
 

@@ -12,7 +12,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(EditorPreviews\blackorder_flag_F.jpg);
 
         class EventHandlers {
-            init = '(_this select 0) setFlagTexture QPATHTOF(data\flag_blackorder_co.paa)'
+            init = (_this select 0) setFlagTexture QPATHTOF(data\flag_blackorder_co.paa);
         };
     };
     class blackorder_flagsmall_F : FlagChecked_F {
@@ -23,7 +23,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(EditorPreviews\blackorder_flagsmall_F.jpg);
 
         class EventHandlers {
-            init = '(_this select 0) setFlagTexture QPATHTOF(data\flag_blackordersmall_co.paa)'
+            init = (_this select 0) setFlagTexture QPATHTOF(data\flag_blackordersmall_co.paa);
         };
     };
     class blackorder_banner_F : Banner_01_base_F {
