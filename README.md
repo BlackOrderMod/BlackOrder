@@ -1,5 +1,9 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/EvulDev/TerroristOrganizationBlackOrder/master/Extra/logo01.png" width="480">
+    [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?style=flat-square)](https://github.com/EvulDev/BlackOrder)
+    [![GitHub issues](https://img.shields.io/github/issues/EvulDev/BlackOrder.svg?style=flat-square)](https://github.com/EvulDev/BlackOrder/issues)
+    [![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat-square)](https://github.com/EvulDev/BlackOrder/releases)
+    [![GitHub stars](https://img.shields.io/github/stars/EvulDev/BlackOrder.svg?style=flat-square)](https://github.com/EvulDev/BlackOrder/stargazers)
 </p>
 
 <p>The Black Order is a fictional Terrorist Organization inspired by many sources of mega corps and terror cells. The mod add a new faction creatively named Black Order and its more or less a retexturering mod that add some flavor to arma. </p>
