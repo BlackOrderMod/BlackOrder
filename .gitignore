@@ -7,4 +7,4 @@ texHeaders.bin
 *.biprivatekey
 Thumbs.db
 Releases/*
-/Release
+Release/*

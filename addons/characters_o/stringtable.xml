@@ -30,6 +30,21 @@
         <Key ID="STR_BlackOrder_Characters_O_CombatLifeSaver_Display">
             <English>Combat Life Saver</English>
         </Key>
+
+        <Key ID="STR_BlackOrder_Characters_O_Officer_Display">
+            <English>Officer</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Commissar_Display">
+            <English>Commissar</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_O_Soldier_AA_Display">
+            <English>Missile Specialist (AA)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Soldier_AT_Display">
+            <English>Missile Specialist (AT)</English>
+        </Key>
+
         <Key ID="STR_BlackOrder_Characters_O_Pilot_Display">
             <English>Pilot</English>
         </Key>

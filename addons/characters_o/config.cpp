@@ -15,7 +15,13 @@ class CfgPatches {
             "O_BlackOrder_Autorifleman_F",
             "O_BlackOrder_Marksmen_F",
             "O_BlackOrder_CombatLifeSaver_F",
-            
+
+            "O_BlackOrder_Officer_F",
+            "O_BlackOrder_Commissar_F",
+
+            "O_BlackOrder_Soldier_AA_F",
+            "O_BlackOrder_Soldier_AT_F",
+
             "O_BlackOrder_Pilot_F",
             "O_BlackOrder_FighterPilot_F",
             "O_BlackOrder_HeliPilot_F",
@@ -26,6 +32,7 @@ class CfgPatches {
         requiredAddons[] = {
             "blackorder_main",
             "blackorder_common",
+
             "blackorder_gear",
             "blackorder_weapons"
         };

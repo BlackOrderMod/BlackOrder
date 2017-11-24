@@ -3,15 +3,5 @@
         <Key ID="STR_BlackOrder_Vehicle_Air_OrderTexture_Display">
             <English>Black Order</English>
         </Key>
-        
-        <Key ID="STR_BlackOrder_Vehicle_Air_BlackOrder_VTOL_Infantry_Display">
-            <English>Y-32 Xi'an (Infantry Transport)</English>
-        </Key>
-        <Key ID="STR_BlackOrder_Vehicle_Air_BlackOrder_VTOL_Vehicle_Display">
-            <English>Y-32 Xi'an (Vehicle Transport)</English>
-        </Key>
-        <Key ID="STR_BlackOrder_Vehicle_Air_BlackOrder_C130J_Display">
-            <English>C-130J</English>
-        </Key>
     </Package>
 </Project>

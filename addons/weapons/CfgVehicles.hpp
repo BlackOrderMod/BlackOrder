@@ -1,7 +1,7 @@
 
 class CfgVehicles {
     class Weapon_Base_F;
-    
+
     class Weapon_srifle_DMR_03_blackorder_F : Weapon_Base_F {
         _generalMacro = "Weapon_Base_F";
         scope = 2;
@@ -12,7 +12,7 @@ class CfgVehicles {
         editorCategory = "EdCat_Weapons";
         editorSubcategory = "EdSubcat_SniperRifles";
         vehicleClass = "WeaponsPrimary";
-        
+
         class TransportMagazines {
             MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,1);
         };
@@ -30,7 +30,7 @@ class CfgVehicles {
         editorCategory = "EdCat_Weapons";
         editorSubcategory = "EdSubcat_SniperRifles";
         vehicleClass = "WeaponsPrimary";
-        
+
         class TransportMagazines {
             MACRO_ADDMAGAZINE(rhsusf_10Rnd_762x51_m118_special_Mag,1);
         };

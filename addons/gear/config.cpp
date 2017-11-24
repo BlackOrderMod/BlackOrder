@@ -3,7 +3,11 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {
+            "B_ViperLightHarness_blk_BlackOrder_Medic_F",
+            "B_ViperHarness_blk_BlackOrder_AA_F",
+            "B_ViperHarness_blk_BlackOrder_AT_F"
+        };
         weapons[] = {
             "U_BlackOrder_Uniform_1",
             "U_BlackOrder_Uniform_1_Medic",
@@ -32,4 +36,5 @@ class CfgPatches {
     };
 };
 
+#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"

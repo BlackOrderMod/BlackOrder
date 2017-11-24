@@ -28,10 +28,10 @@ class CfgVehicles {
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret {
-                gunnerType = "O_BlackOrder_HeliPilot_F";
+                gunnerType = "O_BlackOrder_HeliCrew_F";
             };
             class MainTurret : MainTurret {
-                gunnerType = "O_BlackOrder_HeliCrew_F";
+                gunnerType = "O_BlackOrder_HeliPilot_F"; // Ogly way of fixing the crew in front seat issue
             };
             class RightDoorGun : RightDoorGun {
                 gunnerType = "O_BlackOrder_HeliCrew_F";
@@ -268,12 +268,45 @@ class CfgVehicles {
             };
         };
     };
+
+    class I_Plane_Fighter_04_F;
+    class O_BlackOrder_Plane_Fighter_04_F : I_Plane_Fighter_04_F {
+        _generalMacro = "O_BlackOrder_Plane_Fighter_04_F";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(BlackOrder_VTOL_Vehicle_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_VTOL_Vehicle_F.jpg);
+
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        crew = "O_BlackOrder_FighterPilot_F";
+        typicalCargo[] = {"O_BlackOrder_FighterPilot_F"};
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_Fighter_04_fuselage_01_co.paa),
+            QPATHTOF(data\blackorder_Fighter_04_fuselage_02_co.paa)
+        };
+        class textureSources {
+            class O_BlackOrder_Plane_Fighter_04_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = CSTRING(OrderTexture_Display);
+                factions[] = {"OPF_BlackOrder_F"};
+                textures[] = {
+                    QPATHTOF(data\blackorder_Fighter_04_fuselage_01_co.paa),
+                    QPATHTOF(data\blackorder_Fighter_04_fuselage_02_co.paa)
+                };
+            };
+        };
+    };
+
 /*     class RHS_C130J;
     class RHS_BlackOrder_C130J : RHS_C130J {
         _generalMacro = "RHS_BlackOrder_C130J";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(BlackOrder_C130J_Display);
+        //displayName = CSTRING(BlackOrder_C130J_Display);
         author = ECSTRING(common,BlackOrderTeam);
 
         faction = "OPF_BlackOrder_F";

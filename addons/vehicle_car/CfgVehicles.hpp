@@ -1,7 +1,7 @@
 
 class CfgVehicles {
     class B_Quadbike_01_F;
-    class O_blackorder_veh_Quadbike : B_Quadbike_01_F {
+    class O_blackorder_veh_Quadbike_F : B_Quadbike_01_F {
         _generalMacro = "O_blackorder_veh_Quadbike";
         scope = 2;
         scopeCurator = 2;
@@ -33,7 +33,7 @@ class CfgVehicles {
     };
 
     class C_SUV_01_F;
-    class O_blackorder_veh_SUV : C_SUV_01_F {
+    class O_blackorder_veh_SUV_F : C_SUV_01_F {
         _generalMacro = "O_blackorder_veh_suv";
         scope = 2;
         scopeCurator = 2;
@@ -62,8 +62,93 @@ class CfgVehicles {
         };
     };
 
+    class C_Offroad_01_F;
+    class O_blackorder_veh_Offroad_F : C_Offroad_01_F {
+        _generalMacro = "O_blackorder_veh_Offroad";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(Offroad_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        crew = "O_BlackOrder_Rifleman_F";
+        typicalCargo[] = {"O_BlackOrder_Rifleman_F"};
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\offroad_BlackOrder_co.paa),
+            QPATHTOF(data\offroad_BlackOrder_co.paa)
+        };
+        class textureSources {
+            class O_blackorder_veh_Offroad_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = CSTRING(OrderTexture_Display);
+                factions[] = {"OPF_BlackOrder_F"};
+                textures[] = {
+                    QPATHTOF(data\offroad_BlackOrder_co.paa),
+                    QPATHTOF(data\offroad_BlackOrder_co.paa)
+                };
+            };
+        };
+        animationList[]=
+		{
+			"HidePolice",1,
+			"HideBumper1",1,
+			"HideBumper2",0,
+			"HideConstruction",0,
+			"HideDoor3",0.33000001,
+			"HideDoor3",0.33000001,
+			"HideDoor3",1,
+			"HideBackpacks",1
+		};
+    };
+    class I_G_Offroad_01_armed_F;
+    class O_blackorder_veh_Offroad_armed_F : I_G_Offroad_01_armed_F {
+        _generalMacro = "O_blackorder_veh_Offroad";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(Offroad_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        crew = "O_BlackOrder_Rifleman_F";
+        typicalCargo[] = {"O_BlackOrder_Rifleman_F"};
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\offroad_BlackOrder_co.paa),
+            QPATHTOF(data\offroad_BlackOrder_co.paa)
+        };
+        class textureSources {
+            class O_blackorder_veh_Offroad_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = CSTRING(OrderTexture_Display);
+                factions[] = {"OPF_BlackOrder_F"};
+                textures[] = {
+                    QPATHTOF(data\offroad_BlackOrder_co.paa),
+                    QPATHTOF(data\offroad_BlackOrder_co.paa)
+                };
+            };
+        };
+        animationList[]=
+		{
+			"HidePolice",1,
+			"HideBumper1",1,
+			"HideBumper2",0,
+			"HideConstruction",0,
+			"HideDoor3",0.33000001,
+			"HideDoor3",0.33000001,
+			"HideDoor3",1,
+			"HideBackpacks",1
+		};
+    };
+
     class O_Truck_02_covered_F;
-    class O_blackorder_veh_Truck_Covered : O_Truck_02_covered_F {
+    class O_blackorder_veh_Truck_Covered_F : O_Truck_02_covered_F {
         _generalMacro = "O_blackorder_veh_Truck_Covered";
         scope = 2;
         scopeCurator = 2;
@@ -96,7 +181,7 @@ class CfgVehicles {
         };
     };
     class O_Truck_02_transport_F;
-    class O_blackorder_veh_Truck_Transport : O_Truck_02_transport_F {
+    class O_blackorder_veh_Truck_Transport_F : O_Truck_02_transport_F {
         _generalMacro = "O_blackorder_veh_Truck_Transport";
         scope = 2;
         scopeCurator = 2;
@@ -130,7 +215,7 @@ class CfgVehicles {
     };
 
     class rhsusf_m1025_w_m2;
-    class O_blackorder_veh_m1025_m2 : rhsusf_m1025_w_m2 {
+    class O_blackorder_veh_m1025_m2_F : rhsusf_m1025_w_m2 {
         _generalMacro = "O_blackorder_veh_m1025_m2";
         scope = 2;
         scopeCurator = 2;
@@ -194,7 +279,7 @@ class CfgVehicles {
         };
     };
     class rhsusf_m1025_w_mk19;
-    class O_blackorder_veh_m1025_mk19 : rhsusf_m1025_w_mk19 {
+    class O_blackorder_veh_m1025_mk19_F : rhsusf_m1025_w_mk19 {
         _generalMacro = "O_blackorder_veh_m1025_mk19";
         scope = 2;
         scopeCurator = 2;
@@ -258,7 +343,7 @@ class CfgVehicles {
         };
     };
     class rhsusf_m1025_w;
-    class O_blackorder_veh_m1025 : rhsusf_m1025_w {
+    class O_blackorder_veh_m1025_F : rhsusf_m1025_w {
         _generalMacro = "O_blackorder_veh_m1025";
         scope = 2;
         scopeCurator = 2;
@@ -320,7 +405,7 @@ class CfgVehicles {
     };
 
     class rhsusf_m998_w_2dr_fulltop;
-    class O_blackorder_veh_m998_2dr_fulltop : rhsusf_m998_w_2dr_fulltop {
+    class O_blackorder_veh_m998_2dr_fulltop_F : rhsusf_m998_w_2dr_fulltop {
         _generalMacro = "O_blackorder_veh_m998_2dr_fulltop";
         scope = 2;
         scopeCurator = 2;
@@ -387,7 +472,7 @@ class CfgVehicles {
         };
     };
     class rhsusf_m998_w_2dr_halftop;
-    class O_blackorder_veh_m998_2dr_halftop : rhsusf_m998_w_2dr_halftop {
+    class O_blackorder_veh_m998_2dr_halftop_F : rhsusf_m998_w_2dr_halftop {
         _generalMacro = "O_blackorder_veh_m998_2dr_halftop";
         scope = 2;
         scopeCurator = 2;
@@ -454,7 +539,7 @@ class CfgVehicles {
         };
     };
     class rhsusf_m998_w_2dr;
-    class O_blackorder_veh_m998_2dr : rhsusf_m998_w_2dr {
+    class O_blackorder_veh_m998_2dr_F : rhsusf_m998_w_2dr {
         _generalMacro = "O_blackorder_veh_m998_2dr";
         scope = 2;
         scopeCurator = 2;
@@ -522,7 +607,7 @@ class CfgVehicles {
     };
 
     class rhsusf_m998_w_4dr_fulltop;
-    class O_blackorder_veh_m998_4dr_fulltop : rhsusf_m998_w_4dr_fulltop {
+    class O_blackorder_veh_m998_4dr_fulltop_F : rhsusf_m998_w_4dr_fulltop {
         _generalMacro = "O_blackorder_veh_m998_4dr_fulltop";
         scope = 2;
         scopeCurator = 2;
@@ -589,7 +674,7 @@ class CfgVehicles {
         };
     };
     class rhsusf_m998_w_4dr_halftop;
-    class O_blackorder_veh_m998_4dr_halftop : rhsusf_m998_w_4dr_halftop {
+    class O_blackorder_veh_m998_4dr_halftop_F : rhsusf_m998_w_4dr_halftop {
         _generalMacro = "O_blackorder_veh_m998_4dr_halftop";
         scope = 2;
         scopeCurator = 2;
@@ -656,7 +741,7 @@ class CfgVehicles {
         };
     };
     class rhsusf_m998_w_4dr;
-    class O_blackorder_veh_m998_4dr : rhsusf_m998_w_4dr {
+    class O_blackorder_veh_m998_4dr_F : rhsusf_m998_w_4dr {
         _generalMacro = "O_blackorder_veh_m998_4dr";
         scope = 2;
         scopeCurator = 2;

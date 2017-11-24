@@ -12,7 +12,9 @@ class CfgPatches {
             "O_RHS_AH1Z_BlackOrder_F",
 
             "O_BlackOrder_VTOL_Infantry_F",
-            "O_BlackOrder_VTOL_Vehicle_F"
+            "O_BlackOrder_VTOL_Vehicle_F",
+
+            "O_BlackOrder_Plane_Fighter_04_F"
         };
         weapons[] = {
         };
