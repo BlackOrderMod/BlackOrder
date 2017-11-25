@@ -8,6 +8,8 @@ class CfgPatches {
             "O_blackorder_veh_SUV_F",
             "O_blackorder_veh_Offroad_F",
             "O_blackorder_veh_Offroad_armed_F",
+            "O_blackorder_veh_Van_02_F",
+            "O_blackorder_veh_Van_02_transport_F",
             "O_blackorder_veh_Truck_Covered_F",
             "O_blackorder_veh_Truck_Transport_F",
 

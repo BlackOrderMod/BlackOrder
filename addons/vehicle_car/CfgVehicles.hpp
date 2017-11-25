@@ -147,6 +147,79 @@ class CfgVehicles {
 		};
     };
 
+    class C_IDAP_Van_02_vehicle_F;
+    class O_blackorder_veh_Van_02_F : C_IDAP_Van_02_vehicle_F {
+        _generalMacro = "O_blackorder_veh_Van_02_F";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(Offroad_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        crew = "O_BlackOrder_Rifleman_Light_F";
+        typicalCargo[] = {"O_BlackOrder_Rifleman_Light_F"};
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\van_body_BlackOrder_CO.paa),
+            "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
+            "\a3\soft_f_orange\van_02\data\van_glass_utility_ca.paa",
+            QPATHTOF(data\van_body_BlackOrder_CO.paa)
+        };
+        class textureSources {
+            class O_blackorder_veh_Offroad_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = CSTRING(OrderTexture_Display);
+                factions[] = {"OPF_BlackOrder_F"};
+                textures[] = {
+                    QPATHTOF(data\van_body_BlackOrder_CO.paa),
+                    "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
+                    "\a3\soft_f_orange\van_02\data\van_glass_utility_ca.paa",
+                    QPATHTOF(data\van_body_BlackOrder_CO.paa)
+                };
+            };
+        };
+    };
+
+    class C_IDAP_Van_02_transport_F;
+    class O_blackorder_veh_Van_02_transport_F : C_IDAP_Van_02_transport_F {
+        _generalMacro = "O_blackorder_veh_Van_02_transport_F";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(Offroad_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        crew = "O_BlackOrder_Rifleman_Light_F";
+        typicalCargo[] = {"O_BlackOrder_Rifleman_Light_F"};
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\van_body_BlackOrder_CO.paa),
+            "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
+            "\a3\soft_f_orange\van_02\data\van_glass_transport_ca.paa",
+            QPATHTOF(data\van_body_BlackOrder_CO.paa)
+        };
+        class textureSources {
+            class O_blackorder_veh_Offroad_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = CSTRING(OrderTexture_Display);
+                factions[] = {"OPF_BlackOrder_F"};
+                textures[] = {
+                    QPATHTOF(data\van_body_BlackOrder_CO.paa),
+                    "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
+                    "\a3\soft_f_orange\van_02\data\van_glass_transport_ca.paa",
+                    QPATHTOF(data\van_body_BlackOrder_CO.paa)
+                };
+            };
+        };
+    };
+
+
     class O_Truck_02_covered_F;
     class O_blackorder_veh_Truck_Covered_F : O_Truck_02_covered_F {
         _generalMacro = "O_blackorder_veh_Truck_Covered";
