@@ -182,7 +182,6 @@ class CfgVehicles {
             };
         };
     };
-
     class C_IDAP_Van_02_transport_F;
     class O_blackorder_veh_Van_02_transport_F : C_IDAP_Van_02_transport_F {
         _generalMacro = "O_blackorder_veh_Van_02_transport_F";
@@ -218,7 +217,6 @@ class CfgVehicles {
             };
         };
     };
-
 
     class O_Truck_02_covered_F;
     class O_blackorder_veh_Truck_Covered_F : O_Truck_02_covered_F {
