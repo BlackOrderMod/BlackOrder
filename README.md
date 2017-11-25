@@ -9,7 +9,7 @@
         <img src="https://img.shields.io/github/issues/EvulDev/BlackOrder.svg?style=flat-square" alt="Black Order Issues">
     </a>
     <a href="https://github.com/EvulDev/BlackOrder/releases">
-        <img src="https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat-square" alt="Black Order Issues">
+        <img src="https://img.shields.io/github/downloads/EvulDev/BlackOrder/total.svg?style=flat-square" alt="Black Order Downloads">
     </a>
     <a href="https://github.com/EvulDev/BlackOrder/stargazers">
         <img src="(https://img.shields.io/github/stars/EvulDev/BlackOrder.svg?style=flat-square" alt="Black Order Issues">
