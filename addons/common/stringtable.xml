@@ -12,8 +12,12 @@
         <Key ID="STR_BlackOrder_Common_banner_Display">
             <English>Banner (Black Order)</English>
         </Key>
+
         <Key ID="STR_BlackOrder_Common_Faction_DisplayName">
             <English>Black Order</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Common_FactionSCI_DisplayName">
+            <English>Black Order (Science Division)</English>
         </Key>
         <Key ID="STR_BlackOrder_Common_FactionMP_DisplayName">
             <English>Black Order (Military Police)</English>
