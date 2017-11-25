@@ -17,4 +17,4 @@ class CfgPatches {
 #include "CfgFactionClasses.hpp"
 #include "CfgUnitInsignia.hpp"
 #include "CfgVehicles.hpp"
-#include "CfgMarkers.txt"
+#include "CfgMarkers.hpp"
