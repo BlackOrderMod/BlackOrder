@@ -136,6 +136,8 @@ class CfgWeapons {
 
     class HeadgearItem;
     class H_HelmetB;
+    class rhsusf_mich_bare_tan;
+    class rhsusf_mich_bare_tan_headset;
     class RHS_jetpilot_usaf;
     class H_Beret_02;
     class H_MilCap_gry;
@@ -146,7 +148,7 @@ class CfgWeapons {
         displayName = CSTRING(Headgear_CombatHelmet_Display);
         author = ECSTRING(common,BlackOrderTeam);
         picture = "\A3\characters_f\Data\UI\icon_H_helmet_plain_ca.paa";
-        hiddenSelections[] = {"Camo1"};
+
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\headgear\H_BlackOrder_CombatHelmet_co.paa)
         };
@@ -157,9 +159,35 @@ class CfgWeapons {
         displayName = CSTRING(Headgear_CombatHelmet_red_Display);
         author = ECSTRING(common,BlackOrderTeam);
         picture = "\A3\characters_f\Data\UI\icon_H_helmet_plain_ca.paa";
-        hiddenSelections[] = {"Camo1"};
+
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\headgear\H_BlackOrder_CombatHelmet_red_co.paa)
+        };
+    };
+
+    class H_BlackOrder_mich_bare : rhsusf_mich_bare_tan {
+        _generalMacro = "H_BlackOrder_mich_bare";
+        scope = 2;
+        displayName = CSTRING(Headgear_mich_bare_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = "\A3\characters_f\Data\UI\icon_H_helmet_plain_ca.paa";
+        hiddenSelectionsTextures[] = {
+            PATHTOF(data\headgear\H_BlackOrder_CombatHelmet_02_bare_mich_rhino_co.paa),
+            PATHTOF(data\headgear\H_BlackOrder_CombatHelmet_02_mich_acc_co.paa),
+            PATHTOF(data\headgear\H_BlackOrder_CombatHelmet_02_ach_acc_co.paa)
+        };
+    };
+    class H_BlackOrder_mich_bare_headset : rhsusf_mich_bare_tan_headset {
+        _generalMacro = "H_BlackOrder_mich_bare_headset";
+        scope = 2;
+        displayName = CSTRING(Headgear_mich_bare_headset_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = "\A3\characters_f\Data\UI\icon_H_helmet_plain_ca.paa";
+        hiddenSelectionsTextures[] = {
+            PATHTOF(data\headgear\H_BlackOrder_CombatHelmet_02_bare_mich_rhino_co.paa),
+            PATHTOF(data\headgear\H_BlackOrder_CombatHelmet_02_mich_acc_co.paa),
+            PATHTOF(data\headgear\H_BlackOrder_CombatHelmet_02_ach_acc_co.paa),
+            "\rhsusf\addons\rhsusf_infantry\gear\head\data\bowman_base_co.paa"
         };
     };
 

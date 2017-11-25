@@ -34,8 +34,11 @@
         <Key ID="STR_BlackOrder_Characters_O_Officer_Display">
             <English>Officer</English>
         </Key>
-        <Key ID="STR_BlackOrder_Characters_O_Commissar_Display">
+        <Key ID="STR_BlackOrder_Characters_O_Commissar_01_Display">
             <English>Commissar</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Commissar_02_Display">
+            <English>Commissar (Mk 18 Mod 1)</English>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_O_Soldier_AA_Display">
@@ -56,6 +59,10 @@
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_HeliCrew_Display">
             <English>Helicopter Crew</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_O_Survivor_Display">
+            <English>Survivor</English>
         </Key>
     </Package>
 </Project>

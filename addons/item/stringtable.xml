@@ -6,5 +6,19 @@
         <Key ID="STR_BlackOrder_Item_File2_Display">
             <English>File (Black Order - Top Secret)</English>
         </Key>
+
+        <Key ID="STR_BlackOrder_Item_PlasticCase_01_large_Display">
+            <English>Plastic Case (Large, Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Item_PlasticCase_01_medium_Display">
+            <English>Plastic Case (Medium, Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Item_PlasticCase_01_small_Display">
+            <English>Plastic Case (Small, Black Order)</English>
+        </Key>
+        
+        <Key ID="STR_BlackOrder_Item_Laptop_02_Display">
+            <English>Old Laptop (Open, Black Order)</English>
+        </Key>
     </Package>
 </Project>

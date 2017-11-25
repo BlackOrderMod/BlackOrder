@@ -1,7 +1,6 @@
 
 class CfgWeapons {
     class srifle_DMR_03_khaki_F;
-
     class srifle_DMR_03_blackorder_F : srifle_DMR_03_khaki_F {
         _generalMacro = "srifle_DMR_03_blackorder_F";
         scope = 2;
@@ -25,6 +24,50 @@ class CfgWeapons {
         };
     };
     class srifle_DMR_03_blackorder_ACOG_F : srifle_DMR_03_blackorder_F {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            MACRO_LINKEDOPTIC(rhsusf_acc_ACOG);
+            //MACRO_LINKEDACC();
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
+
+    class rhs_weap_m4a1;
+    class rhs_weap_m4a1_BlackOrder_anpeq15_F : rhs_weap_m4a1 {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            //MACRO_LINKEDOPTIC();
+            MACRO_LINKEDACC(rhsusf_acc_anpeq15_bk);
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
+    class rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F : rhs_weap_m4a1 {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            MACRO_LINKEDOPTIC(rhsusf_acc_ACOG_RMR);
+            MACRO_LINKEDACC(rhsusf_acc_anpeq15_bk);
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
+    class rhs_weap_m4a1_m320;
+    class rhs_weap_m4a1_m320_BlackOrder_ACOGRMR_anpeq15_F : rhs_weap_m4a1_m320 {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            MACRO_LINKEDOPTIC(rhsusf_acc_ACOG_RMR);
+            MACRO_LINKEDACC(rhsusf_acc_anpeq15_bk);
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
+    class rhs_weap_mk18_bk;
+    class rhs_weap_mk18_bk_BlackOrder_ACOG : rhs_weap_mk18_bk {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {

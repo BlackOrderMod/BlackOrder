@@ -38,4 +38,16 @@ class CfgVehicles {
             MACRO_ADDWEAPON(rhs_weap_m40a5_blackorder,1);
         };
     };
+
+    class Box_NATO_Ammo_F;
+    class Box_NATO_Wps_F;
+    class Box_NATO_Equip_F;
+    class Box_NATO_AmmoOrd_F;
+    class Box_NATO_Grenades_F;
+    class Box_NATO_WpsLaunch_F;
+    class Box_NATO_WpsSpecial_F;
+    class B_supplyCrate_F;
+    class Box_NATO_Support_F;
+    class Box_NATO_Uniforms_F;
+    class Box_NATO_AmmoVeh_F;
 };

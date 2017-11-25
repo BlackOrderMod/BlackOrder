@@ -32,6 +32,14 @@
         <Key ID="STR_BlackOrder_Gear_Headgear_CombatHelmet_red_Display">
             <English>Combat Helmet (Black Order Red)</English>
         </Key>
+
+        <Key ID="STR_BlackOrder_Gear_Headgear_mich_bare_Display">
+            <English>MICH 2000 (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Headgear_mich_bare_headset_Display">
+            <English>MICH 2000 (Black Order/Headset)</English>
+        </Key>
+
         <Key ID="STR_BlackOrder_Gear_Headgear_BlackOrder_PilotHelmet_Display">
             <English>Jet Pilot Helmet (Black Order)</English>
         </Key>

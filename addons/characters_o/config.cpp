@@ -5,6 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             "O_BlackOrder_base_F",
+
             "O_BlackOrder_Rifleman_F",
             "O_BlackOrder_Rifleman_2_F",
             "O_BlackOrder_Rifleman_Light_F",
@@ -25,7 +26,9 @@ class CfgPatches {
             "O_BlackOrder_Pilot_F",
             "O_BlackOrder_FighterPilot_F",
             "O_BlackOrder_HeliPilot_F",
-            "O_BlackOrder_HeliCrew_F"
+            "O_BlackOrder_HeliCrew_F",
+
+            "O_BlackOrder_Survivor_F"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

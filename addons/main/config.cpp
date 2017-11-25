@@ -906,3 +906,5 @@ class CfgMods {
         description = "Issue Tracker: https://github.com/EvulDev/BlackOrder/issues";
     };
 };
+
+#include "CfgSettings.hpp"

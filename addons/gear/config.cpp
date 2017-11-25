@@ -21,6 +21,8 @@ class CfgPatches {
 
             "H_BlackOrder_CombatHelmet",
             "H_BlackOrder_CombatHelmet_red",
+            "H_BlackOrder_CombatHelmet_02",
+
             "H_BlackOrder_PilotHelmet",
 
             "H_BlackOrder_Beret",

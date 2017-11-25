@@ -25,6 +25,7 @@ class CfgVehicles {
         };
         uniformClass = "U_BlackOrder_Uniform_1";
     };
+
     class O_BlackOrder_Rifleman_F : O_BlackOrder_base_F {
         _generalMacro = "O_BlackOrder_Rifleman_F";
         scope = 2;
@@ -237,6 +238,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_SquadLeader_F.jpg);
 
+        icon = "iconManLeader";
+
         uniformClass = "U_BlackOrder_Uniform_1";
 
         weapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Rangefinder","Throw","Put"};
@@ -302,6 +305,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_TeamLeader_F.jpg);
 
+        icon = "iconManLeader";
+
         uniformClass = "U_BlackOrder_Uniform_1";
 
         weapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Binocular","Throw","Put"};
@@ -365,6 +370,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_LAT_F.jpg);
 
+        icon = "iconManAT";
+
         uniformClass = "U_BlackOrder_Uniform_1";
 
         weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_M136","rhsusf_weap_glock17g4","Throw","Put"};
@@ -425,6 +432,8 @@ class CfgVehicles {
         displayName = CSTRING(Autorifleman_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Autorifleman_F.jpg);
+
+        icon = "iconManMG";
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -540,6 +549,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_CombatLifeSaver_F.jpg);
 
+        icon = "iconManMedic";
+
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
         modelSides[] = {3,2,1,0};
 
@@ -611,6 +622,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_F.jpg);
 
+        icon = "iconManOfficer";
+
         uniformClass = "U_BlackOrder_Uniform_1";
 
         weapons[] = {"srifle_DMR_03_blackorder_F","rhsusf_weap_glock17g4","Binocular","Throw","Put"};
@@ -649,18 +662,21 @@ class CfgVehicles {
         };
         glassesEnabled = 0;
     };
-    class O_BlackOrder_Commissar_F : O_BlackOrder_Rifleman_F {
-        _generalMacro = "O_BlackOrder_Commissar_F";
+
+    class O_BlackOrder_Commissar_01_F : O_BlackOrder_Rifleman_F {
+        _generalMacro = "O_BlackOrder_Commissar_01_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Commissar_Display);
+        displayName = CSTRING(Commissar_01_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_F.jpg);
 
+        icon = "iconManOfficer";
+
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Leupold_Mk4","Throw","Put"};
-        respawnWeapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Leupold_Mk4","Throw","Put"};
+        weapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
             MULT_OBJ_3(HandGrenade),
             MULT_OBJ_1(SmokeShell),
@@ -710,6 +726,69 @@ class CfgVehicles {
         };
         glassesEnabled = 1;
     };
+    class O_BlackOrder_Commissar_02_F : O_BlackOrder_Rifleman_F {
+        _generalMacro = "O_BlackOrder_Commissar_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Commissar_02_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_F.jpg);
+
+        icon = "iconManOfficer";
+
+        uniformClass = "U_BlackOrder_Uniform_1";
+
+        weapons[] = {"rhs_weap_mk18_bk_BlackOrder_ACOG","rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_mk18_bk_BlackOrder_ACOG","rhsusf_weap_glock17g4","Throw","Put"};
+        magazines[] = {
+            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_1(SmokeShell),
+
+            MULT_OBJ_2(rhs_mag_mk3a2),
+
+            MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer),
+            MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_1(SmokeShell),
+
+            MULT_OBJ_2(rhs_mag_mk3a2),
+
+            MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer),
+            MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+
+        backpack = "B_LegStrapBag_black_F";
+
+        linkedItems[] = {
+            "V_BlackOrder_Chestrig",
+            "H_BlackOrder_Beret_Red",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS"
+        };
+        respawnLinkedItems[] = {
+            "V_BlackOrder_Chestrig",
+            "H_BlackOrder_Beret_Red",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS"
+        };
+        glassesEnabled = 1;
+    };
 
     class O_BlackOrder_Soldier_AA_F : O_BlackOrder_Rifleman_F {
         _generalMacro = "O_BlackOrder_Soldier_AA_F";
@@ -718,6 +797,8 @@ class CfgVehicles {
         displayName = CSTRING(Soldier_AA_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_LAT_F.jpg);
+
+        icon = "iconManAT";
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -782,6 +863,8 @@ class CfgVehicles {
         displayName = CSTRING(Soldier_AT_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_LAT_F.jpg);
+
+        icon = "iconManAT";
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -1019,5 +1102,25 @@ class CfgVehicles {
             "rhsusf_ANPVS_15"
         };
         glassesEnabled = 1;
+    };
+
+    class O_BlackOrder_Survivor_F : O_BlackOrder_Rifleman_F {
+        _generalMacro = "O_BlackOrder_Survivor_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Survivor_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_2_F.jpg);
+
+        uniformClass = "U_BlackOrder_Uniform_1";
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        items[] = {};
+        respawnItems[] = {};
+        linkedItems[] = {};
+        respawnLinkedItems[] = {};
     };
 };
