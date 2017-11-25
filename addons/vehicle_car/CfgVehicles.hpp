@@ -163,10 +163,10 @@ class CfgVehicles {
         typicalCargo[] = {"O_BlackOrder_Rifleman_Light_F"};
 
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\van_body_BlackOrder_CO.paa),
+            QPATHTOF(data\van_body_BlackOrder_co.paa),
             "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
             "\a3\soft_f_orange\van_02\data\van_glass_utility_ca.paa",
-            QPATHTOF(data\van_body_BlackOrder_CO.paa)
+            QPATHTOF(data\van_body_BlackOrder_co.paa)
         };
         class textureSources {
             class O_blackorder_veh_Offroad_Texture {
@@ -198,10 +198,10 @@ class CfgVehicles {
         typicalCargo[] = {"O_BlackOrder_Rifleman_Light_F"};
 
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\van_body_BlackOrder_CO.paa),
+            QPATHTOF(data\van_body_BlackOrder_co.paa),
             "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
             "\a3\soft_f_orange\van_02\data\van_glass_transport_ca.paa",
-            QPATHTOF(data\van_body_BlackOrder_CO.paa)
+            QPATHTOF(data\van_body_BlackOrder_co.paa)
         };
         class textureSources {
             class O_blackorder_veh_Offroad_Texture {
@@ -209,10 +209,10 @@ class CfgVehicles {
                 displayName = CSTRING(OrderTexture_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
-                    QPATHTOF(data\van_body_BlackOrder_CO.paa),
+                    QPATHTOF(data\van_body_BlackOrder_co.paa),
                     "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
                     "\a3\soft_f_orange\van_02\data\van_glass_transport_ca.paa",
-                    QPATHTOF(data\van_body_BlackOrder_CO.paa)
+                    QPATHTOF(data\van_body_BlackOrder_co.paa)
                 };
             };
         };
