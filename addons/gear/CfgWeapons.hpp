@@ -157,6 +157,17 @@ class CfgWeapons {
             QPATHTOF(data\vest\V_BlackOrder_TacVest_co.paa)
         };
     };
+    class V_BlackOrder_TacVest_SpecialSecurity : V_TacVest_blk_POLICE {
+        _generalMacro = "V_BlackOrder_TacVest_SpecialSecurity";
+        scope = 2;
+        displayName = CSTRING(Vest_TacVest_SpecialSecurity_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_SpecialSecurity_co.paa);
+        hiddenSelections[] = {"Camo1"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\vest\V_BlackOrder_TacVest_SpecialSecurity_co.paa)
+        };
+    };
     class V_BlackOrder_Chestrig : V_Chestrig_blk {
         _generalMacro = "V_BlackOrder_Chestrig";
         scope = 2;

@@ -19,6 +19,7 @@ class CfgPatches {
             "U_BlackOrder_ScienceCoveralls_01",
 
             "V_BlackOrder_TacVest_1",
+            "V_BlackOrder_TacVest_SpecialSecurity",
             "V_BlackOrder_Chestrig",
             "V_BlackOrder_PlateCarrier",
             "V_BlackOrder_PlateCarrier_medic",

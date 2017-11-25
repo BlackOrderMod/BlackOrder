@@ -26,6 +26,12 @@
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_1_Display">
             <English>Tactical Vest (Black Order)</English>
         </Key>
+        <Key ID="STR_BlackOrder_Gear_Vest_TacVest_Security_Display">
+            <English>Tactical Vest (Black Order, Security)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Vest_TacVest_SpecialSecurity_Display">
+            <English>Tactical Vest (Black Order, Special Security)</English>
+        </Key>
         <Key ID="STR_BlackOrder_Gear_Vest_Chestrig_Display">
             <English>Chest Rig (Black Order)</English>
         </Key>
