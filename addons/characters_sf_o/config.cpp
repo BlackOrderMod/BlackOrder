@@ -19,7 +19,9 @@ class CfgPatches {
             "blackorder_main",
             "blackorder_common",
 
-            "blackorder_characters_o"
+            "blackorder_characters_o",
+            "blackorder_gear",
+            "blackorder_weapons"
         };
         author = ECSTRING(common,BlackOrderTeam);
         authors[] = {"Brostrom.A (Evul)"};
