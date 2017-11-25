@@ -4,7 +4,8 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "Weapon_srifle_DMR_03_blackorder_F"
+            "Weapon_srifle_DMR_03_blackorder_F",
+            "Weapon_rhs_weap_m40a5_blackorder"
         };
         weapons[] = {
             "srifle_DMR_03_blackorder_F",
