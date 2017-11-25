@@ -14,6 +14,10 @@ class CfgPatches {
             "U_BlackOrder_PilotCoveralls",
             "U_BlackOrder_HeliPilotCoveralls",
 
+            "U_BlackOrder_ScienceCoveralls_01",
+            "U_BlackOrder_ScienceCoveralls_01",
+            "U_BlackOrder_ScienceCoveralls_01",
+
             "V_BlackOrder_TacVest_1",
             "V_BlackOrder_Chestrig",
             "V_BlackOrder_PlateCarrier",

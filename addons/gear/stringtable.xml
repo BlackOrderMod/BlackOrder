@@ -13,6 +13,16 @@
             <English>Heli Pilot Coveralls [Black Order]</English>
         </Key>
 
+        <Key ID="STR_BlackOrder_Gear_ScienceCoveralls_01_Display">
+            <English>Scientist Clothes [Black Order]</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_ScienceCombatCoveralls_01_Display">
+            <English>Scientist Security Uniform [Black Order]</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_ScienceCombatCoveralls_02_Display">
+            <English>Scientist Special Security Uniform [Black Order]</English>
+        </Key>
+
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_1_Display">
             <English>Tactical Vest (Black Order)</English>
         </Key>

@@ -83,6 +83,65 @@ class CfgWeapons {
         };
     };
 
+    class U_C_Scientist;
+    class U_BlackOrder_ScienceCoveralls_01 : U_C_Scientist {
+        _generalMacro = "U_BlackOrder_ScienceCoveralls_01";
+        scope = 2;
+        displayName = CSTRING(ScienceCoveralls_01_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_01.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        modelSides[] = {3,2,1,0};
+        class ItemInfo : UniformItem {
+            modelSides[] = {3,2,1,0};
+            uniformModel = "-";
+            uniformClass = "O_BlackOrder_Sci_base_F";
+            hiddenSelections[] = {"camo"};
+            hiddenSelectionsTextures[] = {
+                QPATHTOF(data\uniform\U_BlackOrder_Uniform_1_co.paa)
+            };
+            containerClass = "Supply40";
+        };
+    };
+    class U_BlackOrder_ScienceCombatCoveralls_01 : U_C_Scientist {
+        _generalMacro = "U_BlackOrder_ScienceCoveralls_01";
+        scope = 2;
+        displayName = CSTRING(ScienceCombatCoveralls_01_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_01.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        modelSides[] = {3,2,1,0};
+        class ItemInfo : UniformItem {
+            modelSides[] = {3,2,1,0};
+            uniformModel = "-";
+            uniformClass = "O_BlackOrder_Sci_Security_base_F";
+            hiddenSelections[] = {"camo"};
+            hiddenSelectionsTextures[] = {
+                QPATHTOF(data\uniform\U_BlackOrder_ScienceCombatCoveralls_01.paa)
+            };
+            containerClass = "Supply40";
+        };
+    };
+    class U_BlackOrder_ScienceCombatCoveralls_02 : U_C_Scientist {
+        _generalMacro = "U_BlackOrder_ScienceCombatCoveralls_02";
+        scope = 2;
+        displayName = CSTRING(ScienceCombatCoveralls_02_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_02.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+        modelSides[] = {3,2,1,0};
+        class ItemInfo : UniformItem {
+            modelSides[] = {3,2,1,0};
+            uniformModel = "-";
+            uniformClass = "O_BlackOrder_Sci_SpecialSecurity_base_F";
+            hiddenSelections[] = {"camo"};
+            hiddenSelectionsTextures[] = {
+                QPATHTOF(data\uniform\U_BlackOrder_ScienceCombatCoveralls_02.paa)
+            };
+            containerClass = "Supply40";
+        };
+    };
+
     class V_TacVest_blk_POLICE;
     class V_Chestrig_blk;
     class V_PlateCarrier1_blk;
