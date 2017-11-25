@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/EvulDev/BlackOrder/releases/latest">
-        <img src="https://img.shields.io/github/release/qubyte/rubidium.svg?style=flat-square" alt="Black Order Version">
+        <img src="https://img.shields.io/github/release/EvulDev/BlackOrder.svg?style=flat-square" alt="Black Order Version">
     </a>
     <a href="https://github.com/EvulDev/BlackOrder/issues">
         <img src="https://img.shields.io/github/issues/EvulDev/BlackOrder.svg?style=flat-square" alt="Black Order Issues">
