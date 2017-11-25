@@ -1,0 +1,60 @@
+<Project name="BlackOrder">
+    <Package name="Characters_SCI_O">
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_Display">
+            <English>Scientist</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_Armed_Display">
+            <English>Scientist (Armed)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_Protected_Display">
+            <English>Scientist (Helmet)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_Protected_Armed_Display">
+            <English>Scientist (Helmet, Armed)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_ProtectedHeadset_Display">
+            <English>Scientist (Helmet Headset)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_ProtectedHeadset_Armed_Display">
+            <English>Scientist (Helmet Headset, Armed)</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Security_Light_Display">
+            <English>Security (Light)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SecurityOfficer_Light_Display">
+            <English>Security Officer (Light)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Security_Display">
+            <English>Security</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SecurityOfficer_Display">
+            <English>Security Officer</English>
+        </Key>
+
+
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_01_Display">
+            <English>Special Security</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_02_Display">
+            <English>Special Security (Beret)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurityOfficer_Display">
+            <English>Special Security Officer</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_Light_Display">
+            <English>Special Security (Light)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurityOfficer_Light_Display">
+            <English>Special Security Officer (Light)</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_TeamLeader_Display">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_Soldier_Display">
+            <English>Rifleman</English>
+        </Key>
+    </Package>
+</Project>
