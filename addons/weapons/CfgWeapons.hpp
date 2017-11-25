@@ -112,4 +112,16 @@ class CfgWeapons {
             //MACRO_LINKEDBARREL();
         };
     };
+
+    class rhsusf_weap_MP7A2;
+    class rhsusf_weap_MP7A2_blackorder_ACO_anpeq15_grip3 : rhsusf_weap_MP7A2 {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            MACRO_LINKEDOPTIC(optic_ACO_grn_smg);
+            MACRO_LINKEDACC(rhsusf_acc_anpeq15_bk_light);
+            //MACRO_LINKEDMUZZLE();
+            MACRO_LINKEDBARREL(rhsusf_acc_grip3);
+        };
+    };
 };
