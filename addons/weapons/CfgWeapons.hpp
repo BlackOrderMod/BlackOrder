@@ -120,8 +120,21 @@ class CfgWeapons {
         class LinkedItems {
             MACRO_LINKEDOPTIC(optic_ACO_grn_smg);
             MACRO_LINKEDACC(rhsusf_acc_anpeq15_bk_light);
-            //MACRO_LINKEDMUZZLE();
-            MACRO_LINKEDBARREL(rhsusf_acc_grip3);
+            MACRO_LINKEDMUZZLE(rhsusf_acc_grip3);
+            //MACRO_LINKEDBARREL();
         };
     };
+
+    class rhs_weap_m27iar_grip;
+    class rhs_weap_m27iar_grip_blackorder_g33xps3 : rhs_weap_m27iar_grip {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            MACRO_LINKEDOPTIC(rhsusf_acc_g33_xps3);
+            //MACRO_LINKEDACC();
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
+
 };
