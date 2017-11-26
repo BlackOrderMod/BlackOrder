@@ -25,5 +25,20 @@
         <Key ID="STR_BlackOrder_Characters_SF_O_Agent_Display">
             <English>Agent</English>
         </Key>
+
+
+
+        <Key ID="STR_BlackOrder_Characters_O_Group_FactionCat_Display">
+            <English>Black Order</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Group_AssaultTeam_Display">
+            <English>Assault Team</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Group_ScoutTeam_Display">
+            <English>Scout Team</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Group_InfiltrationTeam_Display">
+            <English>Infiltration Team</English>
+        </Key>
     </Package>
 </Project>

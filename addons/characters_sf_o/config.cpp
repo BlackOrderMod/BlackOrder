@@ -9,7 +9,9 @@ class CfgPatches {
             "O_BlackOrder_SF_TeamLeader_F",
             "O_BlackOrder_SF_Rifleman_01_F",
             "O_BlackOrder_SF_Marksmen_01_F",
-
+            "O_BlackOrder_SF_Sapper_F",
+            "O_BlackOrder_SF_AR_F",
+            
             "O_BlackOrder_SF_Operator_01_F",
             "O_BlackOrder_SF_Agent_F"
         };
@@ -31,3 +33,4 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
+#include "CfgGroups.hpp"
