@@ -363,8 +363,6 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
-};
-
     class O_BlackOrder_SF_Operator_01_F : O_BlackOrder_SF_base_F {
         _generalMacro = "O_BlackOrder_SF_Operator_01_F";
         scope = 2;
