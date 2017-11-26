@@ -10,6 +10,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
 
+        role="Unarmed";
+
         genericNames = "EnglishMen";
         icon = "iconMan";
         identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
@@ -244,6 +246,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
 
+        role="Rifleman";
+
         genericNames = "EnglishMen";
         icon = "iconMan";
         identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
@@ -473,6 +477,8 @@ class CfgVehicles {
         displayName = CSTRING(Scientist_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+
+        role="SpecialOperative";
 
         editorSubcategory = "EdSubcat_Personnel_SpecialForces";
 

@@ -12,6 +12,12 @@
         <Key ID="STR_BlackOrder_Characters_SF_O_Marksmen_Display">
             <English>Marksmen</English>
         </Key>
+        <Key ID="STR_BlackOrder_Characters_SF_O_AR_Display">
+            <English>Autorifleman</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SF_O_Sapper_Display">
+            <English>Demolition expert</English>
+        </Key>
 
         <Key ID="STR_BlackOrder_Characters_SF_O_Operator_01_Display">
             <English>Operator</English>
