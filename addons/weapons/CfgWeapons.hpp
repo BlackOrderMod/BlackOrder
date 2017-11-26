@@ -89,6 +89,17 @@ class CfgWeapons {
             //MACRO_LINKEDBARREL();
         };
     };
+    class rhs_weap_m249_pip_S;
+    class rhs_weap_m249_pip_S_blackorder_ACOG2_anpeq15side_F : rhs_weap_m249_pip_S {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            MACRO_LINKEDOPTIC(rhsusf_acc_ACOG2_USMC);
+            MACRO_LINKEDACC(rhsusf_acc_anpeq15side_bk);
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
 
     class rhs_weap_m40a5;
     class rhs_weap_m40a5_blackorder : rhs_weap_m40a5 {
