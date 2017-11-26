@@ -7,7 +7,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Quadbike_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -39,7 +39,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(SUV_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_SUV.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_SUV_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -69,7 +69,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(Offroad_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Offroad_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -111,7 +111,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(Offroad_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Offroad_armed_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -154,7 +154,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(Offroad_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Van_02_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -189,7 +189,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(Offroad_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Van_02_transport_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -225,7 +225,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Truck_Covered_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Truck_Covered.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Truck_Covered_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -258,7 +258,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Truck_Transport_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Truck_Transport.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Truck_Transport_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -292,7 +292,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m1025_m2.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m1025_m2_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -356,7 +356,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m1025_mk19.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m1025_mk19_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -420,7 +420,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m1025.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m1025_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -482,7 +482,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_2dr_fulltop.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_2dr_fulltop_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -549,7 +549,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_2dr_halftop.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_2dr_halftop_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -616,7 +616,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_2dr.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_2dr_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -684,7 +684,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_4dr_fulltop.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_4dr_fulltop_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -751,7 +751,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_4dr_halftop.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_4dr_halftop_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -818,7 +818,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_4dr.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_4dr_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
