@@ -16,5 +16,11 @@
         <Key ID="STR_BlackOrder_Vehicle_Car_Truck_Transport_Display">
             <English>Zamak Transport</English>
         </Key>
+
+
+
+        <Key ID="STR_BlackOrder_Characters_O_Group_FactionCat_Display">
+            <English>Black Order</English>
+        </Key>
     </Package>
 </Project>
