@@ -626,7 +626,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Officer_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Officer_F.jpg);
 
         icon = "iconManOfficer";
 
@@ -675,7 +675,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Commissar_01_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Commissar_01_F.jpg);
 
         role="SpecialOperative";
         icon = "iconManOfficer";
@@ -739,7 +739,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Commissar_02_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Commissar_02_F.jpg);
 
         role="SpecialOperative";
         icon = "iconManOfficer";
@@ -804,7 +804,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Soldier_AA_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_LAT_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Soldier_AA_F.jpg);
 
         icon = "iconManAT";
         role="MissileSpecialist";
@@ -871,7 +871,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Soldier_AT_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_LAT_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Soldier_AT_F.jpg);
 
         icon = "iconManAT";
         role="MissileSpecialist";
@@ -1090,14 +1090,14 @@ class CfgVehicles {
 
         role="Crewman";
 
-        weapons[] = {"rhs_weap_m249_pip_L_blackorder_M2A1","rhsusf_weap_glock17g4","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m249_pip_L_blackorder_M2A1","rhsusf_weap_glock17g4","Throw","Put"};
+        weapons[] = {"srifle_DMR_03_blackorder_F","rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"srifle_DMR_03_blackorder_F","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_4(rhs_200rnd_556x45_M_SAW),
+            MULT_OBJ_8(20Rnd_762x51_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_4(rhs_200rnd_556x45_M_SAW),
+            MULT_OBJ_8(20Rnd_762x51_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
 
@@ -1128,7 +1128,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Survivor_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_2_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Survivor_F.jpg);
 
         role="Unarmed";
 
