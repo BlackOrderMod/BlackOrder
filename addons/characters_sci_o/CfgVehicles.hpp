@@ -244,7 +244,7 @@ class CfgVehicles {
         scopeCurator = 1;
         displayName = CSTRING(Scientist_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Security_base_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Security_F.jpg);
 
         role="Rifleman";
 
@@ -476,7 +476,7 @@ class CfgVehicles {
         scopeCurator = 1;
         displayName = CSTRING(Scientist_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_base_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_Soldier_F.jpg);
 
         role="SpecialOperative";
 

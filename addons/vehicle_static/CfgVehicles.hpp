@@ -7,7 +7,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(Mortar_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        //editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_Mortar_01_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
