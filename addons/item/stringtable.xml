@@ -16,9 +16,12 @@
         <Key ID="STR_BlackOrder_Item_PlasticCase_01_small_Display">
             <English>Plastic Case (Small, Black Order)</English>
         </Key>
-        
-        <Key ID="STR_BlackOrder_Item_Laptop_02_Display">
-            <English>Old Laptop (Open, Black Order)</English>
+
+        <Key ID="STR_BlackOrder_Item_Laptop_01_screen_01_Display">
+            <English>Laptop (Black Order, Terminal)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Item_Laptop_02_screen_01_Display">
+            <English>Old Laptop (Black Order, Terminal)</English>
         </Key>
     </Package>
 </Project>
