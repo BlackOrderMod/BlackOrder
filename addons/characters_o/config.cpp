@@ -28,7 +28,24 @@ class CfgPatches {
             "O_BlackOrder_HeliPilot_F",
             "O_BlackOrder_HeliCrew_F",
 
-            "O_BlackOrder_Survivor_F"
+            "O_BlackOrder_Survivor_F",
+
+
+            "O_BlackOrder_InfSquad",
+            "O_BlackOrder_InfSquad_Weapons",
+            "O_BlackOrder_InfAssault",
+            "O_BlackOrder_InfTeam",
+            "O_BlackOrder_InfTeam_AA",
+            "O_BlackOrder_InfTeam_AT",
+            "O_BlackOrder_InfSentry",
+            "O_BlackOrder_InfSentryLight",
+
+            "O_BlackOrder_ScoutTeam",
+            "O_BlackOrder_AssaultTeam",
+
+            "O_BlackOrder_MotInf_Reinforce"
+
+
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
