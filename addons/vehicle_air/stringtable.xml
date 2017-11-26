@@ -1,7 +1,14 @@
 <Project name="BlackOrder">
-    <Package name="Vehicle_Car">
+    <Package name="Vehicle_Air">
         <Key ID="STR_BlackOrder_Vehicle_Air_OrderTexture_Display">
             <English>Black Order</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Vehicle_Air_Plane_Fighter_04_AA_Display">
+            <English>A-149 Gryphon (AA)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Vehicle_Air_Plane_Fighter_04_CAS_Display">
+            <English>A-149 Gryphon (CAS)</English>
         </Key>
     </Package>
 </Project>

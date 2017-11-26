@@ -14,7 +14,10 @@ class CfgPatches {
             "O_BlackOrder_VTOL_Infantry_F",
             "O_BlackOrder_VTOL_Vehicle_F",
 
-            "O_BlackOrder_Plane_Fighter_04_F"
+            "O_BlackOrder_Plane_Fighter_04_F",
+            "O_BlackOrder_Plane_Fighter_04_Cluster_F",
+            "O_BlackOrder_Plane_Fighter_04_AA_F",
+            "O_BlackOrder_Plane_Fighter_04_CAS_F"
         };
         weapons[] = {
         };

@@ -269,7 +269,35 @@ class CfgVehicles {
         };
     };
 
-    class I_Plane_Fighter_04_F;
+
+
+    class Plane_Base_F;
+    class Plane_Fighter_04_Base_F : Plane_Base_F {
+        class Components {
+            class TransportPylonsComponent;
+        };
+    };
+    class I_Plane_Fighter_04_F : Plane_Fighter_04_Base_F {
+        class Components : Components {
+            class TransportPylonsComponent : TransportPylonsComponent {
+                class pylons;
+            };
+        };
+    };
+    class I_Plane_Fighter_04_Cluster_F : I_Plane_Fighter_04_F {
+        class Components : Components {
+            class TransportPylonsComponent : TransportPylonsComponent {
+                class pylons : pylons {
+                    class pylon1;
+                    class pylon2;
+                    class pylon3;
+                    class pylon4;
+                    class pylon5;
+                    class pylon6;
+                };
+            };
+        };
+    };
     class O_BlackOrder_Plane_Fighter_04_F : I_Plane_Fighter_04_F {
         _generalMacro = "O_BlackOrder_Plane_Fighter_04_F";
         scope = 2;
@@ -300,7 +328,90 @@ class CfgVehicles {
             };
         };
     };
+    class O_BlackOrder_Plane_Fighter_04_Cluster_F : I_Plane_Fighter_04_Cluster_F {
+        _generalMacro = "O_BlackOrder_Plane_Fighter_04_Cluster_F";
+        scope = 1;
+        scopeCurator = 2;
+        //displayName = CSTRING(BlackOrder_VTOL_Vehicle_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_VTOL_Vehicle_F.jpg);
 
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        availableForSupportTypes[] = {"CAS_Bombing"};
+
+        crew = "O_BlackOrder_FighterPilot_F";
+        typicalCargo[] = {"O_BlackOrder_FighterPilot_F"};
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_Fighter_04_fuselage_01_co.paa),
+            QPATHTOF(data\blackorder_Fighter_04_fuselage_02_co.paa)
+        };
+        class textureSources {
+            class O_BlackOrder_Plane_Fighter_04_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = CSTRING(OrderTexture_Display);
+                factions[] = {"OPF_BlackOrder_F"};
+                textures[] = {
+                    QPATHTOF(data\blackorder_Fighter_04_fuselage_01_co.paa),
+                    QPATHTOF(data\blackorder_Fighter_04_fuselage_02_co.paa)
+                };
+            };
+        };
+    };
+    class O_BlackOrder_Plane_Fighter_04_AA_F : O_BlackOrder_Plane_Fighter_04_Cluster_F {
+        _generalMacro = "O_BlackOrder_Plane_Fighter_04_AA_F";
+        scope = 1;
+        scopeCurator = 2;
+        displayName = CSTRING(Plane_Fighter_04_AA_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_VTOL_Vehicle_F.jpg);
+
+        availableForSupportTypes[] = {"CAS_Bombing"};
+
+        class Components : Components {
+            class TransportPylonsComponent : TransportPylonsComponent {
+                class pylons : pylons {
+                    class pylon3 : pylon3 {
+                        attachment = "PylonRack_Missile_AMRAAM_C_x1";
+                    };
+                    class pylon4 : pylon4 {
+                        attachment = "PylonRack_Missile_AMRAAM_C_x1";
+                    };
+                    class pylon5 : pylon5 {
+                        attachment = "PylonRack_Missile_AMRAAM_C_x2";
+                    };
+                    class pylon6 : pylon6 {
+                        attachment = "PylonRack_Missile_AMRAAM_C_x2";
+                    };
+                };
+            };
+        };
+    };
+    class O_BlackOrder_Plane_Fighter_04_CAS_F : O_BlackOrder_Plane_Fighter_04_Cluster_F {
+        _generalMacro = "O_BlackOrder_Plane_Fighter_04_CAS_F";
+        scope = 1;
+        scopeCurator = 2;
+        displayName = CSTRING(Plane_Fighter_04_CAS_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_VTOL_Vehicle_F.jpg);
+
+        availableForSupportTypes[] = {"CAS_Bombing"};
+
+        class Components : Components {
+            class TransportPylonsComponent : TransportPylonsComponent {
+                class pylons : pylons {
+                    class pylon5 : pylon5 {
+                        attachment = "PylonMissile_Bomb_GBU12_x1";
+                    };
+                    class pylon6 : pylon6 {
+                        attachment = "PylonMissile_Bomb_GBU12_x1";
+                    };
+                };
+            };
+        };
+    };
 /*     class RHS_C130J;
     class RHS_BlackOrder_C130J : RHS_C130J {
         _generalMacro = "RHS_BlackOrder_C130J";
