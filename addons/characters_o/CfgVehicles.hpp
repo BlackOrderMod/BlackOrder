@@ -9,6 +9,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
 
+        role="Rifleman";
+
         genericNames = "EnglishMen";
         icon = "iconMan";
         identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
@@ -33,6 +35,8 @@ class CfgVehicles {
         displayName = CSTRING(Rifleman_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+
+        role="Rifleman";
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -433,6 +437,7 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Autorifleman_F.jpg);
 
+        role="MachineGunner";
         icon = "iconManMG";
 
         uniformClass = "U_BlackOrder_Uniform_1";
@@ -549,6 +554,7 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_CombatLifeSaver_F.jpg);
 
+        role="CombatLifeSaver";
         icon = "iconManMedic";
 
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
@@ -671,6 +677,7 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_F.jpg);
 
+        role="SpecialOperative";
         icon = "iconManOfficer";
 
         uniformClass = "U_BlackOrder_Uniform_1";
@@ -734,6 +741,7 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Light_F.jpg);
 
+        role="SpecialOperative";
         icon = "iconManOfficer";
 
         uniformClass = "U_BlackOrder_Uniform_1";
@@ -799,6 +807,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_LAT_F.jpg);
 
         icon = "iconManAT";
+        role="MissileSpecialist";
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -865,6 +874,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_LAT_F.jpg);
 
         icon = "iconManAT";
+        role="MissileSpecialist";
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -932,6 +942,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Pilot_F.jpg);
 
+        role="Crewman";
+
         uniformClass = "U_BlackOrder_Uniform_1";
 
         weapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
@@ -971,6 +983,8 @@ class CfgVehicles {
         displayName = CSTRING(FighterPilot_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_FighterPilot_F.jpg);
+
+        role="Crewman";
 
         model = "\A3\characters_F\Common\pilot_f.p3d";
         modelSides[] = {3,2,1,0};
@@ -1019,6 +1033,8 @@ class CfgVehicles {
         displayName = CSTRING(HeliPilot_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_HeliPilot_F.jpg);
+
+        role="Crewman";
 
         model = "\A3\Characters_F\Common\coveralls.p3d";
         modelSides[] = {3,2,1,0};
@@ -1072,6 +1088,8 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_HeliCrew_F.jpg);
 
+        role="Crewman";
+
         weapons[] = {"rhs_weap_m249_pip_L_blackorder_M2A1","rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"rhs_weap_m249_pip_L_blackorder_M2A1","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
@@ -1111,6 +1129,8 @@ class CfgVehicles {
         displayName = CSTRING(Survivor_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_2_F.jpg);
+
+        role="Unarmed";
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
