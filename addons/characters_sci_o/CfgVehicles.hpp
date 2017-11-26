@@ -8,7 +8,7 @@ class CfgVehicles {
         scopeCurator = 1;
         displayName = CSTRING(Scientist_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_01_F.jpg);
 
         role="Unarmed";
 
@@ -35,7 +35,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Scientist_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_01_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCoveralls_01";
 
@@ -68,7 +68,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Scientist_Armed_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_01_Armed_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCoveralls_01";
 
@@ -104,7 +104,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Scientist_Protected_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_02_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCoveralls_01";
 
@@ -137,7 +137,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Scientist_Protected_Armed_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_02_Armed_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCoveralls_01";
 
@@ -173,7 +173,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Scientist_ProtectedHeadset_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_03_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCoveralls_01";
 
@@ -206,7 +206,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Scientist_ProtectedHeadset_Armed_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_03_Armed_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCoveralls_01";
 
@@ -244,7 +244,7 @@ class CfgVehicles {
         scopeCurator = 1;
         displayName = CSTRING(Scientist_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Security_base_F.jpg);
 
         role="Rifleman";
 
@@ -271,7 +271,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(SecurityOfficer_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SecurityOfficer_F.jpg);
 
         icon = "iconManLeader";
 
@@ -324,7 +324,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(SecurityOfficer_Light_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SecurityOfficer_Light_F.jpg);
 
         icon = "iconManLeader";
 
@@ -374,7 +374,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Security_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Security_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_01";
 
@@ -425,7 +425,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Security_Light_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Security_Light_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_01";
 
@@ -476,7 +476,7 @@ class CfgVehicles {
         scopeCurator = 1;
         displayName = CSTRING(Scientist_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_base_F.jpg);
 
         role="SpecialOperative";
 
@@ -505,7 +505,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(SpecialSecurityOfficer_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurityOfficer_F.jpg);
 
         icon = "iconManLeader";
 
@@ -563,7 +563,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(SpecialSecurity_01_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_01_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
 
@@ -619,7 +619,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(SpecialSecurity_02_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_02_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
 
@@ -676,7 +676,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(SpecialSecurity_TeamLeader_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_TeamLeader_F.jpg);
 
         icon = "iconManLeader";
 
@@ -736,7 +736,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(SpecialSecurity_Soldier_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_Soldier_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
 
