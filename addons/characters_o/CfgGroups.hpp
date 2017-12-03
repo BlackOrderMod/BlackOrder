@@ -187,7 +187,7 @@ class CfgGroups {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_BlackOrder_Rifleman_Light_2_F";
+                        vehicle = "O_BlackOrder_Rifleman_F";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
@@ -223,7 +223,7 @@ class CfgGroups {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_BlackOrder_Rifleman_Light_2_F";
+                        vehicle = "O_BlackOrder_Rifleman_F";
                     };
                 };
                 class O_BlackOrder_InfTeam_AT {
@@ -253,7 +253,7 @@ class CfgGroups {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_BlackOrder_Rifleman_Light_2_F";
+                        vehicle = "O_BlackOrder_Rifleman_F";
                     };
                 };
                 class O_BlackOrder_InfSentry {

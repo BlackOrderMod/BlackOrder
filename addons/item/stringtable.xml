@@ -20,8 +20,18 @@
         <Key ID="STR_BlackOrder_Item_Laptop_01_screen_01_Display">
             <English>Laptop (Black Order, Terminal)</English>
         </Key>
+        <Key ID="STR_BlackOrder_Item_Laptop_01_screen_02_Display">
+            <English>Laptop (Black Order, Login)</English>
+        </Key>
         <Key ID="STR_BlackOrder_Item_Laptop_02_screen_01_Display">
             <English>Old Laptop (Black Order, Terminal)</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Item_MobilePhone_smart_01_Display">
+            <English>Mobile Phone (New, Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Item_MobilePhone_old_01_Display">
+            <English>Mobile Phone (Old, Black Order)</English>
         </Key>
     </Package>
 </Project>

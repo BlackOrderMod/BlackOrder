@@ -270,10 +270,12 @@ class CfgVehicles {
     };
 
 
-
-    class Plane_Base_F;
+    class Plane;
+    class Plane_Base_F : Plane {
+        class Components;
+    };
     class Plane_Fighter_04_Base_F : Plane_Base_F {
-        class Components {
+        class Components : Components {
             class TransportPylonsComponent;
         };
     };

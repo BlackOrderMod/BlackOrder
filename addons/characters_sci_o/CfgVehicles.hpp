@@ -297,9 +297,12 @@ class CfgVehicles {
         respawnItems[] = {
             MULT_OBJ_1(FirstAidKit)
         };
+
+        backpack = "B_LegStrapBag_black_F";
+
         linkedItems[] = {
             "rhs_googles_clear",
-            "V_LegStrapBag_black_F",
+            "V_BlackOrder_TacVest_ScienceSecurity",
             "H_BlackOrder_Beret",
             "ItemMap",
             "ItemCompass",
@@ -309,7 +312,7 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "rhs_googles_clear",
-            "V_LegStrapBag_black_F",
+            "V_BlackOrder_TacVest_ScienceSecurity",
             "H_BlackOrder_Beret",
             "ItemMap",
             "ItemCompass",
@@ -398,9 +401,12 @@ class CfgVehicles {
         respawnItems[] = {
             MULT_OBJ_1(FirstAidKit)
         };
+
+        backpack = "B_LegStrapBag_black_F";
+
         linkedItems[] = {
             "rhs_googles_clear",
-            "V_LegStrapBag_black_F",
+            "V_BlackOrder_TacVest_ScienceSecurity",
             "H_BlackOrder_MilCap",
             "ItemMap",
             "ItemCompass",
@@ -410,7 +416,7 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "rhs_googles_clear",
-            "V_LegStrapBag_black_F",
+            "V_BlackOrder_TacVest_ScienceSecurity",
             "H_BlackOrder_MilCap",
             "ItemMap",
             "ItemCompass",

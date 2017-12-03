@@ -68,31 +68,78 @@ class CfgVehicles {
     };
     class Land_Laptop_unfolded_F;
     class blackorder_Land_Laptop_01_screen_01_F : Land_Laptop_unfolded_F {
-        _generalMacro = "blackorder_Land_Laptop_02_F";
+        _generalMacro = "blackorder_Land_Laptop_01_screen_01_F";
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(Laptop_01_screen_01_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_Laptop_01_screen_01_co.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_Laptop_01_screen_01_F.jpg);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\blackorder_Land_Laptop_01_screen_01_co.paa)
         };
     };
-    class Land_Laptop_02_unfolded_F;
-    class blackorder_Land_Laptop_02_screen_01_F : Land_Laptop_02_unfolded_F {
-        _generalMacro = "blackorder_Land_Laptop_02_F";
+    class blackorder_Land_Laptop_01_screen_02_F : Land_Laptop_unfolded_F {
+        _generalMacro = "blackorder_Land_Laptop_01_screen_02_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Laptop_01_screen_01_Display);
+        displayName = CSTRING(Laptop_01_screen_02_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_Laptop_02_screen_01_co.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_Laptop_01_screen_02_F.jpg);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_Land_Laptop_01_screen_02_co.paa)
+        };
+    };
+    class Land_Laptop_02_unfolded_F;
+    class blackorder_Land_Laptop_02_screen_01_F : Land_Laptop_02_unfolded_F {
+        _generalMacro = "blackorder_Land_Laptop_02_screen_01_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Laptop_02_screen_01_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_Laptop_02_screen_01_F.jpg);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\blackorder_Land_Laptop_02_screen_01_co.paa)
         };
     };
 
+    class Land_MobilePhone_smart_F;
+    class blackorder_Land_MobilePhone_smart_F : Land_MobilePhone_smart_F {
+        _generalMacro = "blackorder_Land_MobilePhone_smart_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(MobilePhone_smart_01_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_MobilePhone_smart_F.jpg);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_Land_MobilePhone_smart_01_co.paa)
+        };
+    };
+    class Land_MobilePhone_old_F;
+    class blackorder_Land_MobilePhone_old_F : Land_MobilePhone_old_F {
+        _generalMacro = "blackorder_Land_MobilePhone_old_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Laptop_01_screen_01_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_MobilePhone_old_F.jpg);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_Land_MobilePhone_old_01_co.paa)
+        };
+    };
+    
     class Box_C_UAV_06_F;
     class Land_PCSet_01_mousepad_F;
+
+    class Land_PCSet_01_screen_F;
+    class Land_TripodScreen_01_dual_v2_F;
+    class Land_TripodScreen_01_dual_v1_F;
+    class Land_TripodScreen_01_large_F;
+    class Land_Tablet_02_F;
+    class Land_Tablet_01_F;
+    class Land_FlatTV_01_F;
 };

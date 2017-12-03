@@ -811,29 +811,19 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fim92","rhsusf_weap_glock17g4","Throw","Put"};
-        respawnWeapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fim92","rhsusf_weap_glock17g4","Throw","Put"};
+        weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fim92","Throw","Put"};
+        respawnWeapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fim92","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_2(HandGrenade),
             MULT_OBJ_1(SmokeShell),
-            MULT_OBJ_1(SmokeShellGreen),
-            MULT_OBJ_1(Chemlight_red),
-            MULT_OBJ_1(Chemlight_blue),
-            MULT_OBJ_1(Chemlight_green),
 
-            MULT_OBJ_8(20Rnd_762x51_Mag),
-            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
+            MULT_OBJ_6(20Rnd_762x51_Mag)
         };
         respawnMagazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_2(HandGrenade),
             MULT_OBJ_1(SmokeShell),
-            MULT_OBJ_1(SmokeShellGreen),
-            MULT_OBJ_1(Chemlight_red),
-            MULT_OBJ_1(Chemlight_blue),
-            MULT_OBJ_1(Chemlight_green),
 
-            MULT_OBJ_8(20Rnd_762x51_Mag),
-            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
+            MULT_OBJ_6(20Rnd_762x51_Mag)
         };
         items[] = {
             MULT_OBJ_1(FirstAidKit)
@@ -878,29 +868,19 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fgm148","rhsusf_weap_glock17g4","Throw","Put"};
-        respawnWeapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fgm148","rhsusf_weap_glock17g4","Throw","Put"};
+        weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fgm148","Throw","Put"};
+        respawnWeapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fgm148","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_2(HandGrenade),
             MULT_OBJ_1(SmokeShell),
-            MULT_OBJ_1(SmokeShellGreen),
-            MULT_OBJ_1(Chemlight_red),
-            MULT_OBJ_1(Chemlight_blue),
-            MULT_OBJ_1(Chemlight_green),
 
-            MULT_OBJ_8(20Rnd_762x51_Mag),
-            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
+            MULT_OBJ_6(20Rnd_762x51_Mag)
         };
         respawnMagazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_2(HandGrenade),
             MULT_OBJ_1(SmokeShell),
-            MULT_OBJ_1(SmokeShellGreen),
-            MULT_OBJ_1(Chemlight_red),
-            MULT_OBJ_1(Chemlight_blue),
-            MULT_OBJ_1(Chemlight_green),
 
-            MULT_OBJ_8(20Rnd_762x51_Mag),
-            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
+            MULT_OBJ_6(20Rnd_762x51_Mag)
         };
         items[] = {
             MULT_OBJ_1(FirstAidKit)
