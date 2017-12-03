@@ -67,9 +67,6 @@
 
 
 
-        <Key ID="STR_BlackOrder_Characters_O_Group_FactionCat_Display">
-            <English>Black Order</English>
-        </Key>
         <Key ID="STR_BlackOrder_Characters_O_Group_InfAssault_Display">
             <English>Assault Squad</English>
         </Key>

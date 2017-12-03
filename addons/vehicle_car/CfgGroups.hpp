@@ -1,7 +1,7 @@
 class CfgGroups {
     class East {
         class OPF_BlackOrder_F {
-            name = CSTRING(Group_FactionCat_Display);
+            name = ECSTRING(common,Faction_DisplayName);
             class Motorized_MTP {
                 name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP0";
                 class O_BlackOrder_MotInf_Team {

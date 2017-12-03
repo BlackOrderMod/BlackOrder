@@ -1,7 +1,7 @@
 class CfgGroups {
     class East {
         class OPF_BlackOrder_F {
-            name = CSTRING(Group_FactionCat_Display);
+            name = ECSTRING(common,Faction_DisplayName);
             class SpecOps {
                 name="$STR_A3_CfgGroups_West_BLU_F_SpecOps0";
                 class O_BlackOrder_ScoutTeam {

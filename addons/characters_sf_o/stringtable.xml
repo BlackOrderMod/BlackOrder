@@ -28,9 +28,6 @@
 
 
 
-        <Key ID="STR_BlackOrder_Characters_SF_O_Group_FactionCat_Display">
-            <English>Black Order</English>
-        </Key>
         <Key ID="STR_BlackOrder_Characters_SF_O_Group_AssaultTeam_Display">
             <English>Assault Team</English>
         </Key>
