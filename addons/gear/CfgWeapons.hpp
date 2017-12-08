@@ -44,6 +44,27 @@ class CfgWeapons {
             containerClass = "Supply40";
         };
     };
+
+    class U_BlackOrder_Uniform_MP_1 : U_B_CTRG_1 {
+        _generalMacro = "U_BlackOrder_Uniform_1";
+        scope = 2;
+        displayName = CSTRING(Uniform_1_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_MP_1_co.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+        modelSides[] = {3,2,1,0};
+        class ItemInfo : UniformItem {
+            modelSides[] = {3,2,1,0};
+            uniformModel = "-";
+            uniformClass = "O_BlackOrder_MP_base_F";
+            hiddenSelections[] = {"camo"};
+            hiddenSelectionsTextures[] = {
+                QPATHTOF(data\uniform\U_BlackOrder_Uniform_MP_1_co.paa)
+            };
+            containerClass = "Supply40";
+        };
+    };
+
     class U_BlackOrder_PilotCoveralls : U_B_PilotCoveralls {
         _generalMacro = "U_BlackOrder_PilotCoveralls";
         scope = 2;
@@ -157,12 +178,23 @@ class CfgWeapons {
             QPATHTOF(data\vest\V_BlackOrder_TacVest_co.paa)
         };
     };
+    class V_BlackOrder_TacVest_Security : V_TacVest_blk_POLICE {
+        _generalMacro = "V_BlackOrder_TacVest_Security";
+        scope = 2;
+        displayName = CSTRING(Vest_TacVest_Security_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_co.paa);
+        hiddenSelections[] = {"Camo1"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\vest\V_BlackOrder_TacVest_Security_co.paa)
+        };
+    };
     class V_BlackOrder_TacVest_ScienceSecurity : V_TacVest_blk_POLICE {
         _generalMacro = "V_BlackOrder_TacVest_ScienceSecurity";
         scope = 2;
         displayName = CSTRING(Vest_TacVest_ScienceSecurity_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_ScienceSecurity_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_co.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_TacVest_ScienceSecurity_co.paa)
@@ -173,10 +205,21 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_TacVest_SpecialSecurity_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_SpecialSecurity_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_co.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_TacVest_SpecialSecurity_co.paa)
+        };
+    };
+    class V_BlackOrder_TacVest_MilitaryPolice : V_TacVest_blk_POLICE {
+        _generalMacro = "V_BlackOrder_TacVest_MilitaryPolice";
+        scope = 2;
+        displayName = CSTRING(Vest_TacVest_MilitaryPolice_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_co.paa);
+        hiddenSelections[] = {"Camo1"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\vest\V_BlackOrder_TacVest_MilitaryPolice_co.paa)
         };
     };
     class V_BlackOrder_Chestrig : V_Chestrig_blk {
@@ -207,7 +250,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_PlateCarrier_medic_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_PlateCarrier_medic_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_PlateCarrier_co.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_PlateCarrier_medic_co.paa)
@@ -228,7 +271,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Headgear_CombatHelmet_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = "\A3\characters_f\Data\UI\icon_H_helmet_plain_ca.paa";
+        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_CombatHelmet_ca.paa);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\headgear\H_BlackOrder_CombatHelmet_co.paa)
@@ -239,7 +282,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Headgear_CombatHelmet_red_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = "\A3\characters_f\Data\UI\icon_H_helmet_plain_ca.paa";
+        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_CombatHelmet_red_ca.paa);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\headgear\H_BlackOrder_CombatHelmet_red_co.paa)
@@ -300,7 +343,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Headgear_Beret_red_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_Beret_co.paa);
+        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_Beret_Red_co.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\headgear\H_BlackOrder_Beret_Red_co.paa)
@@ -318,4 +361,18 @@ class CfgWeapons {
             QPATHTOF(data\headgear\H_BlackOrder_MilCap_co.paa)
         };
     };
+
+    class H_Cap_red;
+    class H_BlackOrder_Cap_01 : H_Cap_red {
+        _generalMacro = "H_BlackOrder_Cap_01";
+        scope = 2;
+        displayName = CSTRING(Headgear_Cap_01_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_Cap_01_co.paa);
+        hiddenSelections[] = {"Camo1"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\headgear\H_BlackOrder_Cap_01_co.paa)
+        };
+    };
+
 };

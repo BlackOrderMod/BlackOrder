@@ -26,11 +26,18 @@
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_1_Display">
             <English>Tactical Vest (Black Order)</English>
         </Key>
+
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_Security_Display">
             <English>Tactical Vest (Black Order, Security)</English>
         </Key>
+        <Key ID="STR_BlackOrder_Gear_Vest_TacVest_ScienceSecurity_Display">
+            <English>Tactical Vest (Black Order, Science Security)</English>
+        </Key>
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_SpecialSecurity_Display">
             <English>Tactical Vest (Black Order, Special Security)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Vest_TacVest_MilitaryPolice_Display">
+            <English>Tactical Vest (Black Order, Military Police)</English>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Vest_Chestrig_Display">
             <English>Chest Rig (Black Order)</English>
@@ -69,6 +76,9 @@
 
         <Key ID="STR_BlackOrder_Gear_Headgear_MilCap_Display">
             <English>Military Cap (Black Order)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Headgear_Cap_01_Display">
+            <English>Cap (Black Order)</English>
         </Key>
     </Package>
 </Project>
