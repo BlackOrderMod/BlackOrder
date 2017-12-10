@@ -43,7 +43,7 @@ class CfgVehicles {
         weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(Chemlight_red),
             MULT_OBJ_1(Chemlight_blue),
@@ -53,7 +53,7 @@ class CfgVehicles {
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(Chemlight_red),
             MULT_OBJ_1(Chemlight_blue),
@@ -102,7 +102,7 @@ class CfgVehicles {
         weapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
@@ -113,7 +113,7 @@ class CfgVehicles {
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
@@ -249,7 +249,7 @@ class CfgVehicles {
         weapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Rangefinder","Throw","Put"};
         respawnWeapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Rangefinder","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(B_IR_Grenade),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
@@ -261,7 +261,7 @@ class CfgVehicles {
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(B_IR_Grenade),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
@@ -316,7 +316,7 @@ class CfgVehicles {
         weapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Binocular","Throw","Put"};
         respawnWeapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Binocular","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
@@ -327,7 +327,7 @@ class CfgVehicles {
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
@@ -381,7 +381,7 @@ class CfgVehicles {
         weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_M136","rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_M136","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
@@ -392,7 +392,7 @@ class CfgVehicles {
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
@@ -445,14 +445,14 @@ class CfgVehicles {
         weapons[] = {"rhs_weap_m249_pip_L_blackorder_M2A1","rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"rhs_weap_m249_pip_L_blackorder_M2A1","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_4(rhs_200rnd_556x45_M_SAW),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_4(rhs_200rnd_556x45_M_SAW),
@@ -498,7 +498,7 @@ class CfgVehicles {
         weapons[] = {"rhs_weap_m40a5_blackorder_acog2","rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"rhs_weap_m40a5_blackorder_acog2","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_2(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
@@ -509,7 +509,7 @@ class CfgVehicles {
             MULT_OBJ_4(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_2(SmokeShell),
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
@@ -570,7 +570,7 @@ class CfgVehicles {
         weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(Chemlight_red),
             MULT_OBJ_1(Chemlight_blue),
@@ -580,7 +580,7 @@ class CfgVehicles {
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
             MULT_OBJ_1(Chemlight_red),
             MULT_OBJ_1(Chemlight_blue),
@@ -685,7 +685,7 @@ class CfgVehicles {
         weapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"srifle_DMR_03_blackorder_ACOG_F","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_2(rhs_mag_mk3a2),
@@ -694,7 +694,7 @@ class CfgVehicles {
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_2(rhs_mag_mk3a2),
@@ -749,7 +749,7 @@ class CfgVehicles {
         weapons[] = {"rhs_weap_mk18_bk_BlackOrder_ACOG","rhsusf_weap_glock17g4","Throw","Put"};
         respawnWeapons[] = {"rhs_weap_mk18_bk_BlackOrder_ACOG","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_2(rhs_mag_mk3a2),
@@ -758,7 +758,7 @@ class CfgVehicles {
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_3(HandGrenade),
+            MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_2(rhs_mag_mk3a2),
@@ -814,13 +814,13 @@ class CfgVehicles {
         weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fim92","Throw","Put"};
         respawnWeapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fim92","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_6(20Rnd_762x51_Mag)
         };
         respawnMagazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_6(20Rnd_762x51_Mag)
@@ -871,13 +871,13 @@ class CfgVehicles {
         weapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fgm148","Throw","Put"};
         respawnWeapons[] = {"srifle_DMR_03_blackorder_CCO_F","rhs_weap_fgm148","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_6(20Rnd_762x51_Mag)
         };
         respawnMagazines[] = {
-            MULT_OBJ_2(HandGrenade),
+            MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
             MULT_OBJ_6(20Rnd_762x51_Mag)

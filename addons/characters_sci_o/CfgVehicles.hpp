@@ -523,14 +523,14 @@ class CfgVehicles {
             MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_4(HandGrenade),
+            MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_2(rhs_mag_an_m14_th3)
         };
         respawnMagazines[] = {
             MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_4(HandGrenade),
+            MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_2(rhs_mag_an_m14_th3)
         };
         items[] = {
@@ -579,14 +579,14 @@ class CfgVehicles {
             MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_4(HandGrenade),
+            MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_2(rhs_mag_an_m14_th3)
         };
         respawnMagazines[] = {
             MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_4(HandGrenade),
+            MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_2(rhs_mag_an_m14_th3)
         };
         items[] = {
@@ -635,14 +635,14 @@ class CfgVehicles {
             MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_4(HandGrenade),
+            MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_2(rhs_mag_an_m14_th3)
         };
         respawnMagazines[] = {
             MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_4(HandGrenade),
+            MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_2(rhs_mag_an_m14_th3)
         };
         items[] = {
@@ -845,14 +845,14 @@ class CfgVehicles {
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ),
 
             MULT_OBJ_2(SmokeShell),
-            MULT_OBJ_4(HandGrenade)
+            MULT_OBJ_4(rhs_mag_m67)
         };
         respawnMagazines[] = {
             MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855A1_Stanag),
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ),
 
             MULT_OBJ_2(SmokeShell),
-            MULT_OBJ_4(HandGrenade)
+            MULT_OBJ_4(rhs_mag_m67)
         };
         items[] = {
             MULT_OBJ_2(FirstAidKit)
@@ -903,14 +903,14 @@ class CfgVehicles {
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ),
 
             MULT_OBJ_2(SmokeShell),
-            MULT_OBJ_4(HandGrenade)
+            MULT_OBJ_4(rhs_mag_m67)
         };
         respawnMagazines[] = {
             MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855A1_Stanag),
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ),
 
             MULT_OBJ_2(SmokeShell),
-            MULT_OBJ_4(HandGrenade)
+            MULT_OBJ_4(rhs_mag_m67)
         };
         items[] = {
             MULT_OBJ_2(FirstAidKit)
