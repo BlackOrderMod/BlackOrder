@@ -676,6 +676,163 @@ class CfgVehicles {
         };
     };
 
+    class O_BlackOrder_Sci_SpecialSecurityOfficer_Light_F : O_BlackOrder_Sci_SpecialSecurity_base_F {
+        _generalMacro = "O_BlackOrder_Sci_SpecialSecurityOfficer_Light_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(SpecialSecurityOfficer_Light_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurityOfficer_Light_F.jpg);
+
+        icon = "iconManLeader";
+
+        uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
+
+        weapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        magazines[] = {
+            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
+
+            MULT_OBJ_2(rhs_mag_mk84)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
+
+            MULT_OBJ_2(rhs_mag_mk84)
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "rhs_googles_black",
+            "V_LegStrapBag_black_F",
+            "H_BlackOrder_Beret_Red",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS"
+        };
+        respawnLinkedItems[] = {
+            "rhs_googles_black",
+            "V_LegStrapBag_black_F",
+            "H_BlackOrder_Beret_Red",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS"
+        };
+    };
+    class O_BlackOrder_Sci_SpecialSecurity_Light_01_F : O_BlackOrder_Sci_SpecialSecurity_base_F {
+        _generalMacro = "O_BlackOrder_Sci_SpecialSecurity_Light_01_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(SpecialSecurity_Light_01_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_Light_01_F.jpg);
+
+        uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
+
+        weapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        magazines[] = {
+            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
+
+            MULT_OBJ_2(rhs_mag_mk84)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
+
+            MULT_OBJ_2(rhs_mag_mk84)
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "rhs_googles_black",
+            "V_LegStrapBag_black_F",
+            "H_BlackOrder_MilCap",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS"
+        };
+        respawnLinkedItems[] = {
+            "rhs_googles_black",
+            "V_LegStrapBag_black_F",
+            "H_BlackOrder_MilCap",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS"
+        };
+    };
+    class O_BlackOrder_Sci_SpecialSecurity_Light_02_F : O_BlackOrder_Sci_SpecialSecurity_base_F {
+        _generalMacro = "O_BlackOrder_Sci_SpecialSecurity_Light_02_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(SpecialSecurity_02_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_Light_02_F.jpg);
+
+        uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
+
+        weapons[] = {"rhsusf_weap_MP7A2_blackorder_ACO_anpeq15_grip3","rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhsusf_weap_MP7A2_blackorder_ACO_anpeq15_grip3","rhsusf_weap_glock17g4","Throw","Put"};
+        magazines[] = {
+            MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
+            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
+
+            MULT_OBJ_4(HandGrenade),
+            MULT_OBJ_2(rhs_mag_an_m14_th3)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
+            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
+
+            MULT_OBJ_4(HandGrenade),
+            MULT_OBJ_2(rhs_mag_an_m14_th3)
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+
+        backpack = "B_LegStrapBag_black_F";
+
+        linkedItems[] = {
+            "rhs_googles_black",
+            "V_BlackOrder_TacVest_SpecialSecurity",
+            "H_BlackOrder_Beret",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS"
+        };
+        respawnLinkedItems[] = {
+            "rhs_googles_black",
+            "V_BlackOrder_TacVest_SpecialSecurity",
+            "H_BlackOrder_Beret",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS"
+        };
+    };
+
     class O_BlackOrder_Sci_SpecialSecurity_TeamLeader_F : O_BlackOrder_Sci_SpecialSecurity_base_F {
         _generalMacro = "O_BlackOrder_Sci_SpecialSecurity_TeamLeader_F";
         scope = 2;
@@ -688,8 +845,8 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
 
-        weapons[] = {"rhs_weap_m27iar_grip_blackorder_g33xps3","rhsusf_weap_glock17g4","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m27iar_grip_blackorder_g33xps3","rhsusf_weap_glock17g4","Throw","Put"};
+        weapons[] = {"rhs_weap_m27iar_grip_blackorder_ACOG2_anpeq15A","rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m27iar_grip_blackorder_ACOG2_anpeq15A","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
             MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855A1_Stanag),
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ),
@@ -746,8 +903,8 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
 
-        weapons[] = {"rhs_weap_m27iar_grip_blackorder_g33xps3","rhsusf_weap_glock17g4","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m27iar_grip_blackorder_g33xps3","rhsusf_weap_glock17g4","Throw","Put"};
+        weapons[] = {"rhs_weap_m27iar_grip_blackorder_ACOG2_anpeq15A","rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m27iar_grip_blackorder_ACOG2_anpeq15A","rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
             MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855A1_Stanag),
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ),

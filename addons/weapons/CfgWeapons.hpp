@@ -137,12 +137,12 @@ class CfgWeapons {
     };
 
     class rhs_weap_m27iar_grip;
-    class rhs_weap_m27iar_grip_blackorder_g33xps3 : rhs_weap_m27iar_grip {
+    class rhs_weap_m27iar_grip_blackorder_ACOG2_anpeq15A : rhs_weap_m27iar_grip {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            MACRO_LINKEDOPTIC(rhsusf_acc_g33_xps3);
-            //MACRO_LINKEDACC();
+            MACRO_LINKEDOPTIC(rhsusf_acc_ACOG2_USMC);
+            MACRO_LINKEDACC(rhsusf_acc_anpeq15A);
             //MACRO_LINKEDMUZZLE();
             //MACRO_LINKEDBARREL();
         };
