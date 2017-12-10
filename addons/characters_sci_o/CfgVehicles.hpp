@@ -780,27 +780,23 @@ class CfgVehicles {
         _generalMacro = "O_BlackOrder_Sci_SpecialSecurity_Light_02_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(SpecialSecurity_02_Display);
+        displayName = CSTRING(SpecialSecurity_Light_02_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_SpecialSecurity_Light_02_F.jpg);
 
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
 
-        weapons[] = {"rhsusf_weap_MP7A2_blackorder_ACO_anpeq15_grip3","rhsusf_weap_glock17g4","Throw","Put"};
-        respawnWeapons[] = {"rhsusf_weap_MP7A2_blackorder_ACO_anpeq15_grip3","rhsusf_weap_glock17g4","Throw","Put"};
+        weapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
         magazines[] = {
-            MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_4(HandGrenade),
-            MULT_OBJ_2(rhs_mag_an_m14_th3)
+            MULT_OBJ_2(rhs_mag_mk84)
         };
         respawnMagazines[] = {
-            MULT_OBJ_8(rhsusf_mag_40Rnd_46x30_FMJ),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_4(HandGrenade),
-            MULT_OBJ_2(rhs_mag_an_m14_th3)
+            MULT_OBJ_2(rhs_mag_mk84)
         };
         items[] = {
             MULT_OBJ_1(FirstAidKit)
@@ -808,12 +804,9 @@ class CfgVehicles {
         respawnItems[] = {
             MULT_OBJ_1(FirstAidKit)
         };
-
-        backpack = "B_LegStrapBag_black_F";
-
         linkedItems[] = {
             "rhs_googles_black",
-            "V_BlackOrder_TacVest_SpecialSecurity",
+            "V_LegStrapBag_black_F",
             "H_BlackOrder_Beret",
             "ItemMap",
             "ItemCompass",
@@ -823,7 +816,7 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "rhs_googles_black",
-            "V_BlackOrder_TacVest_SpecialSecurity",
+            "V_LegStrapBag_black_F",
             "H_BlackOrder_Beret",
             "ItemMap",
             "ItemCompass",

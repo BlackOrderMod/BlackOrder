@@ -43,21 +43,21 @@
             <English>Special Security Officer</English>
         </Key>
 
-        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_01_Display">
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_Light_01_Display">
             <English>Special Security (Light)</English>
         </Key>
-        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_02_Display">
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_Light_02_Display">
             <English>Special Security (Light, Beret)</English>
         </Key>
-        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurityOfficer_Display">
+        <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurityOfficer_Light_Display">
             <English>Special Security Officer (Light)</English>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_TeamLeader_Display">
-            <English>Solider Team Leader</English>
+            <English>Security Soldier Team Leader</English>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_Soldier_Display">
-            <English>Solider Rifleman</English>
+            <English>Security Soldier Rifleman</English>
         </Key>
     </Package>
 </Project>
