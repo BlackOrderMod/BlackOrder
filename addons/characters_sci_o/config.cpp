@@ -6,10 +6,10 @@ class CfgPatches {
         units[] = {
             "O_BlackOrder_Sci_base_F",
             "O_BlackOrder_Sci_Scientist_01_F",
-            "O_BlackOrder_Sci_Scientist_01_Armed_F",
+            "O_BlackOrder_Sci_Scientist_01_Armed_F"
             "O_BlackOrder_Sci_Scientist_02_F",
             "O_BlackOrder_Sci_Scientist_02_Armed_F",
-            "O_BlackOrder_Sci_Scientist_03_F",
+          "O_BlackOrder_Sci_Scientist_03_F",
             "O_BlackOrder_Sci_Scientist_03_Armed_F",
 
             "O_BlackOrder_Sci_Security_base_F",
@@ -31,7 +31,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "blackorder_main",
-            "blackorder_common",
+            "blackorder_common"
 
             "blackorder_gear",
             "blackorder_weapons"
