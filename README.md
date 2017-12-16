@@ -2,9 +2,6 @@
     <img src="https://raw.githubusercontent.com/EvulDev/TerroristOrganizationBlackOrder/master/Extra/logo01.png" width="480">
 </p>
 <p align="center">
-    <a href="https://github.com/EvulDev/BlackOrder">
-        <img src="https://img.shields.io/travis/BlackOrderMod/BlackOrder/Master.svg?style=flat-square" alt="Black Order Version">
-    </a>
     <a href="https://github.com/EvulDev/BlackOrder/releases/latest">
         <img src="https://img.shields.io/github/release/BlackOrderMod/BlackOrder.svg?style=flat-square" alt="Black Order Version">
     </a>
@@ -13,6 +10,9 @@
     </a>
     <a href="https://github.com/EvulDev/BlackOrder/releases">
         <img src="https://img.shields.io/github/downloads/BlackOrderMod/BlackOrder/total.svg?style=flat-square" alt="Black Order Downloads">
+    </a>
+    <a href="https://travis-ci.org/BlackOrderMod/BlackOrder">
+        <img src="https://img.shields.io/travis/BlackOrderMod/BlackOrder/Master.svg?style=flat-square" alt="Black Order Build">
     </a>
 </p>
     
