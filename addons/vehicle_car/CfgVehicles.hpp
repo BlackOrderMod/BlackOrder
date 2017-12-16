@@ -93,16 +93,16 @@ class CfgVehicles {
             };
         };
         animationList[]=
-		{
-			"HidePolice",1,
-			"HideBumper1",1,
-			"HideBumper2",0,
-			"HideConstruction",0,
-			"HideDoor3",0.33000001,
-			"HideDoor3",0.33000001,
-			"HideDoor3",1,
-			"HideBackpacks",1
-		};
+        {
+            "HidePolice",1,
+            "HideBumper1",1,
+            "HideBumper2",0,
+            "HideConstruction",0,
+            "HideDoor3",0.33000001,
+            "HideDoor3",0.33000001,
+            "HideDoor3",1,
+            "HideBackpacks",1
+        };
     };
     class I_G_Offroad_01_armed_F;
     class O_blackorder_veh_Offroad_armed_F : I_G_Offroad_01_armed_F {
@@ -135,16 +135,16 @@ class CfgVehicles {
             };
         };
         animationList[]=
-		{
-			"HidePolice",1,
-			"HideBumper1",1,
-			"HideBumper2",0,
-			"HideConstruction",0,
-			"HideDoor3",0.33000001,
-			"HideDoor3",0.33000001,
-			"HideDoor3",1,
-			"HideBackpacks",1
-		};
+        {
+            "HidePolice",1,
+            "HideBumper1",1,
+            "HideBumper2",0,
+            "HideConstruction",0,
+            "HideDoor3",0.33000001,
+            "HideDoor3",0.33000001,
+            "HideDoor3",1,
+            "HideBackpacks",1
+        };
     };
 
     class C_IDAP_Van_02_vehicle_F;
