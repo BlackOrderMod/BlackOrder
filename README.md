@@ -2,8 +2,7 @@
     <img src="https://raw.githubusercontent.com/EvulDev/TerroristOrganizationBlackOrder/master/Extra/logo01.png" width="480">
 </p>
 <p align="center">
-    	
-    <a href="https://github.com/EvulDev/BlackOrder/releases/latest">
+    <a href="https://github.com/EvulDev/BlackOrder">
         <img src="https://img.shields.io/travis/BlackOrderMod/BlackOrder/Master.svg?style=flat-square" alt="Black Order Version">
     </a>
     <a href="https://github.com/EvulDev/BlackOrder/releases/latest">
