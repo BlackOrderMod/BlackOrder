@@ -12,7 +12,7 @@
         <img src="https://img.shields.io/github/downloads/BlackOrderMod/BlackOrder/total.svg?style=flat-square" alt="Black Order Downloads">
     </a>
     <a href="https://travis-ci.org/BlackOrderMod/BlackOrder">
-        <img src="https://img.shields.io/travis/BlackOrderMod/BlackOrder/Master.svg?style=flat-square" alt="Black Order Build">
+        <img src="https://img.shields.io/travis/BlackOrderMod/BlackOrder.svg?style=flat-square" alt="Black Order Build">
     </a>
 </p>
     
