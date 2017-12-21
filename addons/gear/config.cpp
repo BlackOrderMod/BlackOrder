@@ -6,7 +6,16 @@ class CfgPatches {
         units[] = {
             "B_ViperLightHarness_blk_BlackOrder_Medic_F",
             "B_ViperHarness_blk_BlackOrder_AA_F",
-            "B_ViperHarness_blk_BlackOrder_AT_F"
+            "B_ViperHarness_blk_BlackOrder_AT_F",
+
+            "B_LegStrapBag_black_BlackOrder_explosive_F",
+            "B_LegStrapBag_black_BlackOrder_AR_F",
+
+            "Item_U_BlackOrder_Uniform_1_F",
+            "Item_U_BlackOrder_Uniform_1_Medic_F",
+            "Item_U_BlackOrder_Uniform_MP_1_F",
+            "Item_U_BlackOrder_PilotCoveralls_F",
+            "Item_U_BlackOrder_HeliPilotCoveralls_F"
         };
         weapons[] = {
             "U_BlackOrder_Uniform_1",

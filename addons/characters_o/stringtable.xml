@@ -61,6 +61,9 @@
             <English>Helicopter Crew</English>
         </Key>
 
+        <Key ID="STR_BlackOrder_Characters_O_Survivor_Display">
+            <English>Survivor/English>
+        </Key>
         <Key ID="STR_BlackOrder_Characters_O_Unarmed_00_Display">
             <English>Unarmed (Full)</English>
         </Key>

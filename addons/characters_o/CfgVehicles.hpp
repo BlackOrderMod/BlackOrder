@@ -1128,7 +1128,7 @@ class CfgVehicles {
         _generalMacro = "O_BlackOrder_Unarmed_00_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Unarmed_Display);
+        displayName = CSTRING(Unarmed_00_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Unarmed_00_F.jpg);
 

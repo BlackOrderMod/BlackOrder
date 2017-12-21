@@ -123,7 +123,7 @@ class CfgVehicles {
         _generalMacro = "blackorder_Land_MobilePhone_old_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Laptop_01_screen_01_Display);
+        displayName = CSTRING(MobilePhone_old_01_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_MobilePhone_old_F.jpg);
 
@@ -131,7 +131,48 @@ class CfgVehicles {
             QPATHTOF(data\blackorder_Land_MobilePhone_old_01_co.paa)
         };
     };
-    
+
+    class B_supplyCrate_F;
+    class blackorder_supplyCrate_F : B_supplyCrate_F {
+        _generalMacro = "blackorder_supplyCrate_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(supplyCrate_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\blackorder_supplyCrate_F.jpg);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_supplydrop_co.paa)
+        };
+
+        class TransportBackpacks {
+
+        };
+        class TransportItems {
+            MACRO_ADDITEM(acc_flashlight,2);
+            MACRO_ADDITEM(FirstAidKit,10);
+            MACRO_ADDITEM(Laserdesignator,1);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,38);
+            MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_FMJ,10);
+            MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_JHP,4);
+            MACRO_ADDMAGAZINE(rhs_200rnd_556x45_M_SAW,10);
+
+            MACRO_ADDMAGAZINE(SmokeShell,12);
+            MACRO_ADDMAGAZINE(SmokeShellGreen,8);
+
+            MACRO_ADDMAGAZINE(rhs_mag_m67,10);
+
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+            MACRO_ADDWEAPON(rhs_weap_M136,2);
+        };
+    };
+
     class Box_C_UAV_06_F;
     class Land_PCSet_01_mousepad_F;
 

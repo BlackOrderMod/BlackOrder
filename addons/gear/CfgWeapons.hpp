@@ -48,7 +48,7 @@ class CfgWeapons {
     class U_BlackOrder_Uniform_MP_1 : U_B_CTRG_1 {
         _generalMacro = "U_BlackOrder_Uniform_1";
         scope = 2;
-        displayName = CSTRING(Uniform_1_Display);
+        displayName = CSTRING(Uniform_MP_1_Display);
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_MP_1_co.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";

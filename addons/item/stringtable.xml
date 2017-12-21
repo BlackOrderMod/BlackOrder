@@ -33,5 +33,9 @@
         <Key ID="STR_BlackOrder_Item_MobilePhone_old_01_Display">
             <English>Mobile Phone (Old, Black Order)</English>
         </Key>
+
+        <Key ID="STR_BlackOrder_Item_supplyCrate_Display">
+            <English>Supply Box [Black Order]</English>
+        </Key>
     </Package>
 </Project>
