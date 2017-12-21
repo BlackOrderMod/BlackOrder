@@ -59,5 +59,16 @@
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_Soldier_Display">
             <English>Security Soldier Rifleman</English>
         </Key>
+
+
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Group_SecurityTeam_Display">
+            <English>Security Team</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Group_SecAssault_Display">
+            <English>Assault Squad</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Group_SecSentryLight_Display">
+            <English>Sentry (Light)</English>
+        </Key>
     </Package>
 </Project>

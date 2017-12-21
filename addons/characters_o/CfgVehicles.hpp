@@ -1123,4 +1123,119 @@ class CfgVehicles {
         linkedItems[] = {};
         respawnLinkedItems[] = {};
     };
+
+    class O_BlackOrder_Unarmed_00_F : O_BlackOrder_base_F {
+        _generalMacro = "O_BlackOrder_Unarmed_00_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Unarmed_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Unarmed_00_F.jpg);
+
+        role="Unarmed";
+
+        uniformClass = "U_BlackOrder_Uniform_1";
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        glassesEnabled = 0;
+    };
+    class O_BlackOrder_Unarmed_01_F : O_BlackOrder_base_F {
+        _generalMacro = "O_BlackOrder_Unarmed_01_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Unarmed_01_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Unarmed_01_F.jpg);
+
+        role="Unarmed";
+
+        uniformClass = "U_BlackOrder_Uniform_1";
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "V_BlackOrder_PlateCarrier",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "V_BlackOrder_PlateCarrier",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        glassesEnabled = 0;
+    };
+    class O_BlackOrder_Unarmed_02_F : O_BlackOrder_base_F {
+        _generalMacro = "O_BlackOrder_Unarmed_02_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Unarmed_02_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Unarmed_02_F.jpg);
+
+        role="Unarmed";
+
+        uniformClass = "U_BlackOrder_Uniform_1";
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        glassesEnabled = 0;
+    };
 };

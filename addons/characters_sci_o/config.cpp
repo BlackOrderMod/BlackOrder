@@ -25,7 +25,6 @@ class CfgPatches {
 
             "O_BlackOrder_Sci_SpecialSecurity_TeamLeader_F",
             "O_BlackOrder_Sci_SpecialSecurity_Soldier_F"
-
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -44,3 +43,4 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
+#include "CfgGroups.hpp"

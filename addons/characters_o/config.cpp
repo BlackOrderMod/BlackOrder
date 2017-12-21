@@ -30,6 +30,10 @@ class CfgPatches {
 
             "O_BlackOrder_Survivor_F",
 
+            "O_BlackOrder_Unarmed_00_F",
+            "O_BlackOrder_Unarmed_01_F",
+            "O_BlackOrder_Unarmed_02_F",
+
 
             "O_BlackOrder_InfSquad",
             "O_BlackOrder_InfSquad_Weapons",
@@ -38,14 +42,7 @@ class CfgPatches {
             "O_BlackOrder_InfTeam_AA",
             "O_BlackOrder_InfTeam_AT",
             "O_BlackOrder_InfSentry",
-            "O_BlackOrder_InfSentryLight",
-
-            "O_BlackOrder_ScoutTeam",
-            "O_BlackOrder_AssaultTeam",
-
-            "O_BlackOrder_MotInf_Reinforce"
-
-
+            "O_BlackOrder_InfSentryLight"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

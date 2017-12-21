@@ -11,9 +11,13 @@ class CfgPatches {
             "O_BlackOrder_SF_Marksmen_01_F",
             "O_BlackOrder_SF_Sapper_F",
             "O_BlackOrder_SF_AR_F",
-            
+
             "O_BlackOrder_SF_Operator_01_F",
-            "O_BlackOrder_SF_Agent_F"
+            "O_BlackOrder_SF_Agent_F",
+
+            "O_BlackOrder_ScoutTeam",
+            "O_BlackOrder_AssaultTeam",
+            "O_BlackOrder_InfiltrationTeam"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
