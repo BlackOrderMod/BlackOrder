@@ -647,17 +647,19 @@ class CfgVehicles {
             MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855_Stanag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_2(rhs_mag_m7a3_cs),
-            MULT_OBJ_1(rhs_mag_mk3a2),
-            MULT_OBJ_1(SmokeShell)
+            MULT_OBJ_1(SmokeShell),
+            MULT_OBJ_2(SmokeShellBlue),
+            MULT_OBJ_1(SmokeShellGreen),
+            MULT_OBJ_1(SmokeShellOrange)
         };
         respawnMagazines[] = {
             MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855_Stanag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
 
-            MULT_OBJ_2(rhs_mag_m7a3_cs),
-            MULT_OBJ_1(rhs_mag_mk3a2),
-            MULT_OBJ_1(SmokeShell)
+            MULT_OBJ_1(SmokeShell),
+            MULT_OBJ_2(SmokeShellBlue),
+            MULT_OBJ_1(SmokeShellGreen),
+            MULT_OBJ_1(SmokeShellOrange)
         };
         items[] = {
             MULT_OBJ_1(FirstAidKit)
@@ -680,6 +682,64 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "V_BlackOrder_TacVest_MilitaryPolice",
             "H_BlackOrder_CombatHelmet_MP",
+            "G_Tactical_Clear",
+            "ItemMap",
+            "ItemGPS",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+    class O_BlackOrder_MP_Soldier_Officer_F : O_BlackOrder_MP_Soldier_base_F {
+        _generalMacro = "O_BlackOrder_MP_Soldier_Officer_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Soldier_TeamLeader_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_MP_Soldier_TeamLeader_F.jpg);
+
+        role="Rifleman";
+
+        uniformClass = "U_BlackOrder_Uniform_MP_1";
+
+        weapons[] = {"rhs_weap_hk416d10_blackorder_eotech552_Flashlight","rhsusf_weap_glock17g4_blackorder_Flashlight","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_hk416d10_blackorder_eotech552_Flashlight","rhsusf_weap_glock17g4_blackorder_Flashlight","Throw","Put"};
+        magazines[] = {
+            MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855_Stanag),
+            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
+
+            MULT_OBJ_2(rhs_mag_m7a3_cs),
+            MULT_OBJ_1(rhs_mag_mk3a2),
+            MULT_OBJ_1(SmokeShell)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_8(rhs_mag_30Rnd_556x45_M855_Stanag),
+            MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ),
+
+            MULT_OBJ_2(rhs_mag_m7a3_cs),
+            MULT_OBJ_1(rhs_mag_mk3a2),
+            MULT_OBJ_1(SmokeShell)
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+
+        backpack = "B_LegStrapBag_black_F";
+
+        linkedItems[] = {
+            "V_BlackOrder_TacVest_MilitaryPolice",
+            "H_BlackOrder_Beret_Red",
+            "G_Tactical_Clear",
+            "ItemMap",
+            "ItemGPS",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "V_BlackOrder_TacVest_MilitaryPolice",
+            "H_BlackOrder_Beret_Red",
             "G_Tactical_Clear",
             "ItemMap",
             "ItemGPS",
