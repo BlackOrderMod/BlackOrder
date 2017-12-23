@@ -22,6 +22,7 @@ class CfgPatches {
             "U_BlackOrder_Uniform_1_Medic",
 
             "U_BlackOrder_Uniform_MP_1",
+            "U_BlackOrder_Uniform_MP_1_Medic",
 
             "U_BlackOrder_PilotCoveralls",
             "U_BlackOrder_HeliPilotCoveralls",

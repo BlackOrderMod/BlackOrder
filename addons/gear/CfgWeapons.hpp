@@ -46,7 +46,7 @@ class CfgWeapons {
     };
 
     class U_BlackOrder_Uniform_MP_1 : U_B_CTRG_1 {
-        _generalMacro = "U_BlackOrder_Uniform_1";
+        _generalMacro = "U_BlackOrder_Uniform_MP_1";
         scope = 2;
         displayName = CSTRING(Uniform_MP_1_Display);
         author = ECSTRING(common,BlackOrderTeam);
@@ -60,6 +60,25 @@ class CfgWeapons {
             hiddenSelections[] = {"camo"};
             hiddenSelectionsTextures[] = {
                 QPATHTOF(data\uniform\U_BlackOrder_Uniform_MP_1_co.paa)
+            };
+            containerClass = "Supply40";
+        };
+    };
+    class U_BlackOrder_Uniform_MP_1_Medic : U_B_CTRG_1 {
+        _generalMacro = "U_BlackOrder_Uniform_MP_1_Medic";
+        scope = 2;
+        displayName = CSTRING(Uniform_MP_1_Medic_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_MP_1_co.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+        modelSides[] = {3,2,1,0};
+        class ItemInfo : UniformItem {
+            modelSides[] = {3,2,1,0};
+            uniformModel = "-";
+            uniformClass = "O_BlackOrder_MP_Soldier_Medic_F";
+            hiddenSelections[] = {"camo"};
+            hiddenSelectionsTextures[] = {
+                QPATHTOF(data\uniform\U_BlackOrder_Uniform_MP_1_Medic_co.paa)
             };
             containerClass = "Supply40";
         };
@@ -288,6 +307,17 @@ class CfgWeapons {
             QPATHTOF(data\headgear\H_BlackOrder_CombatHelmet_red_co.paa)
         };
     };
+    class H_BlackOrder_CombatHelmet_MP : H_HelmetB {
+        _generalMacro = "H_BlackOrder_CombatHelmet_MP";
+        scope = 2;
+        displayName = CSTRING(Headgear_CombatHelmet_MP_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_CombatHelmet_ca.paa);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\headgear\H_BlackOrder_CombatHelmet_MP_co.paa)
+        };
+    };
 
     class H_BlackOrder_mich_bare : rhsusf_mich_bare_tan {
         _generalMacro = "H_BlackOrder_mich_bare";
@@ -374,5 +404,4 @@ class CfgWeapons {
             QPATHTOF(data\headgear\H_BlackOrder_Cap_01_co.paa)
         };
     };
-
 };

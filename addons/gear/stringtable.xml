@@ -9,6 +9,9 @@
         <Key ID="STR_BlackOrder_Gear_Uniform_MP_1_Display">
             <English>CTRG Black Order Military Police Uniform</English>
         </Key>
+        <Key ID="STR_BlackOrder_Gear_Uniform_MP_1_Medic_Display">
+            <English>CTRG Black Order Military Police Medic Uniform</English>
+        </Key>
 
         <Key ID="STR_BlackOrder_Gear_PilotCoveralls_Display">
             <English>Pilot Coveralls [Black Order]</English>
@@ -58,6 +61,9 @@
         </Key>
         <Key ID="STR_BlackOrder_Gear_Headgear_CombatHelmet_red_Display">
             <English>Combat Helmet (Black Order Red)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_Headgear_CombatHelmet_MP_Display">
+            <English>Combat Helmet (Black Order MP)</English>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_Headgear_mich_bare_Display">
