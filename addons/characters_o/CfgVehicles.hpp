@@ -1122,6 +1122,7 @@ class CfgVehicles {
         respawnItems[] = {};
         linkedItems[] = {};
         respawnLinkedItems[] = {};
+        glassesEnabled = 0;
     };
 
     class O_BlackOrder_Unarmed_00_F : O_BlackOrder_base_F {
