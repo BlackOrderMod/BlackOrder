@@ -34,6 +34,42 @@ class CfgWeapons {
         };
     };
 
+    class rhs_weap_m40a5;
+    class rhs_weap_m40a5_blackorder : rhs_weap_m40a5 {
+        _generalMacro = "rhs_weap_m40a5_blackorder";
+        baseWeapon = "rhs_weap_m40a5_blackorder";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(m40a5_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\rhs_m40a5_blackorder_co.paa)
+        };
+    };
+    class rhs_weap_m40a5_blackorder_acog2 : rhs_weap_m40a5_blackorder {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            MACRO_LINKEDOPTIC(rhsusf_acc_ACOG2);
+            //MACRO_LINKEDACC();
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
+
+    // Used Weapons
+    class rhsusf_weap_glock17g4;
+    class rhsusf_weap_glock17g4_blackorder_Flashlight : rhsusf_weap_glock17g4 {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            //MACRO_LINKEDOPTIC();
+            MACRO_LINKEDACC(acc_flashlight_pistol);
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
+
     class rhs_weap_m4a1;
     class rhs_weap_m4a1_BlackOrder_anpeq15_F : rhs_weap_m4a1 {
         scope = 1;
@@ -101,29 +137,6 @@ class CfgWeapons {
         };
     };
 
-    class rhs_weap_m40a5;
-    class rhs_weap_m40a5_blackorder : rhs_weap_m40a5 {
-        _generalMacro = "rhs_weap_m40a5_blackorder";
-        baseWeapon = "rhs_weap_m40a5_blackorder";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = CSTRING(m40a5_Display);
-        author = ECSTRING(common,BlackOrderTeam);
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\rhs_m40a5_blackorder_co.paa)
-        };
-    };
-    class rhs_weap_m40a5_blackorder_acog2 : rhs_weap_m40a5_blackorder {
-        scope = 1;
-        scopeCurator = 1;
-        class LinkedItems {
-            MACRO_LINKEDOPTIC(rhsusf_acc_ACOG2);
-            //MACRO_LINKEDACC();
-            //MACRO_LINKEDMUZZLE();
-            //MACRO_LINKEDBARREL();
-        };
-    };
-
     class rhsusf_weap_MP7A2;
     class rhsusf_weap_MP7A2_blackorder_ACO_anpeq15_grip3 : rhsusf_weap_MP7A2 {
         scope = 1;
@@ -143,6 +156,28 @@ class CfgWeapons {
         class LinkedItems {
             MACRO_LINKEDOPTIC(rhsusf_acc_ACOG2_USMC);
             MACRO_LINKEDACC(rhsusf_acc_anpeq15A);
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
+
+    class rhs_weap_hk416d10;
+    class rhs_weap_hk416d10_blackorder_eotech552 : rhs_weap_hk416d10 {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            MACRO_LINKEDOPTIC(rhsusf_acc_eotech_552);
+            //MACRO_LINKEDACC();
+            //MACRO_LINKEDMUZZLE();
+            //MACRO_LINKEDBARREL();
+        };
+    };
+    class rhs_weap_hk416d10_blackorder_eotech552_Flashlight : rhs_weap_hk416d10 {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            MACRO_LINKEDOPTIC(rhsusf_acc_eotech_552);
+            MACRO_LINKEDACC(acc_flashlight);
             //MACRO_LINKEDMUZZLE();
             //MACRO_LINKEDBARREL();
         };

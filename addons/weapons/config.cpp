@@ -11,19 +11,21 @@ class CfgPatches {
             "srifle_DMR_03_blackorder_F",
             "srifle_DMR_03_blackorder_CCO_F",
             "srifle_DMR_03_blackorder_ACOG_F",
-
-            "rhs_weap_m4a1_BlackOrder_anpeq15_F",
-            "rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F",
-            "rhs_weap_m4a1_m320_BlackOrder_ACOGRMR_anpeq15_F",
-
-            "rhs_weap_mk18_bk_BlackOrder_ACOG",
-
-            "rhs_weap_m249_pip_L_blackorder_M2A1",
-
             "rhs_weap_m40a5_blackorder",
             "rhs_weap_m40a5_blackorder_acog2",
 
-            "rhsusf_weap_MP7A2_blackorder_ACO_anpeq15_grip3"
+            "rhsusf_weap_glock17g4_blackorder_Flashlight",
+            "rhs_weap_m4a1_BlackOrder_anpeq15_F",
+            "rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F",
+            "rhs_weap_m4a1_m320_BlackOrder_ACOGRMR_anpeq15_F",
+            "rhs_weap_mk18_bk_BlackOrder_ACOG",
+            "rhs_weap_mk18_bk_BlackOrder_ACOG",
+            "rhs_weap_m249_pip_L_blackorder_M2A1",
+            "rhs_weap_m249_pip_S_blackorder_ACOG2_anpeq15side_F",
+            "rhsusf_weap_MP7A2_blackorder_ACO_anpeq15_grip3",
+            "rhs_weap_m27iar_grip_blackorder_ACOG2_anpeq15A",
+            "rhs_weap_hk416d10_blackorder_eotech552",
+            "rhs_weap_hk416d10_blackorder_eotech552_Flashlight"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"blackorder_main","blackorder_common"};
