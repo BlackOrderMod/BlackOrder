@@ -26,8 +26,8 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"rhs_weap_m4a1_m320_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m4a1_m320_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
+        weapons[] = {"rhs_weap_m4a1_m320_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m4a1_m320_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
         magazines[] = {
             MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_1(B_IR_Grenade),
@@ -101,8 +101,8 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
+        weapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
         magazines[] = {
             MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_1(B_IR_Grenade),
@@ -170,8 +170,8 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"rhs_weap_m40a5_blackorder_acog2","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m40a5_blackorder_acog2","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
+        weapons[] = {"rhs_weap_m40a5_blackorder_acog2","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m40a5_blackorder_acog2","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
         magazines[] = {
             MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_1(B_IR_Grenade),
@@ -238,8 +238,8 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
+        weapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
         magazines[] = {
             MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_1(B_IR_Grenade),
@@ -308,8 +308,8 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"rhs_weap_m249_pip_S_blackorder_ACOG2_anpeq15side_F","rhsusf_weap_glock17g4","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m249_pip_S_blackorder_ACOG2_anpeq15side_F","rhsusf_weap_glock17g4","Throw","Put"};
+        weapons[] = {"rhs_weap_m249_pip_S_blackorder_ACOG2_anpeq15side_F","rhsusf_weap_glock17g4_blackorder_Flashlight","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m249_pip_S_blackorder_ACOG2_anpeq15side_F","rhsusf_weap_glock17g4_blackorder_Flashlight","Throw","Put"};
         magazines[] = {
             MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(B_IR_Grenade),
@@ -373,8 +373,8 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4","rhsusf_lrf_Vector21","Throw","Put"};
+        weapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m4a1_BlackOrder_ACOGRMR_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","rhsusf_lrf_Vector21","Throw","Put"};
         magazines[] = {
             MULT_OBJ_4(rhs_mag_m67),
             MULT_OBJ_1(B_IR_Grenade),
@@ -437,8 +437,8 @@ class CfgVehicles {
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
-        weapons[] = {"rhs_weap_m4a1_BlackOrder_anpeq15_F","rhsusf_weap_glock17g4","Throw","Put"};
-        respawnWeapons[] = {"rhs_weap_m4a1_BlackOrder_anpeq15_F","rhsusf_weap_glock17g4","Throw","Put"};
+        weapons[] = {"rhs_weap_m4a1_BlackOrder_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m4a1_BlackOrder_anpeq15_F","rhsusf_weap_glock17g4_blackorder_Flashlight","Throw","Put"};
         magazines[] = {
             MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_2(SmokeShell),
