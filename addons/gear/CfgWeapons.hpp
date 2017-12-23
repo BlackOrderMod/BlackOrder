@@ -106,7 +106,7 @@ class CfgWeapons {
     class U_BlackOrder_HeliPilotCoveralls : U_B_HeliPilotCoveralls {
         _generalMacro = "U_BlackOrder_HeliPilotCoveralls";
         scope = 2;
-        displayName = CSTRING(PilotCoveralls_Display);
+        displayName = CSTRING(HeliPilotCoveralls_Display);
         author = ECSTRING(common,BlackOrderTeam);
         picture = "\A3\characters_f\data\ui\icon_U_B_PilotCoveralls_ca.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
