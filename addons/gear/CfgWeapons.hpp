@@ -11,7 +11,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Uniform_1_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_1_co.paa);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_1_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -30,7 +30,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Uniform_1_Medic_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_1_medic_co.paa);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_1_medic_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -50,7 +50,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Uniform_MP_1_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_MP_1_co.paa);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_MP_1_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -69,7 +69,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Uniform_MP_1_Medic_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_MP_1_co.paa);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_MP_1_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -89,7 +89,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(PilotCoveralls_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = "\A3\characters_f\data\ui\icon_U_B_PilotCoveralls_ca.paa";
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_PilotCoveralls_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -108,7 +108,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(HeliPilotCoveralls_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = "\A3\characters_f\data\ui\icon_U_B_PilotCoveralls_ca.paa";
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_HeliPilotCoveralls_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -129,7 +129,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(ScienceCoveralls_01_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_01.paa);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_01_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -148,7 +148,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(ScienceCombatCoveralls_01_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_01.paa);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_01_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -157,7 +157,7 @@ class CfgWeapons {
             uniformClass = "O_BlackOrder_Sci_Security_base_F";
             hiddenSelections[] = {"camo"};
             hiddenSelectionsTextures[] = {
-                QPATHTOF(data\uniform\U_BlackOrder_ScienceCombatCoveralls_01.paa)
+                QPATHTOF(data\uniform\U_BlackOrder_ScienceCombatCoveralls_01_co.paa)
             };
             containerClass = "Supply40";
         };
@@ -167,7 +167,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(ScienceCombatCoveralls_02_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_02.paa);
+        picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_02_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -176,7 +176,7 @@ class CfgWeapons {
             uniformClass = "O_BlackOrder_Sci_SpecialSecurity_base_F";
             hiddenSelections[] = {"camo"};
             hiddenSelectionsTextures[] = {
-                QPATHTOF(data\uniform\U_BlackOrder_ScienceCombatCoveralls_02.paa)
+                QPATHTOF(data\uniform\U_BlackOrder_ScienceCombatCoveralls_02_co.paa)
             };
             containerClass = "Supply40";
         };
@@ -191,7 +191,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_TacVest_1_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_TacVest_co.paa)
@@ -202,7 +202,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_TacVest_Security_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_TacVest_Security_co.paa)
@@ -213,7 +213,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_TacVest_ScienceSecurity_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_TacVest_ScienceSecurity_co.paa)
@@ -224,7 +224,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_TacVest_SpecialSecurity_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_TacVest_SpecialSecurity_co.paa)
@@ -235,7 +235,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_TacVest_MilitaryPolice_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_TacVest_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_TacVest_MilitaryPolice_co.paa)
@@ -246,7 +246,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_Chestrig_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_Chestrig_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_Chestrig_ca.paa);
         hiddenSelections[] = {"Camo1","Camo2"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_ChestrigEquipment_co.paa),
@@ -258,7 +258,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_PlateCarrier_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_PlateCarrier_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_PlateCarrier_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_PlateCarrier_co.paa)
@@ -269,7 +269,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Vest_PlateCarrier_medic_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_PlateCarrier_co.paa);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_PlateCarrier_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vest\V_BlackOrder_PlateCarrier_medic_co.paa)
@@ -362,7 +362,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Headgear_Beret_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_Beret_co.paa);
+        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_Beret_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\headgear\H_BlackOrder_Beret_co.paa)
@@ -373,7 +373,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Headgear_Beret_red_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_Beret_Red_co.paa);
+        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_Beret_Red_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\headgear\H_BlackOrder_Beret_Red_co.paa)
@@ -385,7 +385,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Headgear_MilCap_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_MilCap_co.paa);
+        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_MilCap_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\headgear\H_BlackOrder_MilCap_co.paa)
@@ -398,7 +398,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(Headgear_Cap_01_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_Cap_01_co.paa);
+        picture = QPATHTOF(data\headgear\icon\icon_H_BlackOrder_Cap_01_ca.paa);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\headgear\H_BlackOrder_Cap_01_co.paa)

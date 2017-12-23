@@ -24,7 +24,7 @@ class CfgVehicles {
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
-            QPATHTOEF(gear,data\uniform\U_BlackOrder_ScienceCoveralls_01.paa)
+            QPATHTOEF(gear,data\uniform\U_BlackOrder_ScienceCoveralls_01_co.paa)
         };
         uniformClass = "U_BlackOrder_ScienceCoveralls_01";
     };
@@ -260,7 +260,7 @@ class CfgVehicles {
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
-            QPATHTOEF(gear,data\uniform\U_BlackOrder_ScienceCombatCoveralls_01.paa)
+            QPATHTOEF(gear,data\uniform\U_BlackOrder_ScienceCombatCoveralls_01_co.paa)
         };
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_01";
     };
@@ -500,7 +500,7 @@ class CfgVehicles {
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
-            QPATHTOEF(gear,data\uniform\U_BlackOrder_ScienceCombatCoveralls_02.paa)
+            QPATHTOEF(gear,data\uniform\U_BlackOrder_ScienceCombatCoveralls_02_co.paa)
         };
         uniformClass = "U_BlackOrder_ScienceCombatCoveralls_02";
     };
