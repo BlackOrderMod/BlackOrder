@@ -3,6 +3,10 @@
         <Key ID="STR_BlackOrder_Common_BlackOrderTeam">
             <English>Black Order-Team</English>
         </Key>
+        <Key ID="STR_BlackOrder_Common_BlackOrder_Display">
+            <English>Black Order</English>
+        </Key>
+
         <Key ID="STR_BlackOrder_Common_flag_Display">
             <English>Flag (Black Order)</English>
         </Key>
