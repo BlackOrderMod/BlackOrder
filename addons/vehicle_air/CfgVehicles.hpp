@@ -47,7 +47,7 @@ class CfgVehicles {
         class textureSources {
             class O_RHS_UH60M_BlackOrder_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_uh60m_fuselage_co.paa),
@@ -83,7 +83,7 @@ class CfgVehicles {
         class textureSources {
             class O_RHS_UH60M2_BlackOrder_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_uh60m_fuselage_co.paa),
@@ -119,7 +119,7 @@ class CfgVehicles {
         class textureSources {
             class O_RHS_UH60M_ESSS_BlackOrder_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_uh60m_fuselage_co.paa),
@@ -155,7 +155,7 @@ class CfgVehicles {
         class textureSources {
             class O_RHS_UH60M_ESSS2_BlackOrder_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_uh60m_fuselage_co.paa),
@@ -188,7 +188,7 @@ class CfgVehicles {
         class textureSources {
             class O_BlackOrder_VTOL_Vehicle_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_ah1z_body_co.paa),
@@ -222,7 +222,7 @@ class CfgVehicles {
         class textureSources {
             class O_BlackOrder_VTOL_Infantry_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_vtol_02_ext01_co.paa),
@@ -257,7 +257,7 @@ class CfgVehicles {
         class textureSources {
             class O_BlackOrder_VTOL_Vehicle_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_vtol_02_ext01_co.paa),
@@ -321,7 +321,7 @@ class CfgVehicles {
         class textureSources {
             class O_BlackOrder_Plane_Fighter_04_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_Fighter_04_fuselage_01_co.paa),
@@ -353,7 +353,7 @@ class CfgVehicles {
         class textureSources {
             class O_BlackOrder_Plane_Fighter_04_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_Fighter_04_fuselage_01_co.paa),
@@ -435,7 +435,7 @@ class CfgVehicles {
         class textureSources {
             class O_BlackOrder_VTOL_Vehicle_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     "rhsusf\addons\rhsusf_a2port_air\c130j\data\c130j_body_co.paa",

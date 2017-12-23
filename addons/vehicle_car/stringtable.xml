@@ -1,20 +1,4 @@
 <Project name="BlackOrder">
     <Package name="Vehicle_Car">
-        <Key ID="STR_BlackOrder_Vehicle_Car_OrderTexture_Display">
-            <English>Black Order</English>
-        </Key>
-
-        <Key ID="STR_BlackOrder_Vehicle_Car_Quadbike_Display">
-            <English>Quadbike</English>
-        </Key>
-        <Key ID="STR_BlackOrder_Vehicle_Car_SUV_Display">
-            <English>SUV</English>
-        </Key>
-        <Key ID="STR_BlackOrder_Vehicle_Car_Truck_Covered_Display">
-            <English>Zamak Transport (Covered)</English>
-        </Key>
-        <Key ID="STR_BlackOrder_Vehicle_Car_Truck_Transport_Display">
-            <English>Zamak Transport</English>
-        </Key>
     </Package>
 </Project>

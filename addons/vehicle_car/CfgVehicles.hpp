@@ -5,7 +5,7 @@ class CfgVehicles {
         _generalMacro = "O_blackorder_veh_Quadbike";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Quadbike_Display);
+        //displayName = "$STR_A3_CfgVehicles_Quadbike_Base_F0";
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Quadbike_F.jpg);
 
@@ -22,7 +22,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_Quadbike_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\quadbike_blackorder_co.paa),
@@ -37,7 +37,7 @@ class CfgVehicles {
         _generalMacro = "O_blackorder_veh_suv";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(SUV_Display);
+        //displayName = CSTRING(SUV_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_SUV_F.jpg);
 
@@ -53,7 +53,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_SUV_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\suv_blackorder_co.paa)
@@ -84,7 +84,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_Offroad_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\offroad_BlackOrder_co.paa),
@@ -126,7 +126,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_Offroad_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\offroad_BlackOrder_co.paa),
@@ -171,7 +171,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_Offroad_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\van_body_BlackOrder_CO.paa),
@@ -206,7 +206,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_Offroad_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\van_body_BlackOrder_co.paa),
@@ -223,7 +223,7 @@ class CfgVehicles {
         _generalMacro = "O_blackorder_veh_Truck_Covered";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Truck_Covered_Display);
+        //displayName = CSTRING(Truck_Covered_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Truck_Covered_F.jpg);
 
@@ -241,7 +241,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_Truck_Covered_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\truck_02_kab_blackorder_co.paa),
@@ -256,7 +256,7 @@ class CfgVehicles {
         _generalMacro = "O_blackorder_veh_Truck_Transport";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Truck_Transport_Display);
+        //displayName = CSTRING(Truck_Transport_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_Truck_Transport_F.jpg);
 
@@ -274,7 +274,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_SUV_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\truck_02_kab_blackorder_co.paa),
@@ -332,7 +332,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_m1025_m2_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
@@ -396,7 +396,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_m1025_mk19_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
@@ -458,7 +458,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_m1025_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
@@ -524,7 +524,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_m998_2dr_fulltop_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
@@ -591,7 +591,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_m998_2dr_halftop_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
@@ -658,7 +658,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_m998_2dr_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
@@ -726,7 +726,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_m998_4dr_fulltop_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
@@ -793,7 +793,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_m998_4dr_halftop_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
@@ -860,7 +860,7 @@ class CfgVehicles {
         class textureSources {
             class O_blackorder_veh_m998_4dr_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
-                displayName = CSTRING(OrderTexture_Display);
+                displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
                 textures[] = {
                     QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
