@@ -1,0 +1,79 @@
+<Project name="BlackOrder">
+    <Package name="Characters_MP_O">
+        <Key ID="STR_BlackOrder_Characters_MP_O_MilitaryPolice_Display">
+            <English>Military Police</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_01_Display">
+            <English>Patrol Officer Sergant</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_02_Display">
+            <English>Patrol Officer Sergant (M590A1)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_03_Display">
+            <English>Patrol Officer Sergant (M16A4)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_04_Display">
+            <English>Patrol Officer Sergant</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_01_Armored_Display">
+            <English>Patrol Officer Sergant (Armored)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_02_Armored_Display">
+            <English>Patrol Officer Sergant (Armored, M590A1)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_03_Armored_Display">
+            <English>Patrol Officer Sergant (Armored, M16A4)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_04_Armored_Display">
+            <English>Patrol Officer Sergant (Armored)</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_01_Display">
+            <English>Patrol Officer</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_02_Display">
+            <English>Patrol Officer (M590A1)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_03_Display">
+            <English>Patrol Officer (M16A4)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_04_Display">
+            <English>Patrol Officer</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_01_Armored_Display">
+            <English>Patrol Officer (Armored)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_02_Armored_Display">
+            <English>Patrol Officer (Armored, M590A1)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_03_Armored_Display">
+            <English>Patrol Officer (Armored, M16A4)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_04_Armored_Display">
+            <English>Patrol Officer (Armored)</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_MP_O_Soldier_TeamLeader_Display">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_Soldier_Rifleman_01_Display">
+            <English>Rifleman</English>
+        </Key>
+
+        <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrolTeam_Display">
+            <English>Armed Patrol Team</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrol_Display">
+            <English>Patrol Officer</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrolArmored_Display">
+            <English>Patrol Officer (Armored)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrolArmedArmored_Display">
+            <English>Patrol Officer (Armored, Armed)</English>
+        </Key>
+    </Package>
+</Project>
