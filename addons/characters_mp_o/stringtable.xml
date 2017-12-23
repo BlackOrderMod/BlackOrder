@@ -65,6 +65,9 @@
         <Key ID="STR_BlackOrder_Characters_MP_O_Soldier_Medic_Display">
             <English>Medic</English>
         </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_Soldier_Officer_Display">
+            <English>Officer</English>
+        </Key>
 
         <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrolTeam_Display">
             <English>Armed Patrol Team</English>

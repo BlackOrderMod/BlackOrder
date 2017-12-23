@@ -693,9 +693,9 @@ class CfgVehicles {
         _generalMacro = "O_BlackOrder_MP_Soldier_Officer_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Soldier_TeamLeader_Display);
+        displayName = CSTRING(Soldier_Officer_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_MP_Soldier_TeamLeader_F.jpg);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_MP_Soldier_Officer_F.jpg);
 
         role="Rifleman";
 
