@@ -13,7 +13,20 @@ class CfgVehicles {
         class TransportWeapons {
         };
     };
-
+    class B_AssaultPack_blk;
+    class B_AssaultPack_blk_BlackOrder_Medic_F : B_AssaultPack_blk {
+        _generalMacro = "B_AssaultPack_blk_BlackOrder_Medic_F";
+        scope = 1;
+        author = ECSTRING(common,BlackOrderTeam);
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,12);
+            MACRO_ADDITEM(Medikit,1);
+        };
+        class TransportMagazines {
+        };
+        class TransportWeapons {
+        };
+    };
     class B_ViperHarness_blk_F;
     class B_ViperHarness_blk_BlackOrder_AA_F : B_ViperHarness_blk_F {
         _generalMacro = "B_ViperHarness_blk_BlackOrder_AA_F";
@@ -102,6 +115,21 @@ class CfgVehicles {
         };
     };
     class Item_U_BlackOrder_Uniform_MP_1_F : Item_Base_F {
+        _generalMacro = "Item_Base_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Uniform_MP_1_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorCategory = "EdCat_Equipment";
+        editorSubcategory = "EdSubcat_Uniforms";
+
+        vehicleClass = "ItemsUniforms";
+        model = "\A3\Weapons_f\dummyweapon.p3d";
+        class TransportItems {
+            MACRO_ADDITEM(U_BlackOrder_Uniform_MP_1,1);
+        };
+    };
+    class Item_U_BlackOrder_Uniform_MP_1_Medic_F : Item_Base_F {
         _generalMacro = "Item_Base_F";
         scope = 2;
         scopeCurator = 2;
