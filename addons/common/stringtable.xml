@@ -6,6 +6,10 @@
         <Key ID="STR_BlackOrder_Common_BlackOrder_Display">
             <English>Black Order</English>
         </Key>
+        <Key ID="STR_BlackOrder_Common_BlackOrder_MP_Display">
+            <English>Black Order MP</English>
+        </Key>
+
 
         <Key ID="STR_BlackOrder_Common_flag_Display">
             <English>Flag (Black Order)</English>
