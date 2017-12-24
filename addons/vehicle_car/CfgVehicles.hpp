@@ -2,7 +2,7 @@
 class CfgVehicles {
     class B_Quadbike_01_F;
     class O_blackorder_veh_Quadbike_F : B_Quadbike_01_F {
-        _generalMacro = "O_blackorder_veh_Quadbike";
+        _generalMacro = "O_blackorder_veh_Quadbike_F";
         scope = 2;
         scopeCurator = 2;
         //displayName = "$STR_A3_CfgVehicles_Quadbike_Base_F0";
@@ -204,7 +204,7 @@ class CfgVehicles {
             QPATHTOF(data\van_body_BlackOrder_co.paa)
         };
         class textureSources {
-            class O_blackorder_veh_Offroad_Texture {
+            class O_blackorder_veh_Van_02_transport_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
                 displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F"};
