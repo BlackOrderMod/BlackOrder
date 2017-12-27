@@ -74,8 +74,8 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_MP_F";
         side = 0;
 
-        crew = "O_BlackOrder_MP_PatrolOfficer_01_Armored_F";
-        typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_Armored_F"};
+        crew = "O_BlackOrder_MP_Soldier_Rifleman_F";
+        typicalCargo[] = {"O_BlackOrder_MP_Soldier_Rifleman_F"};
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\offroad_BlackOrder_MP_co.paa),
@@ -113,8 +113,8 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_MP_F";
         side = 0;
 
-        crew = "O_BlackOrder_Sci_Security_Light_F";
-        typicalCargo[] = {"O_BlackOrder_Sci_Security_Light_F"};
+        crew = "O_BlackOrder_MP_PatrolOfficer_01_Armored_F";
+        typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_Armored_F"};
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\van_body_BlackOrder_MP_co.paa),
@@ -170,8 +170,8 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_MP_F";
         side = 0;
 
-        crew = "O_BlackOrder_MP_PatrolOfficer_01_F";
-        typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_F"};
+        crew = "O_BlackOrder_MP_PatrolOfficer_01_Armored_F";
+        typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_Armored_F"};
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\van_body_BlackOrder_MP_co.paa),
