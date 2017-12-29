@@ -1,5 +1,5 @@
-#define COMPONENT vehicle_mp_car
-#define COMPONENT_BEAUTIFIED Vehicle_MP_Car
+#define COMPONENT vehicle_car_o
+#define COMPONENT_BEAUTIFIED Cars
 
 #include "\z\blackorder\addons\main\script_mod.hpp"
 #include "\z\blackorder\addons\main\script_macros.hpp"

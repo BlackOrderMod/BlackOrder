@@ -24,14 +24,14 @@ class CfgVehicles {
         side = 0;
 
         crew = "O_BlackOrder_HeliPilot_F";
-        typicalCargo[] = {"O_BlackOrder_HeliCrew_F"};
+        typicalCargo[] = {"O_BlackOrder_HeliPilot_F"};
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret {
-                gunnerType = "O_BlackOrder_HeliCrew_F";
+                gunnerType = "O_BlackOrder_HeliPilot_F";
             };
             class MainTurret : MainTurret {
-                gunnerType = "O_BlackOrder_HeliPilot_F"; // Ogly way of fixing the crew in front seat issue
+                gunnerType = "O_BlackOrder_HeliCrew_F";
             };
             class RightDoorGun : RightDoorGun {
                 gunnerType = "O_BlackOrder_HeliCrew_F";
@@ -57,6 +57,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
 
     class RHS_UH60M2;
@@ -84,7 +89,7 @@ class CfgVehicles {
             class O_RHS_UH60M2_BlackOrder_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
                 displayName = ECSTRING(common,BlackOrder_Display);
-                factions[] = {"OPF_BlackOrder_F"};
+                factions[] = {"OPF_BlackOrder_F","OPF_BlackOrder_SCI_F","OPF_BlackOrder_MP_F"};
                 textures[] = {
                     QPATHTOF(data\blackorder_uh60m_fuselage_co.paa),
                     QPATHTOF(data\blackorder_uh60m_engine_co.paa),
@@ -93,6 +98,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
 
     class RHS_UH60M_ESSS;
@@ -129,6 +139,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
 
     class RHS_UH60M_ESSS2;
@@ -165,6 +180,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
 
     class RHS_AH1Z;
@@ -196,6 +216,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
 
     class O_T_VTOL_02_infantry_dynamicLoadout_F;
@@ -232,6 +257,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
     class O_T_VTOL_02_vehicle_dynamicLoadout_F;
     class O_BlackOrder_VTOL_Vehicle_F : O_T_VTOL_02_vehicle_dynamicLoadout_F {
@@ -267,6 +297,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
 
 
@@ -329,6 +364,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
     class O_BlackOrder_Plane_Fighter_04_Cluster_F : I_Plane_Fighter_04_Cluster_F {
         _generalMacro = "O_BlackOrder_Plane_Fighter_04_Cluster_F";
@@ -361,6 +401,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
     class O_BlackOrder_Plane_Fighter_04_AA_F : O_BlackOrder_Plane_Fighter_04_Cluster_F {
         _generalMacro = "O_BlackOrder_Plane_Fighter_04_AA_F";
@@ -413,6 +458,11 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
     };
 /*     class RHS_C130J;
     class RHS_BlackOrder_C130J : RHS_C130J {

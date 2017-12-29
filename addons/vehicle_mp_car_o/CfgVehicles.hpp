@@ -1,5 +1,28 @@
 
 class CfgVehicles {
+
+    class O_blackorder_veh_Quadbike_F;
+    class O_blackorder_veh_mp_Quadbike_F : O_blackorder_veh_Quadbike_F {
+        _generalMacro = "O_blackorder_veh_mp_Quadbike_F";
+        scope = 2;
+        scopeCurator = 2;
+
+        faction = "OPF_BlackOrder_MP_F";
+        side = 0;
+
+        crew = "O_BlackOrder_MP_PatrolOfficer_01_F";
+        typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_F"};
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+        };
+        class TransportMagazines {
+        };
+        class TransportWeapons {
+        };
+    };
+
     class O_blackorder_veh_SUV_F;
     class O_blackorder_veh_mp_SUV_F : O_blackorder_veh_SUV_F {
         _generalMacro = "O_blackorder_veh_mp_SUV_F";
@@ -24,6 +47,23 @@ class CfgVehicles {
                     QPATHTOF(data\suv_blackorder_MP_co.paa)
                 };
             };
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+            MACRO_ADDITEM(V_BlackOrder_TacVest_MilitaryPolice,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhsusf_5Rnd_00Buck,2);
+            MACRO_ADDMAGAZINE(rhsusf_5Rnd_Slug,2);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+            MACRO_ADDWEAPON(rhs_weap_M590_5RD,1);
         };
     };
 
@@ -55,14 +95,34 @@ class CfgVehicles {
             };
         };
         animationList[] = {
-            "HidePolice",0,
-            "HideBumper1",1,
-            "HideBumper2",0,
-            "HideConstruction",0,
-            "HideDoor3",0.33000001,
-            "HideDoor3",0.33000001,
-            "HideDoor3",1,
-            "HideBackpacks",1
+            "hidePolice",0,
+            "HideServices",1,
+            "BeaconsStart",0,
+            "BeaconsServicesStart",0,
+            "HideDoor1",0,
+            "HideDoor2",0,
+            "HideDoor3",0,
+            "HideBackpacks",1,
+            "HideBumper1",0,
+            "HideBumper2",1,
+            "HideConstruction",0
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+            MACRO_ADDITEM(V_BlackOrder_TacVest_MilitaryPolice,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhsusf_5Rnd_00Buck,2);
+            MACRO_ADDMAGAZINE(rhsusf_5Rnd_Slug,2);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+            MACRO_ADDWEAPON(rhs_weap_M590_5RD,1);
         };
     };
     class I_G_Offroad_01_armed_F;
@@ -102,6 +162,19 @@ class CfgVehicles {
             "HideDoor3",1,
             "HideBackpacks",1
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
 
     class O_blackorder_veh_Van_02_F;
@@ -134,6 +207,19 @@ class CfgVehicles {
                     QPATHTOF(data\van_body_BlackOrder_MP_co.paa)
                 };
             };
+
+            class TransportBackpacks {
+            };
+            class TransportItems {
+                MACRO_ADDITEM(FirstAidKit,2);
+            };
+            class TransportMagazines {
+                MACRO_ADDMAGAZINE(Chemlight_red,2);
+                MACRO_ADDMAGAZINE(Chemlight_blue,2);
+                MACRO_ADDMAGAZINE(Chemlight_green,2);
+            };
+            class TransportWeapons {
+            };
         };
 
         animationList[] = {
@@ -158,6 +244,23 @@ class CfgVehicles {
             "front_protective_frame_hide",0,
             "beacon_front_hide",1,
             "beacon_rear_hide",1
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+            MACRO_ADDITEM(V_BlackOrder_TacVest_MilitaryPolice,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhsusf_5Rnd_00Buck,2);
+            MACRO_ADDMAGAZINE(rhsusf_5Rnd_Slug,2);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+            MACRO_ADDWEAPON(rhs_weap_M590_5RD,1);
         };
     };
 
@@ -216,6 +319,23 @@ class CfgVehicles {
             "beacon_front_hide",1,
             "beacon_rear_hide",1
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+            MACRO_ADDITEM(V_BlackOrder_TacVest_MilitaryPolice,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhsusf_5Rnd_00Buck,2);
+            MACRO_ADDMAGAZINE(rhsusf_5Rnd_Slug,2);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+            MACRO_ADDWEAPON(rhs_weap_M590_5RD,1);
+        };
     };
 
     class O_blackorder_veh_m1025_m2_F;
@@ -261,6 +381,22 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhs_mag_mk3a2,2);
+            MACRO_ADDMAGAZINE(rhs_mag_m7a3_cs,2);
+            MACRO_ADDMAGAZINE(SmokeShell,2);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class O_blackorder_veh_m1025_mk19_F;
     class O_blackorder_veh_mp_m1025_mk19_F : O_blackorder_veh_m1025_mk19_F {
@@ -305,6 +441,22 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhs_mag_mk3a2,2);
+            MACRO_ADDMAGAZINE(rhs_mag_m7a3_cs,2);
+            MACRO_ADDMAGAZINE(SmokeShell,2);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class O_blackorder_veh_m1025_F;
     class O_blackorder_veh_mp_m1025_F : O_blackorder_veh_m1025_F {
@@ -346,6 +498,22 @@ class CfgVehicles {
                     QPATHTOEF(vehicle_car,data\decals\empty.paa)
                 };
             };
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhs_mag_mk3a2,2);
+            MACRO_ADDMAGAZINE(rhs_mag_m7a3_cs,2);
+            MACRO_ADDMAGAZINE(SmokeShell,2);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
         };
     };
 

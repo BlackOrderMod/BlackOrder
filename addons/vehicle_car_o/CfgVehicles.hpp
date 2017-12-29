@@ -30,6 +30,15 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+        };
+        class TransportMagazines {
+        };
+        class TransportWeapons {
+        };
     };
 
     class C_SUV_01_F;
@@ -59,6 +68,21 @@ class CfgVehicles {
                     QPATHTOF(data\suv_blackorder_co.paa)
                 };
             };
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
         };
     };
 
@@ -92,16 +116,33 @@ class CfgVehicles {
                 };
             };
         };
-        animationList[]=
-        {
-            "HidePolice",1,
-            "HideBumper1",1,
-            "HideBumper2",0,
-            "HideConstruction",0,
-            "HideDoor3",0.33000001,
-            "HideDoor3",0.33000001,
+        animationList[] = {
+            "hidePolice",1,
+            "HideServices",1,
+            "BeaconsStart",0,
+            "BeaconsServicesStart",0,
+            "HideDoor1",0,
+            "HideDoor2",0,
             "HideDoor3",1,
-            "HideBackpacks",1
+            "HideBackpacks",1,
+            "HideBumper1",0,
+            "HideBumper2",1,
+            "HideConstruction",0
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
         };
     };
     class I_G_Offroad_01_armed_F;
@@ -145,6 +186,21 @@ class CfgVehicles {
             "HideDoor3",1,
             "HideBackpacks",1
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
 
     class C_IDAP_Van_02_vehicle_F;
@@ -181,6 +237,21 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class C_IDAP_Van_02_transport_F;
     class O_blackorder_veh_Van_02_transport_F : C_IDAP_Van_02_transport_F {
@@ -216,6 +287,21 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
 
     class O_Truck_02_covered_F;
@@ -250,6 +336,21 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class O_Truck_02_transport_F;
     class O_blackorder_veh_Truck_Transport_F : O_Truck_02_transport_F {
@@ -282,6 +383,21 @@ class CfgVehicles {
                     "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
                 };
             };
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
         };
     };
 
@@ -348,6 +464,21 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class rhsusf_m1025_w_mk19;
     class O_blackorder_veh_m1025_mk19_F : rhsusf_m1025_w_mk19 {
@@ -412,6 +543,21 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class rhsusf_m1025_w;
     class O_blackorder_veh_m1025_F : rhsusf_m1025_w {
@@ -472,6 +618,21 @@ class CfgVehicles {
                     QPATHTOF(data\decals\empty.paa)
                 };
             };
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
         };
     };
 
@@ -541,6 +702,21 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class rhsusf_m998_w_2dr_halftop;
     class O_blackorder_veh_m998_2dr_halftop_F : rhsusf_m998_w_2dr_halftop {
@@ -608,6 +784,21 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class rhsusf_m998_w_2dr;
     class O_blackorder_veh_m998_2dr_F : rhsusf_m998_w_2dr {
@@ -674,6 +865,21 @@ class CfgVehicles {
                     QPATHTOF(data\decals\empty.paa)
                 };
             };
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
         };
     };
 
@@ -743,6 +949,21 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class rhsusf_m998_w_4dr_halftop;
     class O_blackorder_veh_m998_4dr_halftop_F : rhsusf_m998_w_4dr_halftop {
@@ -810,6 +1031,21 @@ class CfgVehicles {
                 };
             };
         };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
     };
     class rhsusf_m998_w_4dr;
     class O_blackorder_veh_m998_4dr_F : rhsusf_m998_w_4dr {
@@ -876,6 +1112,21 @@ class CfgVehicles {
                     QPATHTOF(data\decals\empty.paa)
                 };
             };
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
         };
     };
 };

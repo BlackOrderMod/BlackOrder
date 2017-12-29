@@ -25,8 +25,7 @@ class CfgPatches {
             "O_blackorder_veh_m998_4dr_halftop_F",
             "O_blackorder_veh_m998_4dr_F"
         };
-        weapons[] = {
-        };
+        weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "blackorder_main",
