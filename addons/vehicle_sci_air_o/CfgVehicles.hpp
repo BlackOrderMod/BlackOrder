@@ -7,7 +7,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(UH60M_BlackOrder_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOEF(vehicle_air,EditorPreviews\O_RHS_UH60M2_BlackOrder_F.jpg);
+        editorPreview = QPATHTOEF(vehicle_air_o,EditorPreviews\O_RHS_UH60M2_BlackOrder_F.jpg);
 
         faction = "OPF_BlackOrder_SCI_F";
         side = 0;

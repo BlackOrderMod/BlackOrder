@@ -351,16 +351,16 @@ class CfgVehicles {
         typicalCargo[] = {"O_BlackOrder_MP_Soldier_Rifleman_F"};
 
         HiddenSelectionsTextures[] = {
-            QPATHTOEF(vehicle_car,data\m998_exterior_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\m998_interior_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\m1025_A2_parts_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\wheel_wranglermt_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\m998_mainbody_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\gratting_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m998_exterior_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m998_interior_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m1025_A2_parts_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\wheel_wranglermt_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m998_mainbody_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\gratting_BlackOrder_co.paa),
             QPATHTOF(data\m1025_BlackOrder_MP_co.paa),
-            QPATHTOEF(vehicle_car,data\mk64mount_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\decals\empty.paa),
-            QPATHTOEF(vehicle_car,data\decals\empty.paa)
+            QPATHTOEF(vehicle_car_o,data\mk64mount_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\decals\empty.paa),
+            QPATHTOEF(vehicle_car_o,data\decals\empty.paa)
         };
         class textureSources {
             class O_blackorder_veh_m1025_m2_MP_Texture {
@@ -368,16 +368,16 @@ class CfgVehicles {
                 displayName = ECSTRING(common,BlackOrder_MP_Display);
                 factions[] = {"OPF_BlackOrder_MP_F"};
                 textures[] = {
-                    QPATHTOEF(vehicle_car,data\m998_exterior_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\m998_interior_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\m1025_A2_parts_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\wheel_wranglermt_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\m998_mainbody_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\gratting_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m998_exterior_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m998_interior_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m1025_A2_parts_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\wheel_wranglermt_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m998_mainbody_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\gratting_BlackOrder_co.paa),
                     QPATHTOF(data\m1025_BlackOrder_MP_co.paa),
-                    QPATHTOEF(vehicle_car,data\mk64mount_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\decals\empty.paa),
-                    QPATHTOEF(vehicle_car,data\decals\empty.paa)
+                    QPATHTOEF(vehicle_car_o,data\mk64mount_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\decals\empty.paa),
+                    QPATHTOEF(vehicle_car_o,data\decals\empty.paa)
                 };
             };
         };
@@ -411,16 +411,16 @@ class CfgVehicles {
         typicalCargo[] = {"O_BlackOrder_MP_Soldier_Rifleman_F"};
 
         HiddenSelectionsTextures[] = {
-            QPATHTOEF(vehicle_car,data\m998_exterior_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\m998_interior_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\m1025_A2_parts_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\wheel_wranglermt_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\m998_mainbody_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\gratting_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m998_exterior_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m998_interior_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m1025_A2_parts_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\wheel_wranglermt_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m998_mainbody_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\gratting_BlackOrder_co.paa),
             QPATHTOF(data\m1025_BlackOrder_MP_co.paa),
-            QPATHTOEF(vehicle_car,data\mk64mount_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\decals\empty.paa),
-            QPATHTOEF(vehicle_car,data\decals\empty.paa)
+            QPATHTOEF(vehicle_car_o,data\mk64mount_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\decals\empty.paa),
+            QPATHTOEF(vehicle_car_o,data\decals\empty.paa)
         };
         class textureSources {
             class O_blackorder_veh_m1025_mk19_MP_Texture {
@@ -428,16 +428,16 @@ class CfgVehicles {
                 displayName = ECSTRING(common,BlackOrder_MP_Display);
                 factions[] = {"OPF_BlackOrder_MP_F"};
                 textures[] = {
-                    QPATHTOEF(vehicle_car,data\m998_exterior_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\m998_interior_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\m1025_A2_parts_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\wheel_wranglermt_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\m998_mainbody_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\gratting_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m998_exterior_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m998_interior_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m1025_A2_parts_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\wheel_wranglermt_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m998_mainbody_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\gratting_BlackOrder_co.paa),
                     QPATHTOF(data\m1025_BlackOrder_MP_co.paa),
-                    QPATHTOEF(vehicle_car,data\mk64mount_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\decals\empty.paa),
-                    QPATHTOEF(vehicle_car,data\decals\empty.paa)
+                    QPATHTOEF(vehicle_car_o,data\mk64mount_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\decals\empty.paa),
+                    QPATHTOEF(vehicle_car_o,data\decals\empty.paa)
                 };
             };
         };
@@ -471,15 +471,15 @@ class CfgVehicles {
         typicalCargo[] = {"O_BlackOrder_MP_Soldier_Rifleman_F"};
 
         HiddenSelectionsTextures[] = {
-            QPATHTOEF(vehicle_car,data\m998_exterior_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\m998_interior_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\m1025_A2_parts_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\wheel_wranglermt_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\m998_mainbody_BlackOrder_co.paa),
-            QPATHTOEF(vehicle_car,data\gratting_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m998_exterior_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m998_interior_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m1025_A2_parts_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\wheel_wranglermt_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\m998_mainbody_BlackOrder_co.paa),
+            QPATHTOEF(vehicle_car_o,data\gratting_BlackOrder_co.paa),
             QPATHTOF(data\m1025_BlackOrder_MP_co.paa),
-            QPATHTOEF(vehicle_car,data\decals\empty.paa),
-            QPATHTOEF(vehicle_car,data\decals\empty.paa)
+            QPATHTOEF(vehicle_car_o,data\decals\empty.paa),
+            QPATHTOEF(vehicle_car_o,data\decals\empty.paa)
         };
         class textureSources {
             class O_blackorder_veh_m1025_MP_Texture {
@@ -487,15 +487,15 @@ class CfgVehicles {
                 displayName = ECSTRING(common,BlackOrder_MP_Display);
                 factions[] = {"OPF_BlackOrder_MP_F"};
                 textures[] = {
-                    QPATHTOEF(vehicle_car,data\m998_exterior_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\m998_interior_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\m1025_A2_parts_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\wheel_wranglermt_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\m998_mainbody_BlackOrder_co.paa),
-                    QPATHTOEF(vehicle_car,data\gratting_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m998_exterior_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m998_interior_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m1025_A2_parts_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\wheel_wranglermt_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\m998_mainbody_BlackOrder_co.paa),
+                    QPATHTOEF(vehicle_car_o,data\gratting_BlackOrder_co.paa),
                     QPATHTOF(data\m1025_BlackOrder_MP_co.paa),
-                    QPATHTOEF(vehicle_car,data\decals\empty.paa),
-                    QPATHTOEF(vehicle_car,data\decals\empty.paa)
+                    QPATHTOEF(vehicle_car_o,data\decals\empty.paa),
+                    QPATHTOEF(vehicle_car_o,data\decals\empty.paa)
                 };
             };
         };
