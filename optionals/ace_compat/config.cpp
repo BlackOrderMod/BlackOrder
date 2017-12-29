@@ -8,7 +8,9 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "blackorder_main",
-            "blackorder_common"
+            "blackorder_common",
+
+            "blackorder_weapons"
         };
         author = ECSTRING(common,BlackOrderTeam);
         authors[] = {"Brostrom.A (Evul)"};
@@ -16,3 +18,6 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
+
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
