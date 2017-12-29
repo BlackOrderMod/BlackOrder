@@ -81,5 +81,12 @@
         <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrolArmedArmored_Display">
             <English>Patrol Officer (Armored, Armed)</English>
         </Key>
+
+        <Key ID="STR_BlackOrder_Characters_MP_O_Group_ResponceTeam_MP_Display">
+            <English>Responce Team</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfiltrationTeam_MP_Display">
+            <English>Infiltration Team</English>
+        </Key>
     </Package>
 </Project>

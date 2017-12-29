@@ -1124,7 +1124,6 @@ class CfgVehicles {
         respawnLinkedItems[] = {};
         glassesEnabled = 0;
     };
-
     class O_BlackOrder_Unarmed_00_F : O_BlackOrder_base_F {
         _generalMacro = "O_BlackOrder_Unarmed_00_F";
         scope = 2;

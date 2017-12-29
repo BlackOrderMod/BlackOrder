@@ -91,8 +91,8 @@ class CfgGroups {
             };
             class SpecOps {
                 name="$STR_A3_CfgGroups_West_BLU_F_SpecOps0";
-                class O_BlackOrder_AssaultTeam_MP {
-                    name = CSTRING(Group_AssaultTeam_Display);
+                class O_BlackOrder_ResponceTeam_MP {
+                    name = CSTRING(Group_ResponceTeam_MP_Display);
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     faction = "OPF_BlackOrder_F";
                     side = 0;
@@ -122,7 +122,7 @@ class CfgGroups {
                     };
                 };
                 class O_BlackOrder_InfiltrationTeam_MP {
-                    name = CSTRING(Group_InfiltrationTeam_Display);
+                    name = CSTRING(Group_InfiltrationTeam_MP_Display);
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     faction = "OPF_BlackOrder_F";
                     side = 0;

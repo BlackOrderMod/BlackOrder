@@ -70,5 +70,8 @@
         <Key ID="STR_BlackOrder_Characters_SCI_O_Group_SecSentryLight_Display">
             <English>Sentry (Light)</English>
         </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Group_SpecSecurityResponceTeam_Display">
+            <English>Security Responce Team</English>
+        </Key>
     </Package>
 </Project>

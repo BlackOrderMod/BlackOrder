@@ -73,8 +73,8 @@ class CfgGroups {
             };
             class SpecOps {
                 name="$STR_A3_CfgGroups_West_BLU_F_SpecOps0";
-                class O_BlackOrder_SpecSecurityAssaultTeam {
-                    name = CSTRING(Group_SecAssaultTeam_Display);
+                class O_BlackOrder_SpecSecurityResponceTeam {
+                    name = CSTRING(Group_SpecSecurityResponceTeam_Display);
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     faction = "OPF_BlackOrder_F";
                     side = 0;

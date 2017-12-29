@@ -7,8 +7,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "ace_main",
             "blackorder_main",
-            "blackorder_common",
 
             "blackorder_weapons"
         };
