@@ -23,8 +23,7 @@ class CfgPatches {
             "blackorder_main",
             "blackorder_common",
 
-            "blackorder_characters_sci_i",
-            "blackorder_vehicle_sci_car_o"
+            "blackorder_characters_sci_o"
         };
         author = ECSTRING(common,BlackOrderTeam);
         authors[] = {"Brostrom.A (Evul)"};

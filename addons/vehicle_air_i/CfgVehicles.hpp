@@ -3,7 +3,6 @@ class CfgVehicles {
     class RHS_UH60M_US_base;
     class RHS_UH60M : RHS_UH60M_US_base {
         class Turrets;
-        };
     };
     class O_RHS_UH60M_BlackOrder_F : RHS_UH60M {
         class Turrets : Turrets {
@@ -70,19 +69,6 @@ class CfgVehicles {
         crew = "I_BlackOrder_HeliPilot_F";
         typicalCargo[] = {"I_BlackOrder_HeliPilot_F"};
     };
-
-    class O_RHS_AH1Z_BlackOrder_F;
-    class I_RHS_AH1Z_BlackOrder_F : O_RHS_AH1Z_BlackOrder_F {
-        _generalMacro = "I_RHS_AH1Z_BlackOrder_F";
-        scope = 2;
-        scopeCurator = 2;
-        side = 2;
-        faction = "IND_BlackOrder_F";
-
-        crew = "I_BlackOrder_HeliPilot_F";
-        typicalCargo[] = {"I_BlackOrder_HeliPilot_F"};
-    };
-
 
     class O_BlackOrder_VTOL_Infantry_F;
     class I_BlackOrder_VTOL_Infantry_F : O_BlackOrder_VTOL_Infantry_F {

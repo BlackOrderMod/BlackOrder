@@ -24,7 +24,7 @@ class CfgVehicles {
     };
 
     class O_blackorder_veh_mp_Offroad_F;
-    class I_blackorder_veh_mp_Offroad_F : I_blackorder_veh_mp_Offroad_F {
+    class I_blackorder_veh_mp_Offroad_F : O_blackorder_veh_mp_Offroad_F {
         _generalMacro = "I_blackorder_veh_mp_Offroad_F";
         scope = 2;
         scopeCurator = 2;

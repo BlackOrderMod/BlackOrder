@@ -1,4 +1,4 @@
-#define COMPONENT character_i
+#define COMPONENT characters_i
 #define COMPONENT_BEAUTIFIED Traitor Units
 
 #include "\z\blackorder\addons\main\script_mod.hpp"
