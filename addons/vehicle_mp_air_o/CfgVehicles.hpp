@@ -1,8 +1,8 @@
 
 class CfgVehicles {
     class O_RHS_UH60M2_BlackOrder_F;
-    class O_RHS_UH60M2_BlackOrderSci_F : O_RHS_UH60M2_BlackOrder_F {
-        _generalMacro = "O_RHS_UH60M2_BlackOrderSci_F";
+    class O_RHS_UH60M2_BlackOrderMP_F : O_RHS_UH60M2_BlackOrder_F {
+        _generalMacro = "O_RHS_UH60M2_BlackOrderMP_F";
         scope = 2;
         scopeCurator = 2;
         //displayName = CSTRING(UH60M_BlackOrder_Display);

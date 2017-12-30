@@ -60,8 +60,8 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_F";
         side = 0;
 
-        crew = "O_BlackOrder_Rifleman_F";
-        typicalCargo[] = {"O_BlackOrder_Rifleman_F"};
+        crew = "O_BlackOrder_Sci_Security_Light_F";
+        typicalCargo[] = {"O_BlackOrder_Sci_Security_Light_F"};
 
         animationList[] = {
             "hidePolice",1,

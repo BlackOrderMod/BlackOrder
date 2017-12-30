@@ -263,7 +263,6 @@ class CfgVehicles {
             MACRO_ADDWEAPON(rhs_weap_M590_5RD,1);
         };
     };
-
     class O_blackorder_veh_Van_02_transport_F;
     class O_blackorder_veh_mp_Van_02_transport_F : O_blackorder_veh_Van_02_transport_F {
         _generalMacro = "O_blackorder_veh_mp_Van_02_transport_F";

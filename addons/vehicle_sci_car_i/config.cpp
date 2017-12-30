@@ -4,18 +4,18 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "O_blackorder_veh_sci_SUV_F",
-            "O_blackorder_veh_sci_Van_02_F",
-            "O_blackorder_veh_sci_Van_02_transport_F",
-            "O_blackorder_veh_sci_m1025_F",
+            "I_blackorder_veh_sci_SUV_F",
+            "I_blackorder_veh_sci_Van_02_F",
+            "I_blackorder_veh_sci_Van_02_transport_F",
+            "I_blackorder_veh_sci_m1025_F",
 
-            "O_blackorder_veh_sci_m998_2dr_fulltop_F",
-            "O_blackorder_veh_sci_m998_2dr_halftop_F",
-            "O_blackorder_veh_sci_m998_2dr_F",
+            "I_blackorder_veh_sci_m998_2dr_fulltop_F",
+            "I_blackorder_veh_sci_m998_2dr_halftop_F",
+            "I_blackorder_veh_sci_m998_2dr_F",
 
-            "O_blackorder_veh_sci_m998_4dr_fulltop_F",
-            "O_blackorder_veh_sci_m998_4dr_halftop_F",
-            "O_blackorder_veh_sci_m998_4dr_F"
+            "I_blackorder_veh_sci_m998_4dr_fulltop_F",
+            "I_blackorder_veh_sci_m998_4dr_halftop_F",
+            "I_blackorder_veh_sci_m998_4dr_F"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

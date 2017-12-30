@@ -4,7 +4,7 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "O_RHS_UH60M2_BlackOrderMP_F"
+            "I_RHS_UH60M2_BlackOrderMP_F"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -12,8 +12,8 @@ class CfgPatches {
             "blackorder_main",
             "blackorder_common",
 
-            "blackorder_characters_o",
-            "blackorder_vehicle_air_o"
+            "blackorder_characters_i",
+            "blackorder_vehicle_static_o"
         };
         author = ECSTRING(common,BlackOrderTeam);
         authors[] = {"Brostrom.A (Evul)"};

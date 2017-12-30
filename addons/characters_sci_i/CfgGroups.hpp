@@ -6,7 +6,7 @@ class CfgGroups {
                 name="$STR_A3_CfgGroups_West_BLU_F_Infantry0";
                 class I_BlackOrder_SecTeam {
                     name = ECSTRING(characters_sci_o,Group_SecurityTeam_Display);
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     faction = "OPF_BlackOrder_F";
                     side = 2;
                     class Unit0 {
@@ -36,7 +36,7 @@ class CfgGroups {
                 };
                 class I_BlackOrder_SecSentry {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     faction = "OPF_BlackOrder_F";
                     side = 2;
                     class Unit0 {
@@ -54,7 +54,7 @@ class CfgGroups {
                 };
                 class I_BlackOrder_SecSentryLight {
                     name = ECSTRING(characters_sci_o,Group_SecSentryLight_Display);
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     faction = "OPF_BlackOrder_F";
                     side = 2;
                     class Unit0 {
@@ -75,7 +75,7 @@ class CfgGroups {
                 name="$STR_A3_CfgGroups_West_BLU_F_SpecOps0";
                 class I_BlackOrder_SpecSecurityResponceTeam {
                     name = ECSTRING(characters_sci_o,Group_SpecSecurityResponceTeam_Display);
-                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
                     faction = "OPF_BlackOrder_F";
                     side = 2;
                     class Unit0 {
@@ -105,7 +105,7 @@ class CfgGroups {
                 };
                 class I_BlackOrder_SpecSecuritySentry {
                     name="$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
                     faction = "OPF_BlackOrder_F";
                     side = 2;
                     class Unit0 {
@@ -123,7 +123,7 @@ class CfgGroups {
                 };
                 class I_BlackOrder_SpecSecuritySentryLight {
                     name = ECSTRING(characters_sci_o,Group_SecSentryLight_Display);
-                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
                     faction = "OPF_BlackOrder_F";
                     side = 2;
                     class Unit0 {
