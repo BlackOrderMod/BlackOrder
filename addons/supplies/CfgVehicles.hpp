@@ -282,7 +282,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(EditorPreviews\Box_blackorder_Equip_F.jpg);
 
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\equipment_box_blackorder_ca.paa),
+            QPATHTOF(data\equipment_box_blackorder_co.paa),
             QPATHTOF(data\equipment_box_blackorder_ca.paa)
         };
 

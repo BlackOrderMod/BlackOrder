@@ -35,6 +35,8 @@ class CfgVehicles {
         crew = "O_BlackOrder_MP_PatrolOfficer_01_F";
         typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_F"};
 
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_SUV_F.jpg);
+
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\suv_blackorder_MP_co.paa)
         };
@@ -78,6 +80,8 @@ class CfgVehicles {
 
         crew = "O_BlackOrder_MP_PatrolOfficer_01_Armored_F";
         typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_Armored_F"};
+
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_Offroad_F.jpg);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\offroad_BlackOrder_MP_co.paa),
@@ -137,6 +141,8 @@ class CfgVehicles {
         crew = "O_BlackOrder_MP_Soldier_Rifleman_F";
         typicalCargo[] = {"O_BlackOrder_MP_Soldier_Rifleman_F"};
 
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_Offroad_armed_F.jpg);
+
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\offroad_BlackOrder_MP_co.paa),
             QPATHTOF(data\offroad_BlackOrder_MP_co.paa)
@@ -188,6 +194,8 @@ class CfgVehicles {
 
         crew = "O_BlackOrder_MP_PatrolOfficer_01_Armored_F";
         typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_Armored_F"};
+
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_Van_02_F.jpg);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\van_body_BlackOrder_MP_co.paa),
@@ -275,6 +283,8 @@ class CfgVehicles {
         crew = "O_BlackOrder_MP_PatrolOfficer_01_Armored_F";
         typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_Armored_F"};
 
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_Van_02_transport_F.jpg);
+
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\van_body_BlackOrder_MP_co.paa),
             "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
@@ -349,6 +359,8 @@ class CfgVehicles {
         crew = "O_BlackOrder_MP_Soldier_Rifleman_F";
         typicalCargo[] = {"O_BlackOrder_MP_Soldier_Rifleman_F"};
 
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_m1025_m2_F.jpg);
+
         HiddenSelectionsTextures[] = {
             QPATHTOEF(vehicle_car_o,data\m998_exterior_BlackOrder_co.paa),
             QPATHTOEF(vehicle_car_o,data\m998_interior_BlackOrder_co.paa),
@@ -409,6 +421,8 @@ class CfgVehicles {
         crew = "O_BlackOrder_MP_Soldier_Rifleman_F";
         typicalCargo[] = {"O_BlackOrder_MP_Soldier_Rifleman_F"};
 
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_m1025_mk19_F.jpg);
+
         HiddenSelectionsTextures[] = {
             QPATHTOEF(vehicle_car_o,data\m998_exterior_BlackOrder_co.paa),
             QPATHTOEF(vehicle_car_o,data\m998_interior_BlackOrder_co.paa),
@@ -468,6 +482,8 @@ class CfgVehicles {
 
         crew = "O_BlackOrder_MP_Soldier_Rifleman_F";
         typicalCargo[] = {"O_BlackOrder_MP_Soldier_Rifleman_F"};
+
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_m1025_F.jpg);
 
         HiddenSelectionsTextures[] = {
             QPATHTOEF(vehicle_car_o,data\m998_exterior_BlackOrder_co.paa),
