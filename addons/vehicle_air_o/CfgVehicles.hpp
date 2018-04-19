@@ -464,34 +464,39 @@ class CfgVehicles {
         class TransportMagazines {};
         class TransportWeapons {};
     };
-/*     class RHS_C130J;
-    class RHS_BlackOrder_C130J : RHS_C130J {
-        _generalMacro = "RHS_BlackOrder_C130J";
+    class RHS_C130J;
+    class O_RHS_C130J_BlackOrder_F : RHS_C130J {
+        _generalMacro = "O_RHS_C130J_BlackOrder_F";
         scope = 2;
         scopeCurator = 2;
-        //displayName = CSTRING(BlackOrder_C130J_Display);
+        //displayName = CSTRING(C130J_BlackOrder_Display);
         author = ECSTRING(common,BlackOrderTeam);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
 
-        crew = "O_BlackOrder_Rifleman_F";
-        typicalCargo[] = {"O_BlackOrder_Rifleman_F"};
+        crew = "O_BlackOrder_Pilot_F";
+        typicalCargo[] = {"O_BlackOrder_Pilot_F"};
 
         hiddenSelectionsTextures[] = {
-            "rhsusf\addons\rhsusf_a2port_air\c130j\data\c130j_body_co.paa",
-            "rhsusf\addons\rhsusf_a2port_air\c130j\data\c130j_wings_co.paa"
+            QPATHTOF(data\blackorder_c130j_body_co.paa),
+            QPATHTOF(data\blackorder_c130j_wings_co.paa)
         };
         class textureSources {
-            class O_BlackOrder_VTOL_Vehicle_Texture {
+            class O_RHS_C130J_BlackOrder_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
                 displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F","OPF_BlackOrder_SCI_F","OPF_BlackOrder_MP_F","IND_BlackOrder_F","IND_BlackOrder_SCI_F","IND_BlackOrder_MP_F"};
                 textures[] = {
-                    "rhsusf\addons\rhsusf_a2port_air\c130j\data\c130j_body_co.paa",
-                    "rhsusf\addons\rhsusf_a2port_air\c130j\data\c130j_wings_co.paa"
+                    QPATHTOF(data\blackorder_c130j_body_co.paa),
+                    QPATHTOF(data\blackorder_c130j_wings_co.paa)
                 };
             };
         };
-    }; */
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
+    };
 };

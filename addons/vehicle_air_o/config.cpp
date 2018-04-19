@@ -17,7 +17,9 @@ class CfgPatches {
             "O_BlackOrder_Plane_Fighter_04_F",
             "O_BlackOrder_Plane_Fighter_04_Cluster_F",
             "O_BlackOrder_Plane_Fighter_04_AA_F",
-            "O_BlackOrder_Plane_Fighter_04_CAS_F"
+            "O_BlackOrder_Plane_Fighter_04_CAS_F",
+
+            "O_RHS_C130J_BlackOrder_F"
         };
         weapons[] = {
         };
