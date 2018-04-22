@@ -48,6 +48,10 @@
             <English>Missile Specialist (AT)</English>
         </Key>
 
+        <Key ID="STR_BlackOrder_Characters_O_Crewman_Display">
+            <English>Crewman</English>
+        </Key>
+
         <Key ID="STR_BlackOrder_Characters_O_Pilot_Display">
             <English>Pilot</English>
         </Key>

@@ -122,6 +122,15 @@ class CfgVehicles {
         side = 2;
         faction = "IND_BlackOrder_F";
     };
+    
+    class O_BlackOrder_Crewman_F;
+    class I_BlackOrder_Crewman_F : O_BlackOrder_Crewman_F {
+        _generalMacro = "I_BlackOrder_Crewman_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+    };
 
     class O_BlackOrder_Pilot_F;
     class I_BlackOrder_Pilot_F : O_BlackOrder_Pilot_F {
