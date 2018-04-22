@@ -471,6 +471,7 @@ class CfgVehicles {
         scopeCurator = 2;
         //displayName = CSTRING(C130J_BlackOrder_Display);
         author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_RHS_C130J_BlackOrder_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
