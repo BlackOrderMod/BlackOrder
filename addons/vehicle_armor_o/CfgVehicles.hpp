@@ -1,6 +1,32 @@
 
 class CfgVehicles {
-    class rhsusf_m1a1tank_base;
+    class Tank_F;
+    class MBT_01_base_F : Tank_F {
+        class AnimationSources;
+    };
+    class rhsusf_m1a1tank_base : MBT_01_base_F {
+        class AnimationSources : AnimationSources {
+            class IFF_Panels_Hide;
+            class Miles_Hide;
+            class muzzle_rot_CoaxMG;
+            class muzzle_rot_hmg;
+            class muzzle_rot_cannon;
+            class recoil_source;
+            class muzzle_rot_HMG2;
+            class reload1;
+            class ReloadMagazine1;
+            class Revolving1;
+            class smoke_revolving_source;
+            class muzzle_hide_cannon;
+            class elev;
+            class elev_bank;
+            class lead;
+            class offset;
+            class HatchC;
+            class HatchL;
+            class HatchD;
+        };
+    };
     class O_blackorder_veh_m1a1tank_F : rhsusf_m1a1tank_base {
         _generalMacro = "O_blackorder_veh_m1a1tank_F";
         scope = 2;
@@ -36,11 +62,13 @@ class CfgVehicles {
                 };
             };
         };
-        animationList[] = {
-            "IFF_Panels_Hide",1,
-            "Miles_Hide",1,
-            "showCamonetTurret",0,
-            "showCamonetHull",0
+        class AnimationSources : AnimationSources {
+            class Miles_Hide : Miles_Hide {
+                initPhase = 1;
+            };
+            class IFF_Panels_Hide : IFF_Panels_Hide {
+                initPhase = 1;
+            };
         };
 
         class TransportBackpacks {
