@@ -356,7 +356,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {
             PATHTOF(data\headgear\H_BlackOrder_cvc_helmet_co.paa)
         };
-	};
+    };
 
     class H_BlackOrder_PilotHelmet : RHS_jetpilot_usaf {
         _generalMacro = "H_BlackOrder_PilotHelmet";
