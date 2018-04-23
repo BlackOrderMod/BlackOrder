@@ -1,9 +1,9 @@
 <Project name="BlackOrder">
     <Package name="Vehicle_Air_O">
-        <Key ID="STR_BlackOrder_Vehicle_Air_Plane_Fighter_04_AA_Display">
+        <Key ID="STR_BlackOrder_Vehicle_Air_O_Plane_Fighter_04_AA_Display">
             <English>A-149 Gryphon (AA)</English>
         </Key>
-        <Key ID="STR_BlackOrder_Vehicle_Air_Plane_Fighter_04_CAS_Display">
+        <Key ID="STR_BlackOrder_Vehicle_Air_O_Plane_Fighter_04_CAS_Display">
             <English>A-149 Gryphon (CAS)</English>
         </Key>
     </Package>
