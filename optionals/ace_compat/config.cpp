@@ -19,5 +19,6 @@ class CfgPatches {
     };
 };
 
+#include "ACE_Tags.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
