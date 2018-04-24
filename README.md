@@ -16,7 +16,7 @@
     </a>
 </p>
     
-<p>The Black Order is a fictional Terrorist Organization inspired by many fictional mega corps and terror cells. The mod add a new faction creatively named Black Order and retextured, aircraft, vehicles, items and equipment.
+<p>The Black Order is a fictional Terrorist Organization inspired by many fictional mega corps and terror cells. The mod add a new faction creatively named Black Order with retextured, aircraft, vehicles, items and equipment based, primarily, on the work of RHS.
 
 #### Content
 
