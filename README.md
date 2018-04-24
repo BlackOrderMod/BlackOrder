@@ -19,7 +19,6 @@
 <p>The Black Order is a fictional Terrorist Organization inspired by many fictional mega corps and terror cells. The mod add a new faction creatively named Black Order with retextured, aircraft, vehicles, items and equipment based, primarily, on the work of RHS.
 
 #### Content
-
 * New factions. (Black Order Military, Military Police, Science Division)<br>
 * New units.<br>
 * New ground and air vehicles.<br>
@@ -27,14 +26,12 @@
 * Allot of propaganda and flavor item, objects clutter and much, much more.
 
 #### Addon required
-* <a href="https://github.com/CBATeam/CBA_A3/">CBA</a><br>
-* <a href="http://www.rhsmods.org/">RHS: United States Armed Forces</a><br>
+* [CBA](https://github.com/CBATeam/CBA_A3/)
+* [RHS: United States Armed Forces](http://www.rhsmods.org/)
 
 #### Optional mod support
-* [https://ace3mod.com](ACE3)
-
-
-
+*These mods have a compatible mod to enhance the user experience. These optional mod add or change the core mod to implement the new functions.*
+* [ACE3](https://ace3mod.com)
 
 #### Links
 * <a href="https://forums.bistudio.com/topic/189427-terrorist-organization-black-order-v200/?p=3000786">BIS Forum</a><br>
