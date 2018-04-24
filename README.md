@@ -30,7 +30,7 @@
 * [RHS: United States Armed Forces](http://www.rhsmods.org/)
 
 ### Optional mod support
-*These mods have a compatible mod to enhance the user experience. These optional mod add or change the core mod to implement the new functions.*
+*These mods have a compatible mod to enhance the user experience. These optional mods add or change the core mod to implement the new functions.*
 * [ACE3](https://ace3mod.com)
 
 ### Links
