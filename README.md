@@ -30,6 +30,11 @@
 * <a href="https://github.com/CBATeam/CBA_A3/">CBA</a><br>
 * <a href="http://www.rhsmods.org/">RHS: United States Armed Forces</a><br>
 
+#### Optional mod support
+* [https://ace3mod.com](ACE3)
+
+
+
 
 #### Links
 * <a href="https://forums.bistudio.com/topic/189427-terrorist-organization-black-order-v200/?p=3000786">BIS Forum</a><br>
