@@ -96,7 +96,7 @@ class CfgVehicles {
     class O_BlackOrder_Plane_Fighter_04_F;
     class I_BlackOrder_Plane_Fighter_04_F : O_BlackOrder_Plane_Fighter_04_F {
         _generalMacro = "I_BlackOrder_Plane_Fighter_04_F";
-        scope = 1;
+        scope = 2;
         scopeCurator = 2;
         side = 2;
         faction = "IND_BlackOrder_F";
