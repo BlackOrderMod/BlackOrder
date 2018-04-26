@@ -3,7 +3,7 @@ class CfgGroups {
         class IND_BlackOrder_F {
             name = ECSTRING(common,Faction_DisplayName);
             class Armored {
-				name = "$STR_A3_CfgGroups_West_BLU_F_Armored0";
+                name = "$STR_A3_CfgGroups_West_BLU_F_Armored0";
                 class I_BlackOrder_TankSection {
                     name = "$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankSection0";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
