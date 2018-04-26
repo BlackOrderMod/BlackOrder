@@ -7,7 +7,7 @@ class CfgGroups {
                 class I_BlackOrder_ScoutTeam {
                     name = ECSTRING(characters_sf_o,Group_ScoutTeam_Display);
                     icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
-                    faction = "OPF_BlackOrder_F";
+                    faction = "IND_BlackOrder_F";
                     side = 2;
                     class Unit0 {
                         position[] = {0,0,0};
@@ -37,7 +37,7 @@ class CfgGroups {
                 class I_BlackOrder_AssaultTeam {
                     name = ECSTRING(characters_sf_o,Group_AssaultTeam_Display);
                     icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
-                    faction = "OPF_BlackOrder_F";
+                    faction = "IND_BlackOrder_F";
                     side = 2;
                     class Unit0 {
                         position[] = {0,0,0};
@@ -67,7 +67,7 @@ class CfgGroups {
                 class I_BlackOrder_InfiltrationTeam {
                     name = ECSTRING(characters_sf_o,Group_InfiltrationTeam_Display);
                     icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
-                    faction = "OPF_BlackOrder_F";
+                    faction = "IND_BlackOrder_F";
                     side = 2;
                     class Unit0 {
                         position[] = {0,0,0};
