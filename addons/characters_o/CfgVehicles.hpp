@@ -383,7 +383,6 @@ class CfgVehicles {
         magazines[] = {
             MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
-            MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
             MULT_OBJ_1(Chemlight_blue),
             MULT_OBJ_1(Chemlight_green),
@@ -394,7 +393,6 @@ class CfgVehicles {
         respawnMagazines[] = {
             MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
-            MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
             MULT_OBJ_1(Chemlight_blue),
             MULT_OBJ_1(Chemlight_green),
