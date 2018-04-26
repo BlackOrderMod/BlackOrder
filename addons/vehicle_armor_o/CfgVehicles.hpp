@@ -38,8 +38,8 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_F";
         side = 0;
 
-        crew = "O_BlackOrder_Rifleman_F";
-        typicalCargo[] = {"O_BlackOrder_Rifleman_F"};
+        crew = "O_BlackOrder_Crewman_F";
+        typicalCargo[] = {"O_BlackOrder_Crewman_F"};
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\blackorder_m1a1aim_01_co.paa),

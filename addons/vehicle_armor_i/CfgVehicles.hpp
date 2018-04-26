@@ -7,7 +7,7 @@ class CfgVehicles {
         side = 2;
         faction = "IND_BlackOrder_F";
 
-        crew = "I_BlackOrder_Rifleman_F";
-        typicalCargo[] = {"I_BlackOrder_Rifleman_F"};
+        crew = "I_BlackOrder_Crewman_F";
+        typicalCargo[] = {"I_BlackOrder_Crewman_F"};
     };
 };
