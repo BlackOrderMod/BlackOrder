@@ -4,7 +4,9 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "O_blackorder_veh_m1a1tank_F"
+            "O_blackorder_veh_m1a1tank_F",
+
+            "O_BlackOrder_TankSection"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
