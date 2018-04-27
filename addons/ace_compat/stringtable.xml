@@ -1,0 +1,8 @@
+<Project name="BlackOrder">
+    <Package name="ACE_Compat">
+
+        <Key ID="STR_BlackOrder_ACE_Compat_DMR_Display">
+            <English>SIG 556 (Black Order)</English>
+        </Key>
+    </Package>
+</Project>
