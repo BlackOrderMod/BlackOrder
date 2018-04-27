@@ -122,8 +122,8 @@ class CfgVehicles {
             MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_FMJ,4);
         };
         class TransportWeapons {
-            MACRO_ADDWEAPON(srifle_DMR_03_blackorder_F,6)
-            MACRO_ADDWEAPON(rhsusf_weap_glock17g4,4)
+            MACRO_ADDWEAPON(srifle_DMR_03_blackorder_F,6);
+            MACRO_ADDWEAPON(rhsusf_weap_glock17g4,4);
         };
     };
     class Box_NATO_AmmoOrd_F;
