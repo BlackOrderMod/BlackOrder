@@ -118,8 +118,12 @@ class CfgVehicles {
         class TransportItems {
         };
         class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,6);
+            MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_FMJ,4);
         };
         class TransportWeapons {
+            MACRO_ADDWEAPON(srifle_DMR_03_blackorder_F,6)
+            MACRO_ADDWEAPON(rhsusf_weap_glock17g4,4)
         };
     };
     class Box_NATO_AmmoOrd_F;
@@ -164,12 +168,15 @@ class CfgVehicles {
         class TransportItems {
         };
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(rhsusf_10Rnd_762x51_m118_special_Mag,10);
-            MACRO_ADDMAGAZINE(rhs_200rnd_556x45_M_SAW,4);
-            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,30);
-            MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_FMJ,8);
+            MACRO_ADDMAGAZINE(SmokeShell,10);
+            MACRO_ADDMAGAZINE(SmokeShellBlue,2);
+            MACRO_ADDMAGAZINE(SmokeShellGreen,2);
+            MACRO_ADDMAGAZINE(SmokeShellOrange,2);
+            MACRO_ADDMAGAZINE(SmokeShellPurple,2);
+            MACRO_ADDMAGAZINE(SmokeShellRed,2);
+            MACRO_ADDMAGAZINE(SmokeShellYellow,2);
 
-            MACRO_ADDMAGAZINE(rhs_mag_m67,9);
+            MACRO_ADDMAGAZINE(rhs_mag_m67,12);
         };
         class TransportWeapons {
         };
@@ -193,8 +200,11 @@ class CfgVehicles {
         class TransportItems {
         };
         class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhs_fim92_mag,2);
+            MACRO_ADDMAGAZINE(rhs_fgm148_magazine_AT,2);
         };
         class TransportWeapons {
+            MACRO_ADDWEAPON(rhs_weap_M136,3);
         };
     };
     class Box_NATO_WpsSpecial_F;
