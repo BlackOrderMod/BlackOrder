@@ -17,7 +17,10 @@ class CfgPatches {
             "blackorder_Land_Laptop_02_screen_01_F",
 
             "blackorder_Land_MobilePhone_smart_F",
-            "blackorder_Land_MobilePhone_old_F"
+            "blackorder_Land_MobilePhone_old_F",
+
+            "blackorder_Land_CampingTable_F",
+            "blackorder_Land_CampingTable_small_F"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

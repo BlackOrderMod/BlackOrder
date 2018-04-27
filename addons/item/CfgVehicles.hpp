@@ -1,7 +1,6 @@
 
 class CfgVehicles {
     class Land_File2_F;
-
     class blackorder_Land_File1_F : Land_File2_F {
         _generalMacro = "blackorder_Land_File1_F";
         scope = 2;
@@ -142,4 +141,31 @@ class CfgVehicles {
     class Land_Tablet_02_F;
     class Land_Tablet_01_F;
     class Land_FlatTV_01_F;
+
+    class Land_CampingTable_F;
+    class blackorder_Land_CampingTable_F : Land_CampingTable_F {
+        _generalMacro = "blackorder_Land_CampingTable_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(CampingTable_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Prop.jpg";
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_Land_CampingTable_co.paa)
+        };
+    };
+    class Land_CampingTable_small_white_F;
+    class blackorder_Land_CampingTable_small_F : Land_CampingTable_small_white_F {
+        _generalMacro = "blackorder_Land_CampingTable_small_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(CampingTable_small_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Prop.jpg";
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_Land_CampingTable_co.paa)
+        };
+    };
 };
