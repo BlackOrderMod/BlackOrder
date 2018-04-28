@@ -46,6 +46,8 @@ class CfgPatches {
             "H_BlackOrder_mich_bare",
             "H_BlackOrder_mich_bare_headset",
 
+            "H_BlackOrder_cvc_helmet",
+
             "H_BlackOrder_PilotHelmet",
 
             "H_BlackOrder_Beret",

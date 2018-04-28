@@ -17,7 +17,9 @@ class CfgPatches {
             "I_BlackOrder_Plane_Fighter_04_F",
             "I_BlackOrder_Plane_Fighter_04_Cluster_F",
             "I_BlackOrder_Plane_Fighter_04_AA_F",
-            "I_BlackOrder_Plane_Fighter_04_CAS_F"
+            "I_BlackOrder_Plane_Fighter_04_CAS_F",
+
+            "I_RHS_C130J_BlackOrder_F"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

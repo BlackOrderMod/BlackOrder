@@ -23,6 +23,8 @@ class CfgPatches {
             "O_BlackOrder_Soldier_AA_F",
             "O_BlackOrder_Soldier_AT_F",
 
+            "O_BlackOrder_Crewman_F",
+
             "O_BlackOrder_Pilot_F",
             "O_BlackOrder_FighterPilot_F",
             "O_BlackOrder_HeliPilot_F",

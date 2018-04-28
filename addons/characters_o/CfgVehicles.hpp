@@ -383,7 +383,6 @@ class CfgVehicles {
         magazines[] = {
             MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
-            MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
             MULT_OBJ_1(Chemlight_blue),
             MULT_OBJ_1(Chemlight_green),
@@ -394,7 +393,6 @@ class CfgVehicles {
         respawnMagazines[] = {
             MULT_OBJ_3(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
-            MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_red),
             MULT_OBJ_1(Chemlight_blue),
             MULT_OBJ_1(Chemlight_green),
@@ -912,6 +910,59 @@ class CfgVehicles {
             "ItemRadio",
             "rhsusf_ANPVS_14"
         };
+    };
+
+    class O_BlackOrder_Crewman_F : O_BlackOrder_base_F {
+        _generalMacro = "O_BlackOrder_Crewman_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Crewman_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Crewman_F.jpg);
+
+        role="Crewman";
+
+        model = "\A3\Characters_F\Common\coveralls.p3d";
+        modelSides[] = {3,2,1,0};
+
+        hiddenSelections[] = {"Camo","insignia"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOEF(gear,data\uniform\U_BlackOrder_HeliPilotCoveralls_co.paa)
+        };
+
+        uniformClass = "U_BlackOrder_Uniform_1";
+
+        weapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        magazines[] = {
+            MULT_OBJ_4(rhsusf_mag_17Rnd_9x19_FMJ)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_4(rhsusf_mag_17Rnd_9x19_FMJ)
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "H_BlackOrder_cvc_helmet",
+            "V_BlackOrder_TacVest_1",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "H_BlackOrder_cvc_helmet",
+            "V_BlackOrder_TacVest_1",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        glassesEnabled = 1;
     };
 
     class O_BlackOrder_Pilot_F : O_BlackOrder_base_F {

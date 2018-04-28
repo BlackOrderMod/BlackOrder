@@ -281,6 +281,7 @@ class CfgWeapons {
     class H_HelmetB;
     class rhsusf_mich_bare_tan;
     class rhsusf_mich_bare_tan_headset;
+    class rhsusf_cvc_helmet;
     class RHS_jetpilot_usaf;
     class H_Beret_02;
     class H_MilCap_gry;
@@ -342,6 +343,18 @@ class CfgWeapons {
             PATHTOF(data\headgear\H_BlackOrder_CombatHelmet_02_mich_acc_co.paa),
             PATHTOF(data\headgear\H_BlackOrder_CombatHelmet_02_ach_acc_co.paa),
             "\rhsusf\addons\rhsusf_infantry\gear\head\data\bowman_base_co.paa"
+        };
+    };
+
+    class H_BlackOrder_cvc_helmet : rhsusf_cvc_helmet {
+        _generalMacro = "H_BlackOrder_mich_bare_headset";
+        scope = 2;
+        displayName = CSTRING(Headgear_cvc_helmet_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = "\rhsusf\addons\rhsusf_infantry2\ui\rhs_cvc_ca.paa";
+        hiddenSelections[] = {"opscore"};
+        hiddenSelectionsTextures[] = {
+            PATHTOF(data\headgear\H_BlackOrder_cvc_helmet_co.paa)
         };
     };
 

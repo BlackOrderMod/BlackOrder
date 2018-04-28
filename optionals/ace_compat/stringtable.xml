@@ -1,8 +1,22 @@
 <Project name="BlackOrder">
     <Package name="ACE_Compat">
+        <Key ID="STR_BlackOrder_ACE_Compat_Action_Cyanide_Display">
+            <English>Take L-pill</English>
+        </Key>
+        <Key ID="STR_BlackOrder_ACE_Compat_Action_Cyanide_Take_Display">
+            <English>Take</English>
+        </Key>
 
         <Key ID="STR_BlackOrder_ACE_Compat_DMR_Display">
             <English>SIG 556 (Black Order)</English>
         </Key>
-    </Package>
+        
+        <Key ID="STR_BlackOrder_ACE_Compat_Plane_Fighter_04_AA_Display">
+            <English>JAS 39 Gripen (AA)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_ACE_Compat_Plane_Fighter_04_CAS_Display">
+            <English>JAS 39 Gripen (CAS)</English>
+        </Key>
+
+    </Project>
 </Project>

@@ -96,7 +96,7 @@ class CfgVehicles {
     class O_BlackOrder_Plane_Fighter_04_F;
     class I_BlackOrder_Plane_Fighter_04_F : O_BlackOrder_Plane_Fighter_04_F {
         _generalMacro = "I_BlackOrder_Plane_Fighter_04_F";
-        scope = 1;
+        scope = 2;
         scopeCurator = 2;
         side = 2;
         faction = "IND_BlackOrder_F";
@@ -136,5 +136,17 @@ class CfgVehicles {
 
         crew = "I_BlackOrder_FighterPilot_F";
         typicalCargo[] = {"I_BlackOrder_FighterPilot_F"};
+    };
+
+    class O_RHS_C130J_BlackOrder_F;
+    class I_RHS_C130J_BlackOrder_F : O_RHS_C130J_BlackOrder_F {
+        _generalMacro = "I_RHS_C130J_BlackOrder_F";
+        scope = 1;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+
+        crew = "I_BlackOrder_Pilot_F";
+        typicalCargo[] = {"I_BlackOrder_Pilot_F"};
     };
 };

@@ -183,11 +183,14 @@ class CfgVehicles {
         };
     };
 
-    class O_blackorder_veh_Van_02_F;
-    class O_blackorder_veh_mp_Van_02_F : O_blackorder_veh_Van_02_F {
+    class B_GEN_Van_02_vehicle_F;
+    class O_blackorder_veh_mp_Van_02_F : B_GEN_Van_02_vehicle_F {
         _generalMacro = "O_blackorder_veh_mp_Van_02_F";
         scope = 2;
         scopeCurator = 2;
+        //displayName = CSTRING(Offroad_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_Van_02_F.jpg);
 
         faction = "OPF_BlackOrder_MP_F";
         side = 0;
@@ -195,12 +198,10 @@ class CfgVehicles {
         crew = "O_BlackOrder_MP_PatrolOfficer_01_Armored_F";
         typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_Armored_F"};
 
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_Van_02_F.jpg);
-
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\van_body_BlackOrder_MP_co.paa),
             "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
-            "\a3\soft_f_orange\van_02\data\van_glass_transport_ca.paa",
+            "\a3\soft_f_orange\van_02\data\van_glass_gen_CA.paa",
             QPATHTOF(data\van_body_BlackOrder_MP_co.paa)
         };
         class textureSources {
@@ -211,47 +212,19 @@ class CfgVehicles {
                 textures[] = {
                     QPATHTOF(data\van_body_BlackOrder_MP_co.paa),
                     "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
-                    "\a3\soft_f_orange\van_02\data\van_glass_transport_ca.paa",
+                    "\a3\soft_f_orange\van_02\data\van_glass_gen_CA.paa",
                     QPATHTOF(data\van_body_BlackOrder_MP_co.paa)
                 };
-            };
-
-            class TransportBackpacks {
-            };
-            class TransportItems {
-                MACRO_ADDITEM(FirstAidKit,2);
-            };
-            class TransportMagazines {
-                MACRO_ADDMAGAZINE(Chemlight_red,2);
-                MACRO_ADDMAGAZINE(Chemlight_blue,2);
-                MACRO_ADDMAGAZINE(Chemlight_green,2);
-            };
-            class TransportWeapons {
             };
         };
 
         animationList[] = {
-            "Door_1_source",0,
-            "Door_2_source",0,
-            "Door_3_source",0,
-            "Door_4_source",0,
-            "Hide_Door_1_source",0,
-            "Hide_Door_2_source",0,
-            "Hide_Door_3_source",0,
-            "Hide_Door_4_source",0,
-            "lights_em_hide",0,
-            "ladder_hide",1,
-            "spare_tyre_holder_hide",1,
-            "spare_tyre_hide",1,
-            "reflective_tape_hide",1,
-            "roof_rack_hide",1,
+            "beacon_front_hide",0,
+            "beacon_rear_hide",0,
             "LED_lights_hide",0,
-            "sidesteps_hide",1,
-            "rearsteps_hide",1,
+            "reflective_tape_hide",1,
             "side_protective_frame_hide",0,
-            "front_protective_frame_hide",0,
-            "beacon_front_hide",1,
-            "beacon_rear_hide",1
+            "front_protective_frame_hide",0
         };
 
         class TransportBackpacks {
@@ -271,11 +244,15 @@ class CfgVehicles {
             MACRO_ADDWEAPON(rhs_weap_M590_5RD,1);
         };
     };
-    class O_blackorder_veh_Van_02_transport_F;
-    class O_blackorder_veh_mp_Van_02_transport_F : O_blackorder_veh_Van_02_transport_F {
+
+    class B_GEN_Van_02_transport_F;
+    class O_blackorder_veh_mp_Van_02_transport_F : B_GEN_Van_02_transport_F {
         _generalMacro = "O_blackorder_veh_mp_Van_02_transport_F";
         scope = 2;
         scopeCurator = 2;
+        //displayName = CSTRING(Offroad_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_Van_02_transport_F.jpg);
 
         faction = "OPF_BlackOrder_MP_F";
         side = 0;
@@ -283,12 +260,10 @@ class CfgVehicles {
         crew = "O_BlackOrder_MP_PatrolOfficer_01_Armored_F";
         typicalCargo[] = {"O_BlackOrder_MP_PatrolOfficer_01_Armored_F"};
 
-        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_mp_Van_02_transport_F.jpg);
-
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\van_body_BlackOrder_MP_co.paa),
             "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
-            "\a3\soft_f_orange\van_02\data\van_glass_transport_ca.paa",
+            "\a3\soft_f_orange\van_02\data\van_glass_gen_CA.paa",
             QPATHTOF(data\van_body_BlackOrder_MP_co.paa)
         };
         class textureSources {
@@ -299,34 +274,18 @@ class CfgVehicles {
                 textures[] = {
                     QPATHTOF(data\van_body_BlackOrder_MP_co.paa),
                     "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
-                    "\a3\soft_f_orange\van_02\data\van_glass_transport_ca.paa",
+                    "\a3\soft_f_orange\van_02\data\van_glass_gen_CA.paa",
                     QPATHTOF(data\van_body_BlackOrder_MP_co.paa)
                 };
             };
         };
-
         animationList[] = {
-            "Door_1_source",0,
-            "Door_2_source",0,
-            "Door_3_source",0,
-            "Door_4_source",0,
-            "Hide_Door_1_source",0,
-            "Hide_Door_2_source",0,
-            "Hide_Door_3_source",0,
-            "Hide_Door_4_source",0,
-            "lights_em_hide",0,
-            "ladder_hide",1,
-            "spare_tyre_holder_hide",1,
-            "spare_tyre_hide",1,
-            "reflective_tape_hide",1,
-            "roof_rack_hide",1,
+            "beacon_front_hide",0,
+            "beacon_rear_hide",0,
             "LED_lights_hide",0,
-            "sidesteps_hide",1,
-            "rearsteps_hide",1,
+            "reflective_tape_hide",1,
             "side_protective_frame_hide",0,
-            "front_protective_frame_hide",0,
-            "beacon_front_hide",1,
-            "beacon_rear_hide",1
+            "front_protective_frame_hide",0
         };
 
         class TransportBackpacks {

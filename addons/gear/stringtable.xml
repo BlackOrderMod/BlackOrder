@@ -73,6 +73,10 @@
             <English>MICH 2000 (Black Order/Headset)</English>
         </Key>
 
+        <Key ID="STR_BlackOrder_Gear_Headgear_cvc_helmet_Display">
+            <English>ACVC-H, MK-1697 (Black Order)</English>
+        </Key>
+
         <Key ID="STR_BlackOrder_Gear_Headgear_BlackOrder_PilotHelmet_Display">
             <English>Jet Pilot Helmet (Black Order)</English>
         </Key>
