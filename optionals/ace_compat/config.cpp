@@ -14,7 +14,7 @@ class CfgPatches {
             "blackorder_characters_mp_o",
             "blackorder_characters_sci_o",
             "blackorder_characters_sf_o",
-            
+
             "blackorder_vehicle_air_o",
 
             "blackorder_weapons"
@@ -27,5 +27,6 @@ class CfgPatches {
 };
 
 #include "ACE_Tags.hpp"
-#include "CfgEventHandlers.hpp"#include "CfgVehicles.hpp"
+#include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
