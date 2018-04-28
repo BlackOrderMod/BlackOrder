@@ -41,7 +41,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
@@ -51,7 +51,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
@@ -99,7 +99,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
@@ -109,7 +109,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
@@ -151,10 +151,10 @@ class CfgVehicles {
     };
     class O_BlackOrder_Rifleman_Light_F : O_BlackOrder_Rifleman_F {
         magazines[] = {
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag)
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag)
         };
         respawnMagazines[] = {
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag)
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag)
         };
         items[] = {
             MULT_OBJ_1(FirstAidKit),
@@ -171,10 +171,10 @@ class CfgVehicles {
     };
     class O_BlackOrder_Rifleman_Light_2_F : O_BlackOrder_Rifleman_F {
         magazines[] = {
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag)
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag)
         };
         respawnMagazines[] = {
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag)
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag)
         };
         items[] = {
             MULT_OBJ_1(FirstAidKit),
@@ -199,7 +199,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
@@ -211,7 +211,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
@@ -264,7 +264,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
@@ -275,7 +275,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
@@ -327,7 +327,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
@@ -337,7 +337,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
@@ -435,7 +435,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
@@ -445,7 +445,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_Chemlight_HiWhite),
             MULT_OBJ_1(ACE_Chemlight_IR),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
@@ -468,11 +468,11 @@ class CfgVehicles {
 
     class O_BlackOrder_Officer_F : O_BlackOrder_Rifleman_F {
         magazines[] = {
-            MULT_OBJ_4(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_4(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_4(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_4(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
@@ -516,7 +516,7 @@ class CfgVehicles {
 
             MULT_OBJ_2(rhs_mag_mk3a2),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
@@ -525,7 +525,7 @@ class CfgVehicles {
 
             MULT_OBJ_2(rhs_mag_mk3a2),
 
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
@@ -633,13 +633,13 @@ class CfgVehicles {
             MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
-            MULT_OBJ_6(ACE_10Rnd_762x51_M993_AP_Mag)
+            MULT_OBJ_6(ACE_20Rnd_762x51_M993_AP_Mag)
         };
         respawnMagazines[] = {
             MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
-            MULT_OBJ_6(ACE_10Rnd_762x51_M993_AP_Mag)
+            MULT_OBJ_6(ACE_20Rnd_762x51_M993_AP_Mag)
         };
         items[] = {
             MULT_OBJ_1(FirstAidKit),
@@ -661,13 +661,13 @@ class CfgVehicles {
             MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
-            MULT_OBJ_6(ACE_10Rnd_762x51_M993_AP_Mag)
+            MULT_OBJ_6(ACE_20Rnd_762x51_M993_AP_Mag)
         };
         respawnMagazines[] = {
             MULT_OBJ_2(rhs_mag_m67),
             MULT_OBJ_1(SmokeShell),
 
-            MULT_OBJ_6(ACE_10Rnd_762x51_M993_AP_Mag)
+            MULT_OBJ_6(ACE_20Rnd_762x51_M993_AP_Mag)
         };
         items[] = {
             MULT_OBJ_1(FirstAidKit),
@@ -775,11 +775,11 @@ class CfgVehicles {
     };
     class O_BlackOrder_HeliCrew_F : O_BlackOrder_HeliPilot_F {
         magazines[] = {
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
-            MULT_OBJ_8(ACE_10Rnd_762x51_M993_AP_Mag),
+            MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
 
