@@ -149,7 +149,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(CampingTable_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Prop.jpg";
+        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_CampingTable_F.jpg);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\blackorder_Land_CampingTable_co.paa)
@@ -162,7 +162,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(CampingTable_small_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Prop.jpg";
+        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_CampingTable_small_F.jpg);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\blackorder_Land_CampingTable_co.paa)
