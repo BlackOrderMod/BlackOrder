@@ -19,12 +19,12 @@ class CfgVehicles {
             QPATHTOF(data\BlackOrder_UAV_01_co.paa)
         };
         class assembleInfo {
-			primary = 1;
-			base = "";
-			assembleTo = "";
-			displayName = "";
-			dissasembleTo[] = {"O_UAV_01_backpack_BlackOrder_F"};
-		};
+            primary = 1;
+            base = "";
+            assembleTo = "";
+            displayName = "";
+            dissasembleTo[] = {"O_UAV_01_backpack_BlackOrder_F"};
+        };
 
         class textureSources {
             class O_UAV_02_BlackOrder_Texture {
