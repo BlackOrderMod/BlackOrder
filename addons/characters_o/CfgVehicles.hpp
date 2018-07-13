@@ -374,6 +374,7 @@ class CfgVehicles {
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_LAT_F.jpg);
 
+        role = "MissileSpecialist";
         icon = "iconManAT";
 
         uniformClass = "U_BlackOrder_Uniform_1";
@@ -490,6 +491,8 @@ class CfgVehicles {
         displayName = CSTRING(Marksmen_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Marksmen_F.jpg);
+
+        role = "Marksman";
 
         uniformClass = "U_BlackOrder_Uniform_1";
 
@@ -618,6 +621,44 @@ class CfgVehicles {
         };
     };
 
+    class O_BlackOrder_Rifleman_UAV_F : O_BlackOrder_Rifleman_F {
+        _generalMacro = "O_BlackOrder_Rifleman_UAV_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Rifleman_UAV_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_UAV_F.jpg);
+
+        role = "SpecialOperative";
+
+        uniformClass = "U_BlackOrder_Uniform_1";
+
+        backpack = "O_UAV_01_backpack_BlackOrder_F";
+
+        linkedItems[] = {
+            "rhs_googles_clear",
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet",
+            "ItemMap",
+            "O_UavTerminal_BlackOrder",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhs_googles_clear",
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet",
+            "ItemMap",
+            "O_UavTerminal_BlackOrder",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    
     class O_BlackOrder_Officer_F : O_BlackOrder_Rifleman_F {
         _generalMacro = "O_BlackOrder_Officer_F";
         scope = 2;
