@@ -41,7 +41,7 @@ def CheckPBO(p,useMakePbo,checkExternalFiles,errors):
                 p,
                 "{}_{}.pbo".format(PREFIX,p)
             ], stdin=None, input=None, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
-        else:
+        else:              
             makePboArgs = "-LEP"
             if not checkExternalFiles:
                 makePboArgs = "-LP"
@@ -50,7 +50,7 @@ def CheckPBO(p,useMakePbo,checkExternalFiles,errors):
                 makePboArgs,
                 p
             ], stdin=None, input=None, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
-
+            
     except subprocess.CalledProcessError as e:
         print("!! Problem With {} ret {} !!".format(p, e.returncode))
         print("     stderr: {}".format(e.stderr))
@@ -91,7 +91,7 @@ def main(argv):
 
     useMakePbo = False
     checkExternalFiles = True
-
+    
     if "skipExt" in argv:
         print("Skipping External Files Check");
         checkExternalFiles = False
