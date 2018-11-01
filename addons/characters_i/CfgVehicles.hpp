@@ -182,6 +182,7 @@ class CfgVehicles {
         side = 2;
         faction = "IND_BlackOrder_F";
     };
+
     class O_BlackOrder_HeliPilot_F;
     class I_BlackOrder_HeliPilot_F : O_BlackOrder_HeliPilot_F {
         _generalMacro = "I_BlackOrder_HeliPilot_F";
