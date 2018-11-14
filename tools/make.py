@@ -57,7 +57,7 @@ if sys.platform == "win32":
     import winreg
 
 ######## GLOBALS #########
-project = "@BlackOrder"
+project = "@blackorder"
 project_version = "2.0.0"
 arma3tools_path = ""
 work_drive = ""
@@ -70,7 +70,7 @@ key_name = "blackorder"
 key = ""
 dssignfile = ""
 prefix = "blackorder"
-pbo_name_prefix = "BlackOrder_"
+pbo_name_prefix = "blackorder_"
 signature_blacklist = []
 importantFiles = ["mod.cpp", "README.md", "logo_blackorder_ca.paa"]
 versionFiles = ["README.md", "mod.cpp"]
