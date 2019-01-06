@@ -9,6 +9,9 @@
         <Key ID="STR_BlackOrder_Characters_O_Rifleman_2_Display">
             <English>Rifleman (ACOG)</English>
         </Key>
+        <Key ID="STR_BlackOrder_Characters_O_Rifleman_Red_Display">
+            <English>Rifleman (Red)</English>
+        </Key>
         <Key ID="STR_BlackOrder_Characters_O_Rifleman_Light_Display">
             <English>Rifleman (Light)</English>
         </Key>
@@ -20,6 +23,9 @@
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_TeamLeader_Display">
             <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_O_TeamLeader_Red_Display">
+            <English>Team Leader (Red)</English>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Autorifleman_Display">
             <English>Autorifleman</English>

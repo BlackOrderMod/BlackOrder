@@ -6,10 +6,12 @@ class CfgPatches {
         units[] = {
             "I_BlackOrder_Rifleman_F",
             "I_BlackOrder_Rifleman_2_F",
+            "I_BlackOrder_Rifleman_Red_F",
             "I_BlackOrder_Rifleman_Light_F",
             "I_BlackOrder_Rifleman_Light_2_F",
             "I_BlackOrder_SquadLeader_F",
             "I_BlackOrder_TeamLeader_F",
+            "I_BlackOrder_TeamLeader_Red_F",
             "I_BlackOrder_Rifleman_LAT_F",
             "I_BlackOrder_Autorifleman_F",
             "I_BlackOrder_Marksmen_F",

@@ -15,6 +15,14 @@ class CfgVehicles {
         side = 2;
         faction = "IND_BlackOrder_F";
     };
+    class O_BlackOrder_Rifleman_Red_F;
+    class I_BlackOrder_Rifleman_Red_F : O_BlackOrder_Rifleman_Red_F {
+        _generalMacro = "I_BlackOrder_Rifleman_Red_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+    };
     class O_BlackOrder_Rifleman_Light_F;
     class I_BlackOrder_Rifleman_Light_F : O_BlackOrder_Rifleman_Light_F {
         _generalMacro = "I_BlackOrder_Rifleman_Light_F";
@@ -42,6 +50,14 @@ class CfgVehicles {
     class O_BlackOrder_TeamLeader_F;
     class I_BlackOrder_TeamLeader_F : O_BlackOrder_TeamLeader_F {
         _generalMacro = "I_BlackOrder_TeamLeader_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+    };
+    class O_BlackOrder_TeamLeader_Red_F;
+    class I_BlackOrder_TeamLeader_Red_F : O_BlackOrder_TeamLeader_Red_F {
+        _generalMacro = "I_BlackOrder_TeamLeader_Red_F";
         scope = 2;
         scopeCurator = 2;
         side = 2;
