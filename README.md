@@ -8,7 +8,13 @@
 <a href="https://travis-ci.org/BlackOrderMod/BlackOrder"><img src="https://img.shields.io/travis/BlackOrderMod/BlackOrder.svg?style=for-the-badge&logo=Travis-CI" alt="BlackOrder Build"></a>
 </p>
 
-The Black Order is a fictional Terrorist Organization inspired by many fictional mega corps and terror cells. The mod add a new faction creatively named Black Order with retextured, aircraft, vehicles, items and equipment based, primarily, on the work of RHS.
+The Terrorist Organization Black Order is a texture mod adding a fictional terrorist organization based on fictional megacorporations, terror cells and crime syndicates alike. The mod add a new faction the Black Order with its four subfactions; Military, Military Police, Science Division and Special Operations all available In OPFOR and INDEPENDENTS for, the obligatory, internal struggles. 
+
+The mod provide retextured RHS and Vanilla Uniforms , Weapons Items , Vehicles all with a unique, evil and sectarian feeling.
+
+The mod is available in English (and soon Spanish). 
+
+The mod have a ACE3 compatibility mod adding additional features as well as changed standard gear and names of the weapons and vehicles.
 
 ### Content
 * New factions. (Black Order Military, Military Police, Science Division)
