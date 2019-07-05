@@ -10,10 +10,10 @@ class CfgVehicles {
             class CopilotTurret;
             class MainTurret;
             class RightDoorGun;
-			class CargoTurret_01;
-			class CargoTurret_02;
-			class CargoTurret_03;
-			class CargoTurret_04;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
         };
     };
     class O_RHS_UH60M_BlackOrder_F : RHS_UH60M {
