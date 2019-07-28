@@ -157,6 +157,16 @@ class CfgVehicles {
         displayName = CSTRING(Rifleman_Red_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Red_F.jpg);
+        linkedItems[] = {
+            "rhs_googles_clear",
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet_red",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
         respawnLinkedItems[] = {
             "rhs_googles_clear",
             "V_BlackOrder_PlateCarrier",
@@ -391,7 +401,17 @@ class CfgVehicles {
         displayName = CSTRING(TeamLeader_Red_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_TeamLeader_Red_F.jpg);
-
+        linkedItems[] = {
+            "rhs_googles_clear",
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet_red",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS",
+            "rhsusf_ANPVS_14"
+        };
         respawnLinkedItems[] = {
             "rhs_googles_clear",
             "V_BlackOrder_PlateCarrier",

@@ -149,6 +149,8 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
+    class O_BlackOrder_Rifleman_Red_F : O_BlackOrder_Rifleman_F {
+    };
     class O_BlackOrder_Rifleman_Light_F : O_BlackOrder_Rifleman_F {
         magazines[] = {
             MULT_OBJ_8(ACE_20Rnd_762x51_M993_AP_Mag)
@@ -318,6 +320,8 @@ class CfgVehicles {
             "ItemRadio",
             "rhsusf_ANPVS_14"
         };
+    };
+    class O_BlackOrder_TeamLeader_Red_F : O_BlackOrder_TeamLeader_F {
     };
     class O_BlackOrder_Rifleman_LAT_F : O_BlackOrder_Rifleman_F {
         magazines[] = {
