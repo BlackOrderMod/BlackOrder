@@ -7,7 +7,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(UAV_01_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_UAV_01_BlackOrder_F.jpg);
+        //editorPreview = QPATHTOF(EditorPreviews\O_UAV_01_BlackOrder_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -44,7 +44,7 @@ class CfgVehicles {
         scopeCurator = 0;
         displayName = CSTRING(UAV_02_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_UAV_02_BlackOrder_F.jpg);
+        //editorPreview = QPATHTOF(EditorPreviews\O_UAV_02_BlackOrder_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -73,7 +73,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(UAV_02_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_UAV_02_BlackOrder_F.jpg);
+        //editorPreview = QPATHTOF(EditorPreviews\O_UAV_02_BlackOrder_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
@@ -102,7 +102,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(UAV_02_CAS_Display);
         author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\O_UAV_02_BlackOrder_F.jpg);
+        //editorPreview = QPATHTOF(EditorPreviews\O_UAV_02_BlackOrder_F.jpg);
 
         faction = "OPF_BlackOrder_F";
         side = 0;
