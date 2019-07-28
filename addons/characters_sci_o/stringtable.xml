@@ -18,6 +18,12 @@
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_ProtectedHeadset_Armed_Display">
             <English>Scientist (Helmet Headset, Armed)</English>
         </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_CBRN_Display">
+            <English>Scientist (CBRN)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_CBRN_Armed_Display">
+            <English>Scientist (CBRN, Armed)</English>
+        </Key>
 
         <Key ID="STR_BlackOrder_Characters_SCI_O_Security_Light_Display">
             <English>Security (Light)</English>
