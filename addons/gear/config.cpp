@@ -11,11 +11,17 @@ class CfgPatches {
             "B_LegStrapBag_black_BlackOrder_explosive_F",
             "B_LegStrapBag_black_BlackOrder_AR_F",
 
+            "O_UAV_01_backpack_BlackOrder_F",
+            "I_UAV_01_backpack_BlackOrder_F",
+
             "Item_U_BlackOrder_Uniform_1_F",
             "Item_U_BlackOrder_Uniform_1_Medic_F",
             "Item_U_BlackOrder_Uniform_MP_1_F",
             "Item_U_BlackOrder_PilotCoveralls_F",
-            "Item_U_BlackOrder_HeliPilotCoveralls_F"
+            "Item_U_BlackOrder_HeliPilotCoveralls_F",
+
+            "Item_O_BlackOrder_UavTerminal",
+            "Item_I_BlackOrder_UavTerminal"
         };
         weapons[] = {
             "U_BlackOrder_Uniform_1",

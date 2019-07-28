@@ -1,0 +1,13 @@
+<Project name="BlackOrder">
+    <Package name="Drones_O">
+        <Key ID="STR_BlackOrder_Drones_O_UAV_01_Display">
+            <English>AR-2 Terror Eye</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Drones_O_UAV_02_Display">
+            <English>SG-1 Sky Guardian</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Drones_O_UAV_02_CAS_Display">
+            <English>SG-1 Sky Guardian (CAS)</English>
+        </Key>
+    </Package>
+</Project>

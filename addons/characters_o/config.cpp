@@ -19,6 +19,8 @@ class CfgPatches {
             "O_BlackOrder_Marksmen_F",
             "O_BlackOrder_CombatLifeSaver_F",
 
+            "O_BlackOrder_Rifleman_UAV_F",
+
             "O_BlackOrder_Officer_F",
             "O_BlackOrder_Commissar_F",
 

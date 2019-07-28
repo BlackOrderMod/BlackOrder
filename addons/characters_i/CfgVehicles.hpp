@@ -96,6 +96,40 @@ class CfgVehicles {
         faction = "IND_BlackOrder_F";
     };
 
+    class O_BlackOrder_Rifleman_UAV_F;
+    class I_BlackOrder_Rifleman_UAV_F : O_BlackOrder_Rifleman_UAV_F {
+        _generalMacro = "I_BlackOrder_Rifleman_UAV_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+
+        backpack = "I_UAV_01_backpack_BlackOrder_F";
+
+        linkedItems[] = {
+            "rhs_googles_clear",
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet",
+            "ItemMap",
+            "I_UavTerminal_BlackOrder",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhs_googles_clear",
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet",
+            "ItemMap",
+            "I_UavTerminal_BlackOrder",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+
     class O_BlackOrder_Officer_F;
     class I_BlackOrder_Officer_F : O_BlackOrder_Officer_F {
         _generalMacro = "I_BlackOrder_Officer_F";
@@ -138,7 +172,7 @@ class CfgVehicles {
         side = 2;
         faction = "IND_BlackOrder_F";
     };
-    
+
     class O_BlackOrder_Crewman_F;
     class I_BlackOrder_Crewman_F : O_BlackOrder_Crewman_F {
         _generalMacro = "I_BlackOrder_Crewman_F";
@@ -164,6 +198,7 @@ class CfgVehicles {
         side = 2;
         faction = "IND_BlackOrder_F";
     };
+
     class O_BlackOrder_HeliPilot_F;
     class I_BlackOrder_HeliPilot_F : O_BlackOrder_HeliPilot_F {
         _generalMacro = "I_BlackOrder_HeliPilot_F";
