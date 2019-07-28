@@ -37,6 +37,10 @@
             <English>Combat Life Saver</English>
         </Key>
 
+        <Key ID="STR_BlackOrder_Characters_O_Rifleman_UAV_Display">
+            <English>UAV Operator</English>
+        </Key>
+
         <Key ID="STR_BlackOrder_Characters_O_Officer_Display">
             <English>Officer</English>
         </Key>

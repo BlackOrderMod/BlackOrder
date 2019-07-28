@@ -6,5 +6,9 @@
         <Key ID="STR_BlackOrder_Weapons_m40a5_Display">
             <English>M40A5 (Black Order)</English>
         </Key>
+
+        <Key ID="STR_BlackOrder_Weapons_UavTerminal_Display">
+            <English>UAV Terminal [Black Order]</English>
+        </Key>
     </Package>
 </Project>
