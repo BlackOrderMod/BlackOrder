@@ -72,7 +72,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_01_Armored_F : O_BlackOrder_MP_PatrolOfficer_01_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_01_Armored_F";
@@ -100,7 +100,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_02_F : O_BlackOrder_MP_base_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_02_F";
@@ -152,7 +152,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_02_Armored_F : O_BlackOrder_MP_PatrolOfficer_02_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_02_Armored_F";
@@ -180,7 +180,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_03_F : O_BlackOrder_MP_base_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_03_F";
@@ -230,7 +230,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_03_Armored_F : O_BlackOrder_MP_PatrolOfficer_03_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_03_Armored_F";
@@ -258,7 +258,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
 
     class O_BlackOrder_MP_PatrolOfficer_Sergeant_01_F : O_BlackOrder_MP_base_F {
@@ -305,7 +305,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_Sergeant_01_Armored_F : O_BlackOrder_MP_PatrolOfficer_Sergeant_01_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_Sergeant_01_Armored_F";
@@ -333,7 +333,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_Sergeant_02_F : O_BlackOrder_MP_base_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_Sergeant_02_F";
@@ -385,7 +385,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_Sergeant_02_Armored_F : O_BlackOrder_MP_PatrolOfficer_Sergeant_02_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_Sergeant_02_Armored_F";
@@ -413,7 +413,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_Sergeant_03_F : O_BlackOrder_MP_base_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_Sergeant_03_F";
@@ -463,7 +463,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_Sergeant_03_Armored_F : O_BlackOrder_MP_PatrolOfficer_Sergeant_03_F {
         _generalMacro = "O_BlackOrder_MP_PatrolOfficer_Sergeant_03_Armored_F";
@@ -491,7 +491,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
 
 
