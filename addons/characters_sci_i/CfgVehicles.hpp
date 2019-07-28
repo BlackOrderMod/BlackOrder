@@ -39,6 +39,22 @@ class CfgVehicles {
         side = 2;
         faction = "IND_BlackOrder_SCI_F";
     };
+    class O_BlackOrder_Sci_Scientist_04_F;
+    class I_BlackOrder_Sci_Scientist_04_F : O_BlackOrder_Sci_Scientist_03_F {
+        _generalMacro = "I_BlackOrder_Sci_Scientist_04_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_SCI_F";
+    };
+    class O_BlackOrder_Sci_Scientist_04_Armed_F;
+    class I_BlackOrder_Sci_Scientist_04_Armed_F : O_BlackOrder_Sci_Scientist_03_Armed_F {
+        _generalMacro = "I_BlackOrder_Sci_Scientist_04_Armed_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_SCI_F";
+    };
 
 
 
