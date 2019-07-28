@@ -168,7 +168,7 @@ class CfgVehicles {
     };
 
     class O_BlackOrder_Sci_Scientist_03_F : O_BlackOrder_Sci_base_F {
-        _generalMacro = "O_BlackOrder_Sci_Scientist_02_F";
+        _generalMacro = "O_BlackOrder_Sci_Scientist_03_F";
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(Scientist_ProtectedHeadset_Display);
@@ -232,6 +232,75 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "rhs_googles_clear",
             "H_Construction_headset_white_F",
+            "ItemWatch"
+        };
+    };
+
+    class O_BlackOrder_Sci_Scientist_04_F : O_BlackOrder_Sci_base_F {
+        _generalMacro = "O_BlackOrder_Sci_Scientist_04_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Scientist_CBRN_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_03_F.jpg);
+        
+        DLC = "Enoch";
+
+        uniformClass = "U_C_CBRN_Suit_01_White_F";
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        magazines[] = {
+        };
+        respawnMagazines[] = {
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "G_RegulatorMask_F",
+            "ItemWatch"
+        };
+        respawnLinkedItems[] = {
+            "G_RegulatorMask_F",
+            "ItemWatch"
+        };
+    };
+    class O_BlackOrder_Sci_Scientist_04_Armed_F : O_BlackOrder_Sci_base_F {
+        _generalMacro = "O_BlackOrder_Sci_Scientist_04_Armed_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Scientist_CBRN_Armed_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_03_Armed_F.jpg);
+
+        DLC = "Enoch";
+        
+        uniformClass = "U_C_CBRN_Suit_01_White_F";
+
+        weapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        magazines[] = {
+            MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "G_RegulatorMask_F",
+            "ItemWatch"
+        };
+        respawnLinkedItems[] = {
+            "G_RegulatorMask_F",
             "ItemWatch"
         };
     };
