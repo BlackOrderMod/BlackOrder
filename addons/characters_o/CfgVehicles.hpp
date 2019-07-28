@@ -208,7 +208,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_Rifleman_Light_2_F : O_BlackOrder_Rifleman_F {
         _generalMacro = "O_BlackOrder_Rifleman_Light_2_F";
@@ -250,7 +250,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_SquadLeader_F : O_BlackOrder_Rifleman_F {
         _generalMacro = "O_BlackOrder_SquadLeader_F";
@@ -743,7 +743,7 @@ class CfgVehicles {
             "ItemRadio",
             "ItemGPS"
         };
-        glassesEnabled = 0;
+
     };
 
     class O_BlackOrder_Commissar_01_F : O_BlackOrder_Rifleman_F {
@@ -808,7 +808,7 @@ class CfgVehicles {
             "ItemRadio",
             "ItemGPS"
         };
-        glassesEnabled = 1;
+
     };
     class O_BlackOrder_Commissar_02_F : O_BlackOrder_Rifleman_F {
         _generalMacro = "O_BlackOrder_Commissar_F";
@@ -872,7 +872,7 @@ class CfgVehicles {
             "ItemRadio",
             "ItemGPS"
         };
-        glassesEnabled = 1;
+
     };
 
     class O_BlackOrder_Soldier_AA_F : O_BlackOrder_Rifleman_F {
@@ -1041,7 +1041,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 1;
+
     };
 
     class O_BlackOrder_Pilot_F : O_BlackOrder_base_F {
@@ -1084,7 +1084,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 1;
+
     };
     class O_BlackOrder_FighterPilot_F : O_BlackOrder_base_F {
         _generalMacro = "O_BlackOrder_FighterPilot_F";
@@ -1134,7 +1134,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_HeliPilot_F : O_BlackOrder_base_F {
         _generalMacro = "O_BlackOrder_HeliPilot_F";
@@ -1188,7 +1188,7 @@ class CfgVehicles {
             "ItemRadio",
             "rhsusf_ANPVS_15"
         };
-        glassesEnabled = 1;
+
     };
     class O_BlackOrder_HeliCrew_F : O_BlackOrder_HeliPilot_F {
         _generalMacro = "O_BlackOrder_HeliCrew_F";
@@ -1229,7 +1229,7 @@ class CfgVehicles {
             "ItemRadio",
             "rhsusf_ANPVS_15"
         };
-        glassesEnabled = 1;
+
     };
 
     class O_BlackOrder_Survivor_F : O_BlackOrder_Rifleman_F {
@@ -1252,7 +1252,7 @@ class CfgVehicles {
         respawnItems[] = {};
         linkedItems[] = {};
         respawnLinkedItems[] = {};
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_Unarmed_00_F : O_BlackOrder_base_F {
         _generalMacro = "O_BlackOrder_Unarmed_00_F";
@@ -1292,7 +1292,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_Unarmed_01_F : O_BlackOrder_base_F {
         _generalMacro = "O_BlackOrder_Unarmed_01_F";
@@ -1330,7 +1330,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_Unarmed_02_F : O_BlackOrder_base_F {
         _generalMacro = "O_BlackOrder_Unarmed_02_F";
@@ -1366,6 +1366,6 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
 };

@@ -1112,7 +1112,7 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-        glassesEnabled = 0;
+
     };
     class O_BlackOrder_MP_PatrolOfficer_Sergeant_02_F : O_BlackOrder_MP_base_F {
         magazines[] = {
