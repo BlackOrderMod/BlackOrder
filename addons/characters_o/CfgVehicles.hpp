@@ -150,6 +150,24 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
+    class O_BlackOrder_Rifleman_Red_F : O_BlackOrder_Rifleman_F {
+        _generalMacro = "O_BlackOrder_Rifleman_Red_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Rifleman_Red_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_Red_F.jpg);
+        respawnLinkedItems[] = {
+            "rhs_googles_clear",
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet_red",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
     class O_BlackOrder_Rifleman_Light_F : O_BlackOrder_Rifleman_F {
         _generalMacro = "O_BlackOrder_Rifleman_Light_F";
         scope = 2;
@@ -358,6 +376,26 @@ class CfgVehicles {
             "rhs_googles_clear",
             "V_BlackOrder_PlateCarrier",
             "H_BlackOrder_CombatHelmet",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "ItemGPS",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class O_BlackOrder_TeamLeader_Red_F : O_BlackOrder_TeamLeader_F {
+        _generalMacro = "O_BlackOrder_TeamLeader_Red_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(TeamLeader_Red_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_TeamLeader_Red_F.jpg);
+
+        respawnLinkedItems[] = {
+            "rhs_googles_clear",
+            "V_BlackOrder_PlateCarrier",
+            "H_BlackOrder_CombatHelmet_red",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

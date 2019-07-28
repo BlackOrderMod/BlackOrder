@@ -8,10 +8,12 @@ class CfgPatches {
 
             "O_BlackOrder_Rifleman_F",
             "O_BlackOrder_Rifleman_2_F",
+            "O_BlackOrder_Rifleman_Red_F",
             "O_BlackOrder_Rifleman_Light_F",
             "O_BlackOrder_Rifleman_Light_2_F",
             "O_BlackOrder_SquadLeader_F",
             "O_BlackOrder_TeamLeader_F",
+            "O_BlackOrder_TeamLeader_Red_F",
             "O_BlackOrder_Rifleman_LAT_F",
             "O_BlackOrder_Autorifleman_F",
             "O_BlackOrder_Marksmen_F",
