@@ -25,7 +25,19 @@ Set-Content -Path '../addons/main/script_version.hpp' -Value "#define MAJOR $ver
 #define BUILD $versionBuild"
 
 # Build release
-py make.py release ci
+py make.py ci
+
+# Fix compact
+Move-Item "../release/@blackorder/optionals/@blackorder_ace_compat" -Destination "../release/"
+Copy-Item "../Extra/Resources/ACE Compat/mod.cpp" -Destination "../release/@blackorder_ace_compat/mod.cpp"
+Copy-Item "../Extra/Resources/ACE Compat/logo_blackorder_ca.paa" -Destination "../release/@blackorder_ace_compat/logo_blackorder_ca.paa"
+Remove-Item "../release/@blackorder/optionals" -Force -Recurse
+sed -e "s/DevBuild/$tagVersion/g" "../release/@blackorder_ace_compat/mod.cpp" | Set-Content "../release/@blackorder_ace_compat/mod.cpp"
+
+cd ../release/
+zip -r "blackorder_v$versionMajor.$versionMinor.$versionPatch.zip" "@blackorder/"
+zip -r "blackorder_ace_compat_v$versionMajor.$versionMinor.$versionPatch.zip" "@blackorder_ace_compat/"
+cd ../tools/
 
 # Clean up
 Write-Host "Restoring version files..."

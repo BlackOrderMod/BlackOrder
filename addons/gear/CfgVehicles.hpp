@@ -74,7 +74,7 @@ class CfgVehicles {
         class TransportItems {
         };
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(rhs_200rnd_556x45_M_SAW,2);
+            MACRO_ADDMAGAZINE(rhsusf_200Rnd_556x45_box,2);
         };
         class TransportWeapons {
         };
