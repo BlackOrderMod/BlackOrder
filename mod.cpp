@@ -1,8 +1,8 @@
-name = "Black Order 2.1.0";
+name = "Black Order DevBulid";
 picture = "logo_blackorder_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/acemod/ACE3";
-description = "Black Order - Version 2.1.0";
+description = "Black Order - Version DevBulid";
 logo = "logo_blackorder_ca.paa";
 logoOver = "logo_blackorder_ca.paa";
 tooltip = "Black Order";
