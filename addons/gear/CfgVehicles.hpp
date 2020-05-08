@@ -80,6 +80,49 @@ class CfgVehicles {
         };
     };
 
+    class B_UAV_01_backpack_F;
+    class O_UAV_01_backpack_F : B_UAV_01_backpack_F {
+        class assembleInfo;
+    };
+    class O_UAV_01_backpack_BlackOrder_F : O_UAV_01_backpack_F {
+        _generalMacro = "O_UAV_01_backpack_BlackOrder_F";
+        scope = 2;
+        displayName = CSTRING(UAV_01_backpack_BlackOrder_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\backpack\icon\icon_UAV_06_backpack_BlackOrder_co.paa);
+
+        faction = "OPF_BlackOrder_F";
+        side = 3;
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack\UAV_06_backpack_BlackOrder_co.paa)
+        };
+
+        class assembleInfo : assembleInfo {
+            displayName = CSTRING(UAV_01_backpack_BlackOrder_Action_Display);
+            assembleTo = "O_UAV_01_BlackOrder_F";
+        };
+    };
+    class I_UAV_01_backpack_BlackOrder_F : O_UAV_01_backpack_BlackOrder_F {
+        _generalMacro = "I_UAV_01_backpack_BlackOrder_F";
+        scope = 2;
+        displayName = CSTRING(UAV_01_backpack_BlackOrder_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\backpack\icon\icon_UAV_06_backpack_BlackOrder_co.paa);
+
+        faction = "IND_BlackOrder_F";
+        side = 3;
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\backpack\UAV_06_backpack_BlackOrder_co.paa)
+        };
+
+        class assembleInfo : assembleInfo {
+            displayName = CSTRING(UAV_01_backpack_BlackOrder_Action_Display);
+            assembleTo = "I_UAV_01_BlackOrder_F";
+        };
+    };
+
     // Placeable items
     class Item_Base_F;
     class Item_U_BlackOrder_Uniform_1_F : Item_Base_F {
@@ -171,6 +214,37 @@ class CfgVehicles {
         model = "\A3\Weapons_f\dummyweapon.p3d";
         class TransportItems {
             MACRO_ADDITEM(U_BlackOrder_HeliPilotCoveralls,1);
+        };
+    };
+
+    class Item_O_UavTerminal;
+    class Item_O_BlackOrder_UavTerminal : Item_O_UavTerminal {
+        _generalMacro = "Item_Base_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(UavTerminal_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorCategory = "EdCat_Equipment";
+        editorSubcategory = "EdSubcat_InventoryItems";
+        vehicleClass = "Items";
+        model = "a3\Weapons_F\DummyItemHorizontal";
+        class TransportItems {
+            MACRO_ADDITEM(O_UavTerminal_BlackOrder,1);
+        };
+    };
+    class Item_I_UavTerminal;
+    class Item_I_BlackOrder_UavTerminal : Item_I_UavTerminal {
+        _generalMacro = "Item_Base_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(UavTerminal_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorCategory = "EdCat_Equipment";
+        editorSubcategory = "EdSubcat_InventoryItems";
+        vehicleClass = "Items";
+        model = "a3\Weapons_F\DummyItemHorizontal";
+        class TransportItems {
+            MACRO_ADDITEM(I_UavTerminal_BlackOrder,1);
         };
     };
 };

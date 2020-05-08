@@ -6,7 +6,7 @@ import subprocess
 
 ######## GLOBALS #########
 MAINPREFIX = "z"
-PREFIX = "BlackOrder_"
+PREFIX = "blackorder_"
 ##########################
 
 def mod_time(path):
@@ -57,7 +57,6 @@ def main():
 
     for p in os.listdir(addonspath):
         path = os.path.join(addonspath, p)
-        p = p.title()
         if not os.path.isdir(path):
             continue
         if p[0] == ".":

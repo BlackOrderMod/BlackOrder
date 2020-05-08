@@ -141,7 +141,7 @@ class CfgVehicles {
     class O_RHS_C130J_BlackOrder_F;
     class I_RHS_C130J_BlackOrder_F : O_RHS_C130J_BlackOrder_F {
         _generalMacro = "I_RHS_C130J_BlackOrder_F";
-        scope = 1;
+        scope = 2;
         scopeCurator = 2;
         side = 2;
         faction = "IND_BlackOrder_F";

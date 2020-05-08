@@ -183,4 +183,29 @@ class CfgWeapons {
         };
     };
 
+
+    class O_UavTerminal;
+    class O_UavTerminal_BlackOrder : O_UavTerminal {
+        _generalMacro = "O_UavTerminal_BlackOrder";
+        scope = 2;
+        displayName = CSTRING(UavTerminal_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = "\a3\Drones_F\Weapons_F_Gamma\Items\Data\UI\gear_UAV_controller_Civ_CA.paa";
+        model = "\a3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_Civ_F.p3d";
+        hiddenSelectionsTextures[] = {
+            "\A3\Drones_F\Weapons_F_Gamma\Items\data\UAV_controller_cbr_co.paa"
+        };
+    };
+    class I_UavTerminal;
+    class I_UavTerminal_BlackOrder : I_UavTerminal {
+        _generalMacro = "I_UavTerminal_BlackOrder";
+        scope = 2;
+        displayName = CSTRING(UavTerminal_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = "\a3\Drones_F\Weapons_F_Gamma\Items\Data\UI\gear_UAV_controller_Civ_CA.paa";
+        model = "\a3\Drones_F\Weapons_F_Gamma\Items\UAV_controller_Civ_F.p3d";
+        hiddenSelectionsTextures[] = {
+            "\A3\Drones_F\Weapons_F_Gamma\Items\data\UAV_controller_cbr_co.paa"
+        };
+    };
 };

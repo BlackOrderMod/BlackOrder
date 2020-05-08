@@ -5,6 +5,7 @@ texHeaders.bin
 *.swp
 *.swo
 *.biprivatekey
+.vscode
 Thumbs.db
 Releases/*
 Release/*
@@ -12,3 +13,4 @@ Release/*
 /addons/vehicle_air_o/data/blackorder_Fighter_04_fuselage_01_co.psd
 /addons/vehicle_car_o/data/van_body_BlackOrder_co.psd
 /addons/vehicle_mp_car_o/data/van_body_BlackOrder_MP_co.psd
+.thumb

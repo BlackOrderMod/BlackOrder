@@ -94,5 +94,13 @@
         <Key ID="STR_BlackOrder_Gear_Headgear_Cap_01_Display">
             <English>Cap (Black Order)</English>
         </Key>
+
+
+        <Key ID="STR_BlackOrder_Gear_UAV_01_backpack_BlackOrder_Display">
+            <English>UAV Bag (AR-2) [Black Order]</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Gear_UAV_01_backpack_BlackOrder_Action_Display">
+            <English>Assemble Terror Eye AR-2</English>
+        </Key>
     </Package>
 </Project>

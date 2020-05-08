@@ -25,7 +25,10 @@ class CfgPatches {
             "rhsusf_weap_MP7A2_blackorder_ACO_anpeq15_grip3",
             "rhs_weap_m27iar_grip_blackorder_ACOG2_anpeq15A",
             "rhs_weap_hk416d10_blackorder_eotech552",
-            "rhs_weap_hk416d10_blackorder_eotech552_Flashlight"
+            "rhs_weap_hk416d10_blackorder_eotech552_Flashlight",
+
+            "O_UavTerminal_BlackOrder",
+            "I_UavTerminal_BlackOrder"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"blackorder_main","blackorder_common"};
