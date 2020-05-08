@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/EvulDev/TerroristOrganizationBlackOrder/master/Extra/logo01.png" width="480"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/BlackOrderMod/BlackOrder/master/Extra/logo01.png" width="480"></p>
 <p align="center">
 <a href="https://github.com/BlackOrderMod/BlackOrder/releases/latest"><img src="https://img.shields.io/github/release/BlackOrderMod/BlackOrder.svg?style=for-the-badge&label=Release%20Build" alt="Release Build Version"></a>
  <a href="https://github.com/BlackOrderMod/BlackOrder/releases/"><img src="https://img.shields.io/github/release/BlackOrderMod/BlackOrder/all.svg?style=for-the-badge&label=Pre-release" alt="Pre release and or current build version"></a>
