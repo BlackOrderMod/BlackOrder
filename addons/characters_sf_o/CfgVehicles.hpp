@@ -317,7 +317,7 @@ class CfgVehicles {
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_green),
 
-            MULT_OBJ_1(rhs_200rnd_556x45_M_SAW),
+            MULT_OBJ_1(rhsusf_200Rnd_556x45_box),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         respawnMagazines[] = {
@@ -327,7 +327,7 @@ class CfgVehicles {
             MULT_OBJ_1(SmokeShellGreen),
             MULT_OBJ_1(Chemlight_green),
 
-            MULT_OBJ_1(rhs_200rnd_556x45_M_SAW),
+            MULT_OBJ_1(rhsusf_200Rnd_556x45_box),
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
