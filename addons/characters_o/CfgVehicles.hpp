@@ -1,6 +1,9 @@
 
 class CfgVehicles {
-    class B_Soldier_base_F;
+    class SoldierWB;
+    class B_Soldier_base_F : SoldierWB {
+        class EventHandlers;
+    };
     class O_BlackOrder_base_F : B_Soldier_base_F {
         _generalMacro = "O_BlackOrder_base_F";
         scope = 1;
@@ -26,6 +29,10 @@ class CfgVehicles {
             QPATHTOEF(gear,data\uniform\U_BlackOrder_Uniform_1_co.paa)
         };
         uniformClass = "U_BlackOrder_Uniform_1";
+
+        class EventHandlers : EventHandlers {
+            init = "";
+        };
     };
 
     class O_BlackOrder_Rifleman_F : O_BlackOrder_base_F {

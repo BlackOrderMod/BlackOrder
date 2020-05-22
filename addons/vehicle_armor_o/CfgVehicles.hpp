@@ -31,7 +31,7 @@ class CfgVehicles {
         _generalMacro = "O_blackorder_veh_m1a1tank_F";
         scope = 2;
         scopeCurator = 2;
-        //displayName = "$STR_A3_CfgVehicles_Quadbike_Base_F0";
+
         author = ECSTRING(common,BlackOrderTeam);
         editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m1a1tank_F.jpg);
 
@@ -62,6 +62,9 @@ class CfgVehicles {
                 };
             };
         };
+
+        rhs_randomizedHabar[] = {};
+
         class AnimationSources : AnimationSources {
             class Miles_Hide : Miles_Hide {
                 initPhase = 1;
@@ -70,6 +73,8 @@ class CfgVehicles {
                 initPhase = 1;
             };
         };
+
+        class Attributes {};
 
         class TransportBackpacks {
         };

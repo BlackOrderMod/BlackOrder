@@ -5,24 +5,25 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             "O_BlackOrder_MP_base_F",
-
             "O_BlackOrder_MP_PatrolOfficer_01_F",
-            "O_BlackOrder_MP_PatrolOfficer_02_F",
-            "O_BlackOrder_MP_PatrolOfficer_03_F",
-            "O_BlackOrder_MP_PatrolOfficer_Sergeant_01_F",
-            "O_BlackOrder_MP_PatrolOfficer_Sergeant_02_F",
-            "O_BlackOrder_MP_PatrolOfficer_Sergeant_03_F",
-
             "O_BlackOrder_MP_PatrolOfficer_01_Armored_F",
+            "O_BlackOrder_MP_PatrolOfficer_02_F",
             "O_BlackOrder_MP_PatrolOfficer_02_Armored_F",
+            "O_BlackOrder_MP_PatrolOfficer_03_F",
             "O_BlackOrder_MP_PatrolOfficer_03_Armored_F",
+            
+            "O_BlackOrder_MP_PatrolOfficer_Sergeant_01_F",
             "O_BlackOrder_MP_PatrolOfficer_Sergeant_01_Armored_F",
+            "O_BlackOrder_MP_PatrolOfficer_Sergeant_02_F",
             "O_BlackOrder_MP_PatrolOfficer_Sergeant_02_Armored_F",
+            "O_BlackOrder_MP_PatrolOfficer_Sergeant_03_F",
             "O_BlackOrder_MP_PatrolOfficer_Sergeant_03_Armored_F",
 
-            "O_BlackOrder_MP_Soldier_TeamLeader_F",
+            "O_BlackOrder_MP_Soldier_base_F",
             "O_BlackOrder_MP_Soldier_Rifleman_F",
-            "O_BlackOrder_MP_Soldier_Medic_F"
+            "O_BlackOrder_MP_Soldier_TeamLeader_F",
+            "O_BlackOrder_MP_Soldier_Medic_F",
+            "O_BlackOrder_MP_Soldier_Officer_F"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
