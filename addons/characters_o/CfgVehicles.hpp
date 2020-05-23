@@ -716,6 +716,19 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
+
+    class O_BlackOrder_RadioOperator_F : O_BlackOrder_Rifleman_F {
+        _generalMacro = "O_BlackOrder_RadioOperator_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(RadioOperator_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+
+        role="Rifleman";
+
+        backpack = "B_RadioBag_01_black_F";
+    };
     
     class O_BlackOrder_Officer_F : O_BlackOrder_Rifleman_F {
         _generalMacro = "O_BlackOrder_Officer_F";
