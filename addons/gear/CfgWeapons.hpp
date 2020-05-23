@@ -277,7 +277,7 @@ class CfgWeapons {
     };
 
     class V_Plain_base_F;
-    class V_BlackOrder_PlainVest_F: V_Plain_base_F	{
+    class V_BlackOrder_PlainVest_F: V_Plain_base_F {
         _generalMacro = "V_BlackOrder_PlainVest_F";
         scope = 2;
         displayName = CSTRING(Vest_PlainVest_Display);
