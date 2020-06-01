@@ -6,7 +6,8 @@
 <a href="https://steamcommunity.com/workshop/filedetails/?id=654170014"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F654170014&style=for-the-badge" alt="Steam Workshop"></a>
  <a href="https://github.com/BlackOrderMod/BlackOrder/releases/latest"><img src="https://img.shields.io/github/downloads/BlackOrderMod/BlackOrder/total.svg?style=for-the-badge&label=Downloads" alt="BlackOrder Downloads"></a>
  <a href="https://github.com/BlackOrderMod/BlackOrder/issues"><img src="https://img.shields.io/github/issues-raw/BlackOrderMod/BlackOrder.svg?style=for-the-badge&label=Issues" alt="BlackOrder Issues"></a>
-<a href="https://travis-ci.org/BlackOrderMod/BlackOrder"><img src="https://img.shields.io/travis/BlackOrderMod/BlackOrder.svg?style=for-the-badge&logo=Travis-CI" alt="BlackOrder Build"></a>
+<a href="https://travis-ci.org/BlackOrderMod/BlackOrder"><img src="https://img.shields.io/travis/BlackOrderMod/BlackOrder.svg?style=for-the-badge&logo=Travis-CI" alt="BlackOrder Build"></a> 
+<a href='https://ko-fi.com/I2I01RWL4' target='_blank'><img height='29' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </p>
 
 The Terrorist Organization Black Order is a texture mod adding a fictional terrorist organization based on fictional megacorporations, terror cells and crime syndicates alike. The mod add a new faction the Black Order with its four subfactions; Military, Military Police, Science Division and Special Operations all available In OPFOR and INDEPENDENTS for, the obligatory, internal struggles. 
