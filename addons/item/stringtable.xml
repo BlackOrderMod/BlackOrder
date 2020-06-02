@@ -2,44 +2,56 @@
     <Package name="Item">
         <Key ID="STR_BlackOrder_Item_File1_Display">
             <English>File (Black Order)</English>
+            <Spanish>Archivo (Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Item_File2_Display">
             <English>File (Black Order - Top Secret)</English>
+            <Spanish>Archivo (Black Order- Ultra Secreto)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Item_PlasticCase_01_large_Display">
             <English>Plastic Case (Large, Black Order)</English>
+            <Spanish>Caja de Plástico (Grande, Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Item_PlasticCase_01_medium_Display">
             <English>Plastic Case (Medium, Black Order)</English>
+            <Spanish>Caja de Plástico (Mediano, Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Item_PlasticCase_01_small_Display">
             <English>Plastic Case (Small, Black Order)</English>
+            <Spanish>Caja de Plástico (Pequeño, Black Order)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Item_Laptop_01_screen_01_Display">
             <English>Laptop (Black Order, Terminal)</English>
+            <Spanish>Laptop (Black Order, Terminal) </Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Item_Laptop_01_screen_02_Display">
             <English>Laptop (Black Order, Login)</English>
+            <Spanish>Laptop (Black Order, Iniciar)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Item_Laptop_02_screen_01_Display">
             <English>Old Laptop (Black Order, Terminal)</English>
+            <Spanish>Laptop Vieja (Black Order, Terminal) </Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Item_MobilePhone_smart_01_Display">
             <English>Mobile Phone (New, Black Order)</English>
+            <Spanish>Teléfono Móvil (Nuevo, Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Item_MobilePhone_old_01_Display">
             <English>Mobile Phone (Old, Black Order)</English>
+            <Spanish>Teléfono Móvil (Viejo, Black Order)</Spanish>
         </Key>
 
 
         <Key ID="STR_BlackOrder_Item_CampingTable_Display">
             <English>Camping Table (Black)</English>
+            <Spanish>Mesa de Acampar (Negro)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Item_CampingTable_small_Display">
             <English>Camping Table (Small, Black)</English>
+            <Spanish>Mesa de Acampar (Pequeño, Negro)</Spanish>
         </Key>
     </Package>
 </Project>

@@ -2,105 +2,135 @@
     <Package name="Gear">
         <Key ID="STR_BlackOrder_Gear_Uniform_1_Display">
             <English>CTRG Black Order Uniform</English>
+            <Spanish>CTRG Uniforme Black Order</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Uniform_1_Medic_Display">
             <English>CTRG Black Order Medic Uniform</English>
+            <Spanish>CTRG Uniforme Médico Black Order</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Uniform_MP_1_Display">
             <English>CTRG Black Order Military Police Uniform</English>
+            <Spanish>CTRG Uniforme de Policía Militar Black Order</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Uniform_MP_1_Medic_Display">
             <English>CTRG Black Order Military Police Medic Uniform</English>
+            <Spanish>CTRG Uniforme Médico de Policia Militar Black Order</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_PilotCoveralls_Display">
             <English>Pilot Coveralls [Black Order]</English>
+            <Spanish>Overol de Píloto [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_HeliPilotCoveralls_Display">
             <English>Heli Pilot Coveralls [Black Order]</English>
+            <Spanish>Overol de Piloto de Helicóptero [Black Order]</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_ScienceCoveralls_01_Display">
             <English>Scientist Clothes [Black Order]</English>
+            <Spanish>Ropa de Científico [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_ScienceCombatCoveralls_01_Display">
             <English>Scientist Security Uniform [Black Order]</English>
+            <Spanish>Uniforme de Seguridad Científico [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_ScienceCombatCoveralls_02_Display">
             <English>Scientist Special Security Uniform [Black Order]</English>
+            <Spanish>Uniforme Especial de Seguridad Científico [Black Order]</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_1_Display">
             <English>Tactical Vest (Black Order)</English>
+            <Spanish></Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_Security_Display">
             <English>Tactical Vest (Black Order, Security)</English>
+            <Spanish>Chaleco Táctico (Black Order, Seguridad)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_ScienceSecurity_Display">
             <English>Tactical Vest (Black Order, Science Security)</English>
+            <Spanish>Chaleco Táctico (Black Order, Seguridad Científico)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_SpecialSecurity_Display">
             <English>Tactical Vest (Black Order, Special Security)</English>
+            <Spanish>Chaleco Táctico (Black Order, Seguridad) Especial</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Vest_TacVest_MilitaryPolice_Display">
             <English>Tactical Vest (Black Order, Military Police)</English>
+            <Spanish>Chaleco Táctico (Black Order, Policía Militar)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Vest_Chestrig_Display">
             <English>Chest Rig (Black Order)</English>
+            <Spanish>Pechera (Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Vest_PlateCarrier_Display">
             <English>Carrier Lite (Black Order)</English>
+            <Spanish>Cartuchera Ligera (Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Vest_PlateCarrier_medic_Display">
             <English>Carrier Lite (Black Order Medic)</English>
+            <Spanish>Cartuchera Ligera (Médico Black Order)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_Headgear_CombatHelmet_Display">
             <English>Combat Helmet (Black Order)</English>
+            <Spanish>Casco de Combate (Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Headgear_CombatHelmet_red_Display">
             <English>Combat Helmet (Black Order Red)</English>
+            <Spanish>Casco de Combate (Black Order Rojo)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Headgear_CombatHelmet_MP_Display">
             <English>Combat Helmet (Black Order MP)</English>
+            <Spanish>Casco de Combate (Black Order PM)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_Headgear_mich_bare_Display">
             <English>MICH 2000 (Black Order)</English>
+            <Spanish>MICH 2000 (Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Headgear_mich_bare_headset_Display">
             <English>MICH 2000 (Black Order/Headset)</English>
+            <Spanish>MICH 2000 (Black Order/Aurículares)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_Headgear_cvc_helmet_Display">
             <English>ACVC-H, MK-1697 (Black Order)</English>
+            <Spanish>ACVC-H, MK-1697 (Black Order)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_Headgear_BlackOrder_PilotHelmet_Display">
             <English>Jet Pilot Helmet (Black Order)</English>
+            <Spanish>Casco de Piloto de Jet (Black Order)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_Headgear_Beret_Display">
             <English>Beret (Black Order)</English>
+            <Spanish>Boina (Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Headgear_Beret_red_Display">
             <English>Beret (Black Order Red)</English>
+            <Spanish>Boina (Black Order, Rojo)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Gear_Headgear_MilCap_Display">
             <English>Military Cap (Black Order)</English>
+            <Spanish>Gorra Militar (Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_Headgear_Cap_01_Display">
             <English>Cap (Black Order)</English>
+            <Spanish>Gorra (Black Order)</Spanish>
         </Key>
 
 
         <Key ID="STR_BlackOrder_Gear_UAV_01_backpack_BlackOrder_Display">
             <English>UAV Bag (AR-2) [Black Order]</English>
+            <Spanish>Bolsa VANT (AR-2) [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Gear_UAV_01_backpack_BlackOrder_Action_Display">
             <English>Assemble Terror Eye AR-2</English>
+            <Spanish>Asamblar Ojo Malvado AR-2</Spanish>
         </Key>
     </Package>
 </Project>

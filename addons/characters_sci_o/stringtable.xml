@@ -2,82 +2,106 @@
     <Package name="Characters_SCI_O">
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_Display">
             <English>Scientist</English>
+            <Spanish>Científico</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_Armed_Display">
             <English>Scientist (Armed)</English>
+            <Spanish>Científico (Armado)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_Protected_Display">
             <English>Scientist (Helmet)</English>
+            <Spanish>Científico (Casco)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_Protected_Armed_Display">
             <English>Scientist (Helmet, Armed)</English>
+            <Spanish>Científico (Casco, Armado)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_ProtectedHeadset_Display">
-            <English>Scientist (Helmet Headset)</English>
+            <English>Scientist (Helmet, Headset)</English>
+            <Spanish>Científico (Casco, Aurículares)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_ProtectedHeadset_Armed_Display">
             <English>Scientist (Helmet Headset, Armed)</English>
+            <Spanish>Científico (Casco, Aurículares, Armado)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_CBRN_Display">
             <English>Scientist (CBRN)</English>
+            <Spanish>Científico (NRBQ)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_CBRN_Armed_Display">
             <English>Scientist (CBRN, Armed)</English>
+            <Spanish>Científico (NRBQ, Armado)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_SCI_O_Security_Light_Display">
             <English>Security (Light)</English>
+            <Spanish>Seguridad (Ligero)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_SecurityOfficer_Light_Display">
             <English>Security Officer (Light)</English>
+            <Spanish>Seguridad (Ligero)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Security_Display">
             <English>Security</English>
+            <Spanish>Seguridad</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_SecurityOfficer_Display">
             <English>Security Officer</English>
+            <Spanish>Oficial de Seguridad</Spanish>
         </Key>
 
 
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_01_Display">
             <English>Special Security</English>
+            <Spanish>Seguridad Especial</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_02_Display">
             <English>Special Security (Beret)</English>
+            <Spanish>Seguridad Especial (Boina)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurityOfficer_Display">
             <English>Special Security Officer</English>
+            <Spanish>Oficial de Seguridad Especial</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_Light_01_Display">
             <English>Special Security (Light)</English>
+            <Spanish>Seguridad Especial (Ligero)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_Light_02_Display">
             <English>Special Security (Light, Beret)</English>
+            <Spanish>Seguridad Especial (Ligero, Boina)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurityOfficer_Light_Display">
             <English>Special Security Officer (Light)</English>
+            <Spanish>Oficial de Seguridad Especial (Ligero)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_TeamLeader_Display">
             <English>Security Soldier Team Leader</English>
+            <Spanish>Soldado de Seguridad; Líder de Equipo</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_SpecialSecurity_Soldier_Display">
             <English>Security Soldier Rifleman</English>
+            <Spanish>Soldado de Seguridad; Fusilero</Spanish>
         </Key>
 
 
         <Key ID="STR_BlackOrder_Characters_SCI_O_Group_SecurityTeam_Display">
             <English>Security Team</English>
+            <Spanish>Equipo de Seguridad</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Group_SecAssault_Display">
             <English>Assault Squad</English>
+            <Spanish>Escuadrón de Asalto</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Group_SecSentryLight_Display">
             <English>Sentry (Light)</English>
+            <Spanish>Centinela (Ligero)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Group_SpecSecurityResponceTeam_Display">
-            <English>Security Responce Team</English>
+            <English>Security Response Team</English>
+            <Spanish>Equipo de Respuesta de Seguridad</Spanish>
         </Key>
     </Package>
 </Project>

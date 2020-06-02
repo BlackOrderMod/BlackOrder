@@ -2,91 +2,118 @@
     <Package name="Characters_MP_O">
         <Key ID="STR_BlackOrder_Characters_MP_O_MilitaryPolice_Display">
             <English>Military Police</English>
+            <Spanish>Policía Militar</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_01_Display">
-            <English>Patrol Officer Sergant</English>
+            <English>Patrol Officer Sergeant</English>
+            <Spanish>Sargento Oficial de Patrulla</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_02_Display">
-            <English>Patrol Officer Sergant (M590A1)</English>
+            <English>Patrol Officer Sergeant (M590A1)</English>
+            <Spanish>Sargento Oficial de Patrulla (M590A1)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_03_Display">
-            <English>Patrol Officer Sergant (M16A4)</English>
+            <English>Patrol Officer Sergeant (M16A4)</English>
+            <Spanish>Sargento Oficial de Patrulla (M16A4)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_04_Display">
-            <English>Patrol Officer Sergant</English>
+            <English>Patrol Officer Sergeant</English>
+            <Spanish>Sargento Oficial de Patrulla</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_01_Armored_Display">
-            <English>Patrol Officer Sergant (Armored)</English>
+            <English>Patrol Officer Sergeant (Armored)</English>
+            <Spanish>Sargento Oficial de Patrulla (Blindado)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_02_Armored_Display">
-            <English>Patrol Officer Sergant (Armored, M590A1)</English>
+            <English>Patrol Officer Sergeant (Armored, M590A1)</English>
+            <Spanish>Sargento Oficial de Patrulla (Blindado, M590A1) </Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_03_Armored_Display">
-            <English>Patrol Officer Sergant (Armored, M16A4)</English>
+            <English>Patrol Officer Sergeant (Armored, M16A4)</English>
+            <Spanish>Sargento Oficial de Patrulla (Blindado, M16A4)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_Sergant_04_Armored_Display">
-            <English>Patrol Officer Sergant (Armored)</English>
+            <English>Patrol Officer Sergeant (Armored)</English>
+            <Spanish>Sargento Oficial de Patrulla (Blindado)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_01_Display">
             <English>Patrol Officer</English>
+            <Spanish>Oficial de Patrulla</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_02_Display">
             <English>Patrol Officer (M590A1)</English>
+            <Spanish>Oficial de Patrulla (M590A1)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_03_Display">
             <English>Patrol Officer (M16A4)</English>
+            <Spanish>Oficial de Patrulla (M16A4)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_04_Display">
             <English>Patrol Officer</English>
+            <Spanish>Oficial de Patrulla</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_01_Armored_Display">
             <English>Patrol Officer (Armored)</English>
+            <Spanish>Oficial de Patrulla (Blindado)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_02_Armored_Display">
             <English>Patrol Officer (Armored, M590A1)</English>
+            <Spanish>Oficial de Patrulla (Blindado, M590A1)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_03_Armored_Display">
             <English>Patrol Officer (Armored, M16A4)</English>
+            <Spanish>Oficial de Patrulla (Blindado, M16A4</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_PatrolOfficer_04_Armored_Display">
             <English>Patrol Officer (Armored)</English>
+            <Spanish>Oficial de Patrulla (Blindado)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_MP_O_Soldier_TeamLeader_Display">
             <English>Team Leader</English>
+            <Spanish>Líder de Equipo </Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_Soldier_Rifleman_01_Display">
             <English>Rifleman</English>
+            <Spanish>Fusilero</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_Soldier_Medic_Display">
             <English>Medic</English>
+            <Spanish>Médico</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_Soldier_Officer_Display">
             <English>Officer</English>
+            <Spanish>Oficial</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrolTeam_Display">
             <English>Armed Patrol Team</English>
+            <Spanish>Equipo de Patrulla Armada</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrol_Display">
             <English>Patrol Officer</English>
+            <Spanish>Oficial de Patrulla</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrolArmored_Display">
             <English>Patrol Officer (Armored)</English>
+            <Spanish>Oficial de Patrulla (Blindado)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfPatrolArmedArmored_Display">
             <English>Patrol Officer (Armored, Armed)</English>
+            <Spanish>Oficial de Patrulla (Blindado, Armado)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_MP_O_Group_ResponceTeam_MP_Display">
-            <English>Responce Team</English>
+            <English>Response Team</English>
+            <Spanish>Equipo de Respuesta</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_MP_O_Group_InfiltrationTeam_MP_Display">
             <English>Infiltration Team</English>
+            <Spanish>Equipo de Infiltración</Spanish>
         </Key>
     </Package>
 </Project>

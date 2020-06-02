@@ -2,42 +2,54 @@
     <Package name="Supplies">
         <Key ID="STR_BlackOrder_Supplies_supplyCrate_Display">
             <English>Supply Box [Black Order]</English>
+            <Spanish>Caja de Suministros [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Supplies_CargoNet_01_ammo_F_Display">
             <English>Cargo Net [Black Order]</English>
+            <Spanish>Red de Carga [Black Order]</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Supplies_Box_Ammo_Display">
             <English>Basic Ammo [Black Order]</English>
+            <Spanish>Munición Básica [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Supplies_Box_Wps_Display">
             <English>Basic Weapons [Black Order]</English>
+            <Spanish>Armas Básicas [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Supplies_Box_AmmoOrd_Display">
             <English>Explosives [Black Order]</English>
+            <Spanish>Explosivos [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Supplies_Box_Grenades_Display">
             <English>Grenades [Black Order]</English>
+            <Spanish>Granadas [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Supplies_Box_WpsLaunch_Display">
             <English>Launchers [Black Order]</English>
+            <Spanish>Lanzacohetes [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Supplies_Box_WpsSpecial_Display">
             <English>Special Weapons [Black Order]</English>
+            <Spanish>Armas Especiales [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Supplies_Box_Support_Display">
             <English>Support [Black Order]</English>
+            <Spanish>Soporte [Black Order]</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Supplies_Box_Equip_Display">
             <English>Equipment Box [Black Order]</English>
+            <Spanish>Caja de Equipamento [Black Order]</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Supplies_Box_Uniforms_Display">
             <English>Uniforms Box [Black Order]</English>
+            <Spanish>Caja de Uniformes [Black Order]</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Supplies_Box_AmmoVeh_Display">
             <English>Vehicle Ammo [Black Order]</English>
+            <Spanish>Munición de Vehículos [Black Order]</Spanish>
         </Key>
     </Package>
 </Project>
