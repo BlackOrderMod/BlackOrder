@@ -1,6 +1,9 @@
 
 class CfgVehicles {
-    class B_Soldier_base_F;
+    class SoldierWB;
+    class B_Soldier_base_F : SoldierWB {
+        class EventHandlers;
+    };
     class O_BlackOrder_base_F : B_Soldier_base_F {
         _generalMacro = "O_BlackOrder_base_F";
         scope = 1;
@@ -13,19 +16,23 @@ class CfgVehicles {
 
         genericNames = "EnglishMen";
         icon = "iconMan";
-        identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
+        identityTypes[] = {"LanguageENG_F","Head_NATO","G_BlackOrder_default"};
 
         side = 0;
         faction = "OPF_BlackOrder_F";
 
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
             QPATHTOEF(gear,data\uniform\U_BlackOrder_Uniform_1_co.paa)
         };
         uniformClass = "U_BlackOrder_Uniform_1";
+
+        class EventHandlers : EventHandlers {
+            init = "";
+        };
     };
 
     class O_BlackOrder_Rifleman_F : O_BlackOrder_base_F {
@@ -617,7 +624,7 @@ class CfgVehicles {
         icon = "iconManMedic";
 
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -715,6 +722,19 @@ class CfgVehicles {
             "ItemRadio",
             "rhsusf_ANPVS_14"
         };
+    };
+
+    class O_BlackOrder_RadioOperator_F : O_BlackOrder_Rifleman_F {
+        _generalMacro = "O_BlackOrder_RadioOperator_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(RadioOperator_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Rifleman_F.jpg);
+
+        role="Rifleman";
+
+        backpack = "B_RadioBag_01_black_F";
     };
     
     class O_BlackOrder_Officer_F : O_BlackOrder_Rifleman_F {
@@ -1022,7 +1042,7 @@ class CfgVehicles {
         role="Crewman";
 
         model = "\A3\Characters_F\Common\coveralls.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -1117,7 +1137,7 @@ class CfgVehicles {
         role="Crewman";
 
         model = "\A3\characters_F\Common\pilot_f.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -1167,7 +1187,7 @@ class CfgVehicles {
         role="Crewman";
 
         model = "\A3\Characters_F\Common\coveralls.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
