@@ -13,7 +13,7 @@ class CfgVehicles {
 
         genericNames = "EnglishMen";
         icon = "iconMan";
-        identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
+        identityTypes[] = {"LanguageENG_F","Head_NATO","G_BlackOrder_default"};
 
         side = 0;
         faction = "OPF_BlackOrder_F";
