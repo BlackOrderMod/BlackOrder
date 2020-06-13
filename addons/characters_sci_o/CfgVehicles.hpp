@@ -20,7 +20,7 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_SCI_F";
 
         model = "\A3\characters_F\common\coveralls";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -305,6 +305,79 @@ class CfgVehicles {
         };
     };
 
+    class O_BlackOrder_Sci_Scientist_05_F : O_BlackOrder_Sci_base_F {
+        _generalMacro = "O_BlackOrder_Sci_Scientist_05_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Scientist_CBRN_2_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_03_F.jpg);
+        
+        DLC = "Enoch";
+
+        uniformClass = "U_C_CBRN_Suit_01_White_F";
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        magazines[] = {
+        };
+        respawnMagazines[] = {
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "G_RegulatorMask_F",
+            "ItemWatch"
+        };
+        respawnLinkedItems[] = {
+            "G_RegulatorMask_F",
+            "ItemWatch"
+        };
+
+        backpack = "B_CombinationUnitRespirator_01_F";
+    };
+    class O_BlackOrder_Sci_Scientist_05_Armed_F : O_BlackOrder_Sci_base_F {
+        _generalMacro = "O_BlackOrder_Sci_Scientist_05_Armed_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Scientist_CBRN_2_Armed_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_BlackOrder_Sci_Scientist_03_Armed_F.jpg);
+
+        DLC = "Enoch";
+        
+        uniformClass = "U_C_CBRN_Suit_01_White_F";
+
+        weapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        respawnWeapons[] = {"rhsusf_weap_glock17g4","Throw","Put"};
+        magazines[] = {
+            MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_3(rhsusf_mag_17Rnd_9x19_FMJ)
+        };
+        items[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit)
+        };
+        linkedItems[] = {
+            "G_RegulatorMask_F",
+            "ItemWatch"
+        };
+        respawnLinkedItems[] = {
+            "G_RegulatorMask_F",
+            "ItemWatch"
+        };
+        
+        backpack = "B_CombinationUnitRespirator_01_F";
+    };
+
 
 
     class O_BlackOrder_Sci_Security_base_F : B_Soldier_base_F {
@@ -325,7 +398,7 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_SCI_F";
 
         model = "\A3\characters_F\common\coveralls";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -544,7 +617,6 @@ class CfgVehicles {
 
 
 
-
     class O_BlackOrder_Sci_SpecialSecurity_base_F : B_Soldier_base_F {
         _generalMacro = "O_BlackOrder_Sci_SpecialSecurity_base_F";
         scope = 1;
@@ -565,7 +637,7 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_SCI_F";
 
         model = "\A3\characters_F\common\coveralls";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
