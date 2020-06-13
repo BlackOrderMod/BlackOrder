@@ -20,7 +20,7 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_SCI_F";
 
         model = "\A3\characters_F\common\coveralls";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -325,7 +325,7 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_SCI_F";
 
         model = "\A3\characters_F\common\coveralls";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -565,7 +565,7 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_SCI_F";
 
         model = "\A3\characters_F\common\coveralls";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {

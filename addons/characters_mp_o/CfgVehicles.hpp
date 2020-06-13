@@ -19,7 +19,7 @@ class CfgVehicles {
         faction = "OPF_BlackOrder_MP_F";
 
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -632,7 +632,7 @@ class CfgVehicles {
         icon = "iconManMedic";
 
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
