@@ -26,45 +26,25 @@ class CfgVehicles {
         };
     };
 
-    class Land_PlasticCase_01_large_F;
-    class blackorder_Land_PlasticCase_01_large_F : Land_PlasticCase_01_large_F {
+    class Land_PlasticCase_01_large_black_F;
+    class blackorder_Land_PlasticCase_01_large_F : Land_PlasticCase_01_large_black_F {
         _generalMacro = "blackorder_Land_PlasticCase_01_large_F";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = CSTRING(PlasticCase_01_large_Display);
-        author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_PlasticCase_01_large_F.jpg);
-
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\blackorder_Land_plasticcase_01_co.paa)
+        scope = 1;
+        scopeCurator = 1;
         };
-    };
-    class Land_PlasticCase_01_medium_F;
-    class blackorder_Land_PlasticCase_01_medium_F : Land_PlasticCase_01_medium_F {
+    class Land_PlasticCase_01_medium_black_F;
+    class blackorder_Land_PlasticCase_01_medium_F : Land_PlasticCase_01_medium_black_F {
         _generalMacro = "blackorder_Land_PlasticCase_01_medium_F";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = CSTRING(PlasticCase_01_medium_Display);
-        author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_PlasticCase_01_medium_F.jpg);
-
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\blackorder_Land_plasticcase_01_co.paa)
+        scope = 1;
+        scopeCurator = 1;
         };
-    };
-    class Land_PlasticCase_01_small_F;
-    class blackorder_Land_PlasticCase_01_small_F : Land_PlasticCase_01_small_F {
+    class Land_PlasticCase_01_small_black_F;
+    class blackorder_Land_PlasticCase_01_small_F : Land_PlasticCase_01_small_black_F {
         _generalMacro = "blackorder_Land_PlasticCase_01_small_F";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = CSTRING(PlasticCase_01_small_Display);
-        author = ECSTRING(common,BlackOrderTeam);
-        editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_PlasticCase_01_small_F.jpg);
-
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\blackorder_Land_plasticcase_01_co.paa)
-        };
+        scope = 1;
+        scopeCurator = 1;
     };
+
     class Land_Laptop_unfolded_F;
     class blackorder_Land_Laptop_01_screen_01_F : Land_Laptop_unfolded_F {
         _generalMacro = "blackorder_Land_Laptop_01_screen_01_F";
