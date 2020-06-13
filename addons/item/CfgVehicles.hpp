@@ -84,6 +84,20 @@ class CfgVehicles {
         };
     };
 
+    class Land_PCSet_01_mousepad_F;
+    class blackorder_Land_PCSet_01_mousepad_F : Land_PCSet_01_mousepad_F {
+        _generalMacro = "blackorder_Land_PCSet_01_mousepad_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(PCSet_01_mousepad_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_Land_Mousepad_01_co.paa)
+        };
+    };
+
+
     class Land_MobilePhone_smart_F;
     class blackorder_Land_MobilePhone_smart_F : Land_MobilePhone_smart_F {
         _generalMacro = "blackorder_Land_MobilePhone_smart_F";
@@ -112,7 +126,6 @@ class CfgVehicles {
     };
 
     class Box_C_UAV_06_F;
-    class Land_PCSet_01_mousepad_F;
 
     class Land_PCSet_01_screen_F;
     class Land_TripodScreen_01_dual_v2_F;
