@@ -89,8 +89,10 @@ class CfgVehicles {
         class TransportItems {
         };
         class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange,6);
+            MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer,12);
             MACRO_ADDMAGAZINE(rhsusf_10Rnd_762x51_m118_special_Mag,10);
-            MACRO_ADDMAGAZINE(rhsusf_200Rnd_556x45_box,4);
+            MACRO_ADDMAGAZINE(rhsusf_200Rnd_556x45_box,6);
             MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,30);
             MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_FMJ,8);
 
@@ -118,7 +120,7 @@ class CfgVehicles {
         class TransportItems {
         };
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,6);
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
             MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_FMJ,4);
         };
         class TransportWeapons {
@@ -140,14 +142,14 @@ class CfgVehicles {
             QPATHTOF(data\AmmoBox_blackorder_co.paa)
         };
 
-        class TransportBackpacks {
-        };
-        class TransportItems {
-        };
-        class TransportMagazines {
-        };
-        class TransportWeapons {
-        };
+        //class TransportBackpacks {
+        //};
+        //class TransportItems {
+        //};
+        //class TransportMagazines {
+        //};
+        //class TransportWeapons {
+        //};
     };
     class Box_NATO_Grenades_F;
     class Box_blackorder_Grenades_F : Box_NATO_Grenades_F {
@@ -169,12 +171,12 @@ class CfgVehicles {
         };
         class TransportMagazines {
             MACRO_ADDMAGAZINE(SmokeShell,10);
-            MACRO_ADDMAGAZINE(SmokeShellBlue,2);
-            MACRO_ADDMAGAZINE(SmokeShellGreen,2);
-            MACRO_ADDMAGAZINE(SmokeShellOrange,2);
-            MACRO_ADDMAGAZINE(SmokeShellPurple,2);
-            MACRO_ADDMAGAZINE(SmokeShellRed,2);
-            MACRO_ADDMAGAZINE(SmokeShellYellow,2);
+            MACRO_ADDMAGAZINE(SmokeShellBlue,4);
+            MACRO_ADDMAGAZINE(SmokeShellGreen,4);
+            MACRO_ADDMAGAZINE(SmokeShellOrange,4);
+            MACRO_ADDMAGAZINE(SmokeShellPurple,4);
+            MACRO_ADDMAGAZINE(SmokeShellRed,4);
+            MACRO_ADDMAGAZINE(SmokeShellYellow,4);
 
             MACRO_ADDMAGAZINE(rhs_mag_m67,12);
         };
@@ -204,7 +206,8 @@ class CfgVehicles {
             MACRO_ADDMAGAZINE(rhs_fgm148_magazine_AT,2);
         };
         class TransportWeapons {
-            MACRO_ADDWEAPON(rhs_weap_M136,3);
+            MACRO_ADDWEAPON(rhs_weap_fgm148,1);
+            MACRO_ADDWEAPON(rhs_weap_M136,4);
         };
     };
     class Box_NATO_WpsSpecial_F;
@@ -224,10 +227,26 @@ class CfgVehicles {
         class TransportBackpacks {
         };
         class TransportItems {
+            MACRO_ADDITEM(rhsusf_acc_anpeq15_bk,4);
+            MACRO_ADDITEM(acc_flashlight_pistol,2);
+            MACRO_ADDITEM(rhsusf_acc_ACOG2,4);
+            MACRO_ADDITEM(rhsusf_acc_eotech_552,4);
+            
         };
         class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange,6);
+            MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer,12);
+            MACRO_ADDMAGAZINE(rhsusf_10Rnd_762x51_m118_special_Mag,10);
+            MACRO_ADDMAGAZINE(rhsusf_200Rnd_556x45_box,6);
+            MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_FMJ,8);
+
+            MACRO_ADDMAGAZINE(rhs_mag_m67,9);
         };
         class TransportWeapons {
+            MACRO_ADDWEAPON(rhs_weap_m4a1,2);
+            MACRO_ADDWEAPON(rhs_weap_m27iar_grip,2);
+            MACRO_ADDWEAPON(rhs_weap_hk416d10,2);
+            MACRO_ADDWEAPON(rhs_weap_mk18_bk,2);
         };
     };
     class Box_NATO_Support_F;
@@ -249,12 +268,6 @@ class CfgVehicles {
         class TransportItems {
         };
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(rhsusf_10Rnd_762x51_m118_special_Mag,10);
-            MACRO_ADDMAGAZINE(rhsusf_200Rnd_556x45_box,4);
-            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,30);
-            MACRO_ADDMAGAZINE(rhsusf_mag_17Rnd_9x19_FMJ,8);
-
-            MACRO_ADDMAGAZINE(rhs_mag_m67,9);
         };
         class TransportWeapons {
         };

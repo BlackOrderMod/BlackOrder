@@ -222,7 +222,7 @@ class CfgVehicles {
         _generalMacro = "Item_Base_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(UavTerminal_Display);
+        displayName = ECSTRING(Weapons,UavTerminal_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorCategory = "EdCat_Equipment";
         editorSubcategory = "EdSubcat_InventoryItems";
@@ -237,7 +237,7 @@ class CfgVehicles {
         _generalMacro = "Item_Base_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(UavTerminal_Display);
+        displayName = ECSTRING(Weapons,UavTerminal_Display);
         author = ECSTRING(common,BlackOrderTeam);
         editorCategory = "EdCat_Equipment";
         editorSubcategory = "EdSubcat_InventoryItems";
