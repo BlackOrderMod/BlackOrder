@@ -34,9 +34,11 @@
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_CBRN_2_Display">
             <English>Scientist (CBRN Respirator)</English>
+            <Spanish>Científico (NRBQ, Respirador)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SCI_O_Scientist_CBRN_2_Armed_Display">
             <English>Scientist (CBRN Respirator, Armed)</English>
+            <Spanish>Científico (NRBQ, Respirador, Armado)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_SCI_O_Security_Light_Display">
