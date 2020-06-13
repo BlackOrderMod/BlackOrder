@@ -377,6 +377,7 @@ class CfgVehicles {
             MULT_OBJ_2(rhsusf_mag_17Rnd_9x19_FMJ)
         };
         items[] = {
+                MULT_OBJ_1(ACE_EarPlugs),
                 MULT_OBJ_1(FirstAidKit),
 
                 MULT_OBJ_1(ACE_MapTools),
@@ -384,6 +385,7 @@ class CfgVehicles {
                 MULT_OBJ_1(ACE_Flashlight_XL50)
         };
         respawnItems[] = {
+            MULT_OBJ_1(ACE_EarPlugs),
             MULT_OBJ_1(FirstAidKit),
 
             MULT_OBJ_1(ACE_MapTools),
@@ -468,6 +470,12 @@ class CfgVehicles {
 
             MULT_OBJ_1(ACE_Flashlight_XL50)
         };
+    };
+
+    class O_BlackOrder_Rifleman_UAV_F : O_BlackOrder_Rifleman_F {
+    };
+
+    class O_BlackOrder_RadioOperator_F : O_BlackOrder_Rifleman_F {
     };
 
     class O_BlackOrder_Officer_F : O_BlackOrder_Rifleman_F {
@@ -684,6 +692,24 @@ class CfgVehicles {
             MULT_OBJ_1(FirstAidKit),
 
             MULT_OBJ_1(ACE_MapTools),
+
+            MULT_OBJ_1(ACE_Flashlight_XL50)
+        };
+    };
+
+    class O_BlackOrder_Crewman_F : O_BlackOrder_base_F {
+        items[] = {
+            MULT_OBJ_1(FirstAidKit),
+
+            MULT_OBJ_1(ACE_MapTools),
+
+            MULT_OBJ_1(ACE_Flashlight_XL50)
+        };
+        respawnItems[] = {
+            MULT_OBJ_1(FirstAidKit),
+
+            MULT_OBJ_1(ACE_MapTools),
+            MULT_OBJ_1(ACE_Chemlight_Shield),
 
             MULT_OBJ_1(ACE_Flashlight_XL50)
         };
@@ -1452,6 +1478,18 @@ class CfgVehicles {
     };
 
     // Science Characters
+    class O_BlackOrder_Sci_base_F;
+    class O_BlackOrder_Sci_Scientist_01_F : O_BlackOrder_Sci_base_F {};
+    class O_BlackOrder_Sci_Scientist_01_Armed_F : O_BlackOrder_Sci_base_F {};
+    class O_BlackOrder_Sci_Scientist_02_F : O_BlackOrder_Sci_base_F {};
+    class O_BlackOrder_Sci_Scientist_02_Armed_F : O_BlackOrder_Sci_base_F {};
+    class O_BlackOrder_Sci_Scientist_03_F : O_BlackOrder_Sci_base_F {};
+    class O_BlackOrder_Sci_Scientist_03_Armed_F : O_BlackOrder_Sci_base_F {};
+    class O_BlackOrder_Sci_Scientist_04_F : O_BlackOrder_Sci_base_F {};
+    class O_BlackOrder_Sci_Scientist_04_Armed_F : O_BlackOrder_Sci_base_F {};
+    class O_BlackOrder_Sci_Scientist_05_F : O_BlackOrder_Sci_base_F {};
+    class O_BlackOrder_Sci_Scientist_05_Armed_F : O_BlackOrder_Sci_base_F {};
+
     class O_BlackOrder_Sci_Security_base_F;
     class O_BlackOrder_Sci_SecurityOfficer_F : O_BlackOrder_Sci_Security_base_F {
         magazines[] = {
@@ -2244,6 +2282,7 @@ class CfgVehicles {
     };
     class O_BlackOrder_SF_AR_F : O_BlackOrder_SF_base_F {
         items[] = {
+            MULT_OBJ_1(ACE_EarPlugs),
             MULT_OBJ_1(FirstAidKit),
 
             MULT_OBJ_1(ACE_MapTools),
@@ -2254,6 +2293,7 @@ class CfgVehicles {
             MULT_OBJ_1(ACE_microDAGR)
         };
         respawnItems[] = {
+            MULT_OBJ_1(ACE_EarPlugs),
             MULT_OBJ_1(FirstAidKit),
 
             MULT_OBJ_1(ACE_MapTools),
@@ -2369,6 +2409,7 @@ class CfgVehicles {
         };
     };
 
+
     // Aircraft
     class O_BlackOrder_Plane_Fighter_04_Cluster_F;
     class O_BlackOrder_Plane_Fighter_04_AA_F : O_BlackOrder_Plane_Fighter_04_Cluster_F {
@@ -2376,5 +2417,52 @@ class CfgVehicles {
     };
     class O_BlackOrder_Plane_Fighter_04_CAS_F : O_BlackOrder_Plane_Fighter_04_Cluster_F {
         displayName = CSTRING(Plane_Fighter_04_CAS_Display);
+    };
+
+
+    // Supplies
+    class B_supplyCrate_F;
+    class blackorder_supplyCrate_F : B_supplyCrate_F {
+    };
+    class B_CargoNet_01_ammo_F;
+    class blackorder_CargoNet_01_ammo_F : B_CargoNet_01_ammo_F {
+    };
+
+    class Box_NATO_Ammo_F;
+    class Box_blackorder_Ammo_F : Box_NATO_Ammo_F {
+    };
+    class Box_NATO_Wps_F;
+    class Box_blackorder_Wps_F : Box_NATO_Wps_F {
+    };
+    class Box_NATO_AmmoOrd_F;
+    class Box_blackorder_AmmoOrd_F : Box_NATO_AmmoOrd_F {
+    };
+    class Box_NATO_Grenades_F;
+    class Box_blackorder_Grenades_F : Box_NATO_Grenades_F {
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(ACE_HandFlare_White,6);
+            MACRO_ADDMAGAZINE(ACE_HandFlare_Green,6);
+            MACRO_ADDMAGAZINE(ACE_M84,6);
+        };
+    };
+    class Box_NATO_WpsLaunch_F;
+    class Box_blackorder_WpsLaunch_F : Box_NATO_WpsLaunch_F {
+    };
+    class Box_NATO_WpsSpecial_F;
+    class Box_blackorder_WpsSpecial_F : Box_NATO_WpsSpecial_F {
+    };
+    class Box_NATO_Support_F;
+    class Box_blackorder_Support_F : Box_NATO_Support_F {
+    };
+
+    class Box_NATO_Uniforms_F;
+    class Box_blackorder_Uniforms_F : Box_NATO_Uniforms_F {
+    };
+    class Box_NATO_Equip_F;
+    class Box_blackorder_Equip_F : Box_NATO_Equip_F {
+    };
+
+    class Box_NATO_AmmoVeh_F;
+    class Box_blackorder_AmmoVeh_F : Box_NATO_AmmoVeh_F {
     };
 };
