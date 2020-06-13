@@ -2,9 +2,11 @@
     <Package name="Main">
         <Key ID="STR_BlackOrder_Main_BlackOrder">
             <English>Black Order</English>
+            <Spanish>Black Order</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Main_URL">
-            <English>http://blackordermod.com</English>
+            <English>https://github.com/BlackOrderMod/BlackOrder</English>
+            <Spanish>https://github.com/BlackOrderMod/BlackOrder</Spanish>
         </Key>
     </Package>
 </Project>
