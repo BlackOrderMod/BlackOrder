@@ -41,6 +41,11 @@
             <English>UAV Operator</English>
         </Key>
 
+        <Key ID="STR_BlackOrder_Characters_O_RadioOperator_Display">
+            <English>Radio Operator</English>
+        </Key>
+
+
         <Key ID="STR_BlackOrder_Characters_O_Officer_Display">
             <English>Officer</English>
         </Key>
