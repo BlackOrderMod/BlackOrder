@@ -32,6 +32,12 @@
         </Key>
         <Key ID="STR_BlackOrder_Item_Laptop_02_screen_01_Display">
             <English>Old Laptop (Black Order, Terminal)</English>
+            <Spanish>Laptop Vieja (Black Order, Terminal)</Spanish>
+        </Key>
+        <Key ID="STR_BlackOrder_Item_Laptop_03_black_Display">
+            <English>Rugged Laptop (Black Order, Terminal)</English>
+            <Spanish>Laptop Robusta (Black Order, Terminal)</Spanish>
+        </Key>
         <Key ID="STR_BlackOrder_Item_PCSet_01_mousepad_Display">
             <English>PC Set (Mouse Pad, Black Order)</English>
             <Spanish>Conjunto de PC (Alfombrilla para Ratón, Black Order)</Spanish>
