@@ -2,98 +2,133 @@
     <Package name="Characters_O">
         <Key ID="STR_BlackOrder_Characters_O_Rifleman_Display">
             <English>Rifleman</English>
+            <Spanish>Fusilero</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Rifleman_LAT_Display">
             <English>Rifleman (AT)</English>
+            <Spanish>Fusilero (AT)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Rifleman_2_Display">
             <English>Rifleman (ACOG)</English>
+            <Spanish>Fusilero (ACOG)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Rifleman_Red_Display">
             <English>Rifleman (Red)</English>
+            <Spanish>Fusilero (Rojo)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Rifleman_Light_Display">
             <English>Rifleman (Light)</English>
+            <Spanish>Fusilero (Ligero)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Rifleman_Light_2_Display">
             <English>Rifleman (Light, Beret)</English>
+            <Spanish>Fusilero (Ligero, Boina)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_SquadLeader_Display">
             <English>Squad Leader</English>
+            <Spanish>Líder de Escuadrón</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_TeamLeader_Display">
             <English>Team Leader</English>
+            <Spanish>Líder de Equipo</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_TeamLeader_Red_Display">
             <English>Team Leader (Red)</English>
+            <Spanish>Líder de Equipo (Rojo)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Autorifleman_Display">
             <English>Autorifleman</English>
+            <Spanish>Fusilero Automático</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Marksmen_Display">
             <English>Marksmen</English>
+            <Spanish>Tirador</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_CombatLifeSaver_Display">
-            <English>Combat Life Saver</English>
+            <English>Combat Lifesaver</English>
+            <Spanish>Salvavidas de Combate</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_O_Rifleman_UAV_Display">
             <English>UAV Operator</English>
+            <Spanish>Operador de VANT</Spanish>
         </Key>
+
+        <Key ID="STR_BlackOrder_Characters_O_RadioOperator_Display">
+            <English>Radio Operator</English>
+            <Spanish>Operador de Radio</Spanish>
+        </Key>
+
 
         <Key ID="STR_BlackOrder_Characters_O_Officer_Display">
             <English>Officer</English>
+            <Spanish>Oficial</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Commissar_01_Display">
             <English>Commissar</English>
+            <Spanish>Comisario</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Commissar_02_Display">
             <English>Commissar (Mk 18 Mod 1)</English>
+            <Spanish>Comisario (Mk 18 Mod1)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_O_Soldier_AA_Display">
             <English>Missile Specialist (AA)</English>
+            <Spanish>Especialista en Mísiles (AA)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Soldier_AT_Display">
             <English>Missile Specialist (AT)</English>
+            <Spanish>Especialista en Mísiles (AT)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_O_Crewman_Display">
             <English>Crewman</English>
+            <Spanish>Trípulante</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_O_Pilot_Display">
             <English>Pilot</English>
+            <Spanish>Píloto</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_FighterPilot_Display">
             <English>Fighter Pilot</English>
+            <Spanish>Píloto de Cómbate</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_HeliPilot_Display">
             <English>Helicopter Pilot</English>
+            <Spanish>Píloto de Hélicoptero</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_HeliCrew_Display">
             <English>Helicopter Crew</English>
+            <Spanish>Tripulación de Hélicoptero</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_O_Survivor_Display">
             <English>Survivor</English>
+            <Spanish>Superviviente</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Unarmed_00_Display">
             <English>Unarmed (Full)</English>
+            <Spanish>Desarmado (Total)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Unarmed_01_Display">
             <English>Unarmed (Medium)</English>
+            <Spanish>Desarmado (Mediano)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Unarmed_02_Display">
             <English>Unarmed (Light)</English>
+            <Spanish>Desarmado (Ligero)</Spanish>
         </Key>
 
 
         <Key ID="STR_BlackOrder_Characters_O_Group_InfAssault_Display">
             <English>Assault Squad</English>
+            <Spanish>Escuadrón de Asalto</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_O_Group_InfSentryLight_Display">
             <English>Sentry (Light)</English>
+            <Spanish>Centinela (Ligero)</Spanish>
         </Key>
     </Package>
 </Project>

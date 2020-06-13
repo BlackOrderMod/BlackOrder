@@ -57,7 +57,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
 
-        faction = "OPF_BlackOrder_F";
+        faction = "OPF_BlackOrder_SCI_F";
         side = 0;
 
         crew = "O_BlackOrder_Sci_Security_Light_F";

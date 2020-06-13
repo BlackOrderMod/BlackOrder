@@ -2,33 +2,42 @@
     <Package name="Common">
         <Key ID="STR_BlackOrder_Common_BlackOrderTeam">
             <English>Black Order-Team</English>
+            <Spanish>Equipo Black Order</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Common_BlackOrder_Display">
             <English>Black Order</English>
+            <Spanish>Black Order</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Common_BlackOrder_MP_Display">
             <English>Black Order MP</English>
+            <Spanish>Black Order PM</Spanish>
         </Key>
 
 
         <Key ID="STR_BlackOrder_Common_flag_Display">
             <English>Flag (Black Order)</English>
+            <Spanish>Bandera (Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Common_flagsmall_Display">
             <English>Flag Small (Black Order)</English>
+            <Spanish>Bandera Pequeña (Black Order)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Common_banner_Display">
             <English>Banner (Black Order)</English>
+            <Spanish>Pancarta (Black Order)</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Common_Faction_DisplayName">
             <English>Black Order</English>
+            <Spanish>Black Order</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Common_FactionSCI_DisplayName">
             <English>Black Order (Science Division)</English>
+            <Spanish>Black Order (División de Ciencia)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Common_FactionMP_DisplayName">
             <English>Black Order (Military Police)</English>
+            <Spanish>Black Order (Policía Militar)</Spanish>
         </Key>
     </Package>
 </Project>

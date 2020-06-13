@@ -2,40 +2,51 @@
     <Package name="Characters_SF_O">
         <Key ID="STR_BlackOrder_Characters_SF_O_SpecialForces_Display">
             <English>Special Forces</English>
+            <Spanish>Fuerzas Especiales</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SF_O_TeamLeader_Display">
             <English>Team Leader</English>
+            <Spanish>Líder de Equipo</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SF_O_Rifleman_01_Display">
             <English>Rifleman</English>
+            <Spanish>Fusilero</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SF_O_Marksmen_Display">
             <English>Marksmen</English>
+            <Spanish>Tirador</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SF_O_AR_Display">
             <English>Autorifleman</English>
+            <Spanish>Fusilero Automatico</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SF_O_Sapper_Display">
             <English>Demolition expert</English>
+            <Spanish>Experto en Demolición</Spanish>
         </Key>
 
         <Key ID="STR_BlackOrder_Characters_SF_O_Operator_01_Display">
             <English>Operator</English>
+            <Spanish>Operador</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SF_O_Agent_Display">
             <English>Agent</English>
+            <Spanish>Agente</Spanish>
         </Key>
 
 
 
         <Key ID="STR_BlackOrder_Characters_SF_O_Group_AssaultTeam_Display">
             <English>Assault Team</English>
+            <Spanish>Equipo de Asalto</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SF_O_Group_ScoutTeam_Display">
             <English>Scout Team</English>
+            <Spanish>Equipo de Exploración</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Characters_SF_O_Group_InfiltrationTeam_Display">
             <English>Infiltration Team</English>
+            <Spanish>Equipo de Infiltración</Spanish>
         </Key>
     </Package>
 </Project>

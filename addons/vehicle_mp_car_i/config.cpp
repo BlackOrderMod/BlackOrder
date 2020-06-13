@@ -4,7 +4,15 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "I_RHS_UH60M2_BlackOrderMP_F"
+            "I_blackorder_veh_mp_Quadbike_F",
+            "I_blackorder_veh_mp_SUV_F",
+            "I_blackorder_veh_mp_Offroad_F",
+            "I_blackorder_veh_mp_Offroad_armed_F",
+            "I_blackorder_veh_mp_Van_02_F",
+            "I_blackorder_veh_mp_Van_02_transport_F",
+            "I_blackorder_veh_mp_m1025_m2_F",
+            "I_blackorder_veh_mp_m1025_mk19_F",
+            "I_blackorder_veh_mp_m1025_F"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

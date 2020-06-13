@@ -13,9 +13,9 @@ class CfgWeapons {
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_1_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
         class ItemInfo : UniformItem {
-            modelSides[] = {3,2,1,0};
+            modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "O_BlackOrder_base_F";
             hiddenSelections[] = {"camo"};
@@ -32,9 +32,9 @@ class CfgWeapons {
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_1_medic_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
         class ItemInfo : UniformItem {
-            modelSides[] = {3,2,1,0};
+            modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "O_BlackOrder_CombatLifeSaver_F";
             hiddenSelections[] = {"camo"};
@@ -52,9 +52,9 @@ class CfgWeapons {
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_MP_1_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
         class ItemInfo : UniformItem {
-            modelSides[] = {3,2,1,0};
+            modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "O_BlackOrder_MP_base_F";
             hiddenSelections[] = {"camo"};
@@ -71,9 +71,9 @@ class CfgWeapons {
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_Uniform_MP_1_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
         class ItemInfo : UniformItem {
-            modelSides[] = {3,2,1,0};
+            modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "O_BlackOrder_MP_Soldier_Medic_F";
             hiddenSelections[] = {"camo"};
@@ -91,9 +91,9 @@ class CfgWeapons {
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_PilotCoveralls_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
         class ItemInfo : UniformItem {
-            modelSides[] = {3,2,1,0};
+            modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "O_BlackOrder_FighterPilot_F";
             hiddenSelections[] = {"camo"};
@@ -110,9 +110,9 @@ class CfgWeapons {
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_HeliPilotCoveralls_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
         class ItemInfo : UniformItem {
-            modelSides[] = {3,2,1,0};
+            modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "O_BlackOrder_HeliPilot_F";
             hiddenSelections[] = {"camo"};
@@ -131,9 +131,9 @@ class CfgWeapons {
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_01_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
         class ItemInfo : UniformItem {
-            modelSides[] = {3,2,1,0};
+            modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "O_BlackOrder_Sci_base_F";
             hiddenSelections[] = {"camo"};
@@ -150,9 +150,9 @@ class CfgWeapons {
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_01_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
         class ItemInfo : UniformItem {
-            modelSides[] = {3,2,1,0};
+            modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "O_BlackOrder_Sci_Security_base_F";
             hiddenSelections[] = {"camo"};
@@ -169,9 +169,9 @@ class CfgWeapons {
         author = ECSTRING(common,BlackOrderTeam);
         picture = QPATHTOF(data\uniform\icon\Icon_U_BlackOrder_ScienceCoveralls_02_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
         class ItemInfo : UniformItem {
-            modelSides[] = {3,2,1,0};
+            modelSides[] = {6};
             uniformModel = "-";
             uniformClass = "O_BlackOrder_Sci_SpecialSecurity_base_F";
             hiddenSelections[] = {"camo"};

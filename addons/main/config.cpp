@@ -882,6 +882,7 @@ class CfgPatches {
 
             // RHS
             "rhsusf_main",
+            "rhs_main",
 
             // CBA
             "cba_ui",

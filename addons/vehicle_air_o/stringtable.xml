@@ -2,9 +2,11 @@
     <Package name="Vehicle_Air_O">
         <Key ID="STR_BlackOrder_Vehicle_Air_O_Plane_Fighter_04_AA_Display">
             <English>A-149 Gryphon (AA)</English>
+            <Spanish>A-149 Gryphon (AA)</Spanish>
         </Key>
         <Key ID="STR_BlackOrder_Vehicle_Air_O_Plane_Fighter_04_CAS_Display">
             <English>A-149 Gryphon (CAS)</English>
+            <Spanish>A-149 Gryphon (AAC)</Spanish>
         </Key>
     </Package>
 </Project>
