@@ -13,13 +13,13 @@ class CfgVehicles {
 
         genericNames = "EnglishMen";
         icon = "iconMan";
-        identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
+        identityTypes[] = {"LanguageENG_F","Head_NATO","G_BlackOrder_default"};
 
         side = 0;
         faction = "OPF_BlackOrder_F";
 
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -617,7 +617,7 @@ class CfgVehicles {
         icon = "iconManMedic";
 
         model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -1035,7 +1035,7 @@ class CfgVehicles {
         role="Crewman";
 
         model = "\A3\Characters_F\Common\coveralls.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -1130,7 +1130,7 @@ class CfgVehicles {
         role="Crewman";
 
         model = "\A3\characters_F\Common\pilot_f.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
@@ -1180,7 +1180,7 @@ class CfgVehicles {
         role="Crewman";
 
         model = "\A3\Characters_F\Common\coveralls.p3d";
-        modelSides[] = {3,2,1,0};
+        modelSides[] = {6};
 
         hiddenSelections[] = {"Camo","insignia"};
         hiddenSelectionsTextures[] = {
