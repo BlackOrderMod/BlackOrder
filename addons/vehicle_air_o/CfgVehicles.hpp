@@ -210,7 +210,7 @@ class CfgVehicles {
             QPATHTOF(data\blackorder_ah1z_engines_co.paa)
         };
         class textureSources {
-            class O_BlackOrder_VTOL_Vehicle_Texture {
+            class O_BlackOrder_AH1Z_Vehicle_Texture {
                 author = ECSTRING(common,BlackOrderTeam);
                 displayName = ECSTRING(common,BlackOrder_Display);
                 factions[] = {"OPF_BlackOrder_F","OPF_BlackOrder_SCI_F","OPF_BlackOrder_MP_F","IND_BlackOrder_F","IND_BlackOrder_SCI_F","IND_BlackOrder_MP_F"};

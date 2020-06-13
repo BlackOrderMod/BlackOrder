@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         side = 2;
-        faction = "IND_BlackOrder_F";
+        faction = "IND_BlackOrder_MP_F";
 
         crew = "I_BlackOrder_HeliPilot_F";
         typicalCargo[] = {"I_BlackOrder_HeliCrew_F"};

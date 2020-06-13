@@ -1,4 +1,5 @@
 class CfgVehicles {
+
     class O_BlackOrder_MP_PatrolOfficer_01_F;
     class I_BlackOrder_MP_PatrolOfficer_01_F : O_BlackOrder_MP_PatrolOfficer_01_F {
         _generalMacro = "I_BlackOrder_MP_PatrolOfficer_01_F";
@@ -80,10 +81,17 @@ class CfgVehicles {
         side = 2;
         faction = "IND_BlackOrder_MP_F";
     };
-
     class O_BlackOrder_MP_PatrolOfficer_Sergeant_03_F;
     class I_BlackOrder_MP_PatrolOfficer_Sergeant_03_F : O_BlackOrder_MP_PatrolOfficer_Sergeant_03_F {
         _generalMacro = "I_BlackOrder_MP_PatrolOfficer_Sergeant_03_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_MP_F";
+    };
+    class O_BlackOrder_MP_PatrolOfficer_Sergeant_03_Armored_F;
+    class I_BlackOrder_MP_PatrolOfficer_Sergeant_03_Armored_F : O_BlackOrder_MP_PatrolOfficer_Sergeant_03_Armored_F {
+        _generalMacro = "I_BlackOrder_MP_PatrolOfficer_Sergeant_03_Armored_F";
         scope = 2;
         scopeCurator = 2;
         side = 2;
