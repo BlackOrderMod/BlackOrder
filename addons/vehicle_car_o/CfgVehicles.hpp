@@ -1190,4 +1190,171 @@ class CfgVehicles {
         class TransportWeapons {
         };
     };
+
+    class rhs_tigr_base;
+    class rhs_tigr_vdv : rhs_tigr_base {
+        class Turrets;
+    };
+    class O_blackorder_tigr_F : rhs_tigr_vdv {
+        _generalMacro = "O_blackorder_veh_m998_4dr";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_4dr_F.jpg);
+
+        editorSubcategory = "EdSubcat_Cars";
+        
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+        
+        rhs_decalParameters[] = {};
+
+        crew = "O_BlackOrder_Rifleman_F";
+        typicalCargo[] = {"O_BlackOrder_Rifleman_F"};
+        hiddenSelectionsTextures[] = {
+        	QPATHTOF(data\tigr_BlackOrder_co.paa),                      // "rhsafrf\addons\rhs_tigr\data\rhs_tigr_co.paa",
+        	QPATHTOF(data\tigr_int_01_BlackOrder_co.paa),        // "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_01_co.paa",
+        	"rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",      // "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",
+        	QPATHTOF(data\tigr_ext_ads_BlackOrder_co.paa),       // "rhsafrf\addons\rhs_tigr\sts_proxies\data\tigr_ext_ads_co.paa",
+        	QPATHTOF(data\tigr_m_adds_BlackOrder_co.paa),        // "rhsafrf\addons\rhs_tigr\m_proxies\data\tigr_m_adds_co.paa",
+        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        	QPATHTOF(data\decals\empty.paa)                             // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa"
+        };
+        class textureSources {
+            class O_blackorder_veh_m998_4dr_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = ECSTRING(common,BlackOrder_Display);
+                factions[] = {"OPF_BlackOrder_F","OPF_BlackOrder_SCI_F","OPF_BlackOrder_MP_F","IND_BlackOrder_F","IND_BlackOrder_SCI_F","IND_BlackOrder_MP_F"};
+                textures[] = {
+                    QPATHTOF(data\tigr_BlackOrder_co.paa),
+                    QPATHTOF(data\tigr_int_01_BlackOrder_co.paa),
+                    "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",
+                    QPATHTOF(data\tigr_ext_ads_BlackOrder_co.paa),
+                    QPATHTOF(data\tigr_m_adds_BlackOrder_co.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa)
+                };
+            };
+        };
+
+        rhs_randomizedHabar[] = {};
+
+        class Attributes {};
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
+    };
+
+    class rhs_tigr_m_vdv : rhs_tigr_vdv {
+        class Turrets : Turrets {
+            class CargoTurret_01;
+        };
+    };
+    class O_blackorder_tigr_m_F : rhs_tigr_m_vdv {
+        _generalMacro = "O_blackorder_veh_m998_4dr";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m998_4dr_F.jpg);
+
+        editorSubcategory = "EdSubcat_Cars";
+        
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+        
+        rhs_decalParameters[] = {};
+
+        crew = "O_BlackOrder_Rifleman_F";
+        typicalCargo[] = {"O_BlackOrder_Rifleman_F"};
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 {
+                gunnerType = "O_BlackOrder_Autorifleman_F";
+            };
+        };
+        
+        hiddenSelectionsTextures[] = {
+        	QPATHTOF(data\tigr_BlackOrder_co.paa),
+        	QPATHTOF(data\tigr_int_01_BlackOrder_co.paa),
+        	"rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",
+        	QPATHTOF(data\tigr_ext_ads_BlackOrder_co.paa),
+        	QPATHTOF(data\tigr_m_adds_BlackOrder_co.paa),
+        	QPATHTOF(data\decals\empty.paa),
+        	QPATHTOF(data\decals\empty.paa),
+        	QPATHTOF(data\decals\empty.paa),
+        	QPATHTOF(data\decals\empty.paa),
+        	QPATHTOF(data\decals\empty.paa),
+        	QPATHTOF(data\decals\empty.paa),
+        	QPATHTOF(data\decals\empty.paa),
+        	QPATHTOF(data\decals\empty.paa)
+        };
+        class textureSources {
+            class O_blackorder_veh_m998_4dr_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = ECSTRING(common,BlackOrder_Display);
+                factions[] = {"OPF_BlackOrder_F","OPF_BlackOrder_SCI_F","OPF_BlackOrder_MP_F","IND_BlackOrder_F","IND_BlackOrder_SCI_F","IND_BlackOrder_MP_F"};
+                textures[] = {
+                    QPATHTOF(data\tigr_BlackOrder_co.paa),
+                    QPATHTOF(data\tigr_int_01_BlackOrder_co.paa),
+                    "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",
+                    QPATHTOF(data\tigr_ext_ads_BlackOrder_co.paa),
+                    QPATHTOF(data\tigr_m_adds_BlackOrder_co.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa),
+                    QPATHTOF(data\decals\empty.paa)
+                };
+            };
+        };
+
+        rhs_randomizedHabar[] = {};
+
+        class Attributes {};
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhsusf_200Rnd_556x45_box,4),
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
+    };
 };

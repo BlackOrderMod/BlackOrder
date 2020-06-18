@@ -136,7 +136,7 @@ class CfgVehicles {
         crew = "I_BlackOrder_Rifleman_F";
         typicalCargo[] = {"I_BlackOrder_Rifleman_F"};
     };
-    
+
     class O_blackorder_veh_m998_2dr_fulltop_F;
     class I_blackorder_veh_m998_2dr_fulltop_F : O_blackorder_veh_m998_2dr_fulltop_F {
         _generalMacro = "I_blackorder_veh_m998_2dr_fulltop_F";
@@ -203,5 +203,42 @@ class CfgVehicles {
 
         crew = "I_BlackOrder_Rifleman_F";
         typicalCargo[] = {"I_BlackOrder_Rifleman_F"};
+    };
+
+    class O_blackorder_tigr_F;
+    class I_blackorder_tigr_F : O_blackorder_tigr_F {
+        _generalMacro = "I_blackorder_tigr_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+
+        crew = "I_BlackOrder_Rifleman_F";
+        typicalCargo[] = {"I_BlackOrder_Rifleman_F"};
+    };
+    class rhs_tigr_vdv;
+    class rhs_tigr_m_vdv : rhs_tigr_vdv {
+        class Turrets;
+    };
+    class O_blackorder_tigr_m_F : rhs_tigr_m_vdv {
+        class Turrets : Turrets {
+            class CargoTurret_01;
+        };
+    };
+    class I_blackorder_tigr_m_F : O_blackorder_tigr_m_F {
+        _generalMacro = "I_blackorder_tigr_m_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+
+        crew = "I_BlackOrder_Rifleman_F";
+        typicalCargo[] = {"I_BlackOrder_Rifleman_F"};
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 {
+                gunnerType = "I_BlackOrder_Autorifleman_F";
+            };
+        };
     };
 };
