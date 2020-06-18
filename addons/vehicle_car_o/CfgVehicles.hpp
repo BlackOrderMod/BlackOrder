@@ -636,6 +636,67 @@ class CfgVehicles {
         };
     };
 
+    class rhsusf_m1045_w;
+    class O_blackorder_veh_m1045_w : rhsusf_m1045_w {
+        _generalMacro = "O_blackorder_veh_m1045_w";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        editorPreview = QPATHTOF(EditorPreviews\O_blackorder_veh_m1025_F.jpg);
+
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        crew = "O_BlackOrder_Rifleman_F";
+        typicalCargo[] = {"O_BlackOrder_Rifleman_F"};
+
+        HiddenSelectionsTextures[] = {
+            QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
+            QPATHTOF(data\m998_interior_BlackOrder_co.paa),
+            QPATHTOF(data\m1025_A2_parts_BlackOrder_co.paa),
+            QPATHTOF(data\wheel_wranglermt_BlackOrder_co.paa),
+            QPATHTOF(data\m998_mainbody_BlackOrder_co.paa),
+            QPATHTOF(data\gratting_BlackOrder_co.paa),
+            QPATHTOF(data\tile_exmetal_BlackOrder_co.paa),
+            QPATHTOF(data\m1025_BlackOrder_co.paa),
+            QPATHTOF(data\mk64mount_BlackOrder_co.paa)
+        };
+        class textureSources {
+            class O_blackorder_veh_m1025_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = ECSTRING(common,BlackOrder_Display);
+                factions[] = {"OPF_BlackOrder_F","OPF_BlackOrder_SCI_F","OPF_BlackOrder_MP_F","IND_BlackOrder_F","IND_BlackOrder_SCI_F","IND_BlackOrder_MP_F"};
+                textures[] = {
+                    QPATHTOF(data\m998_exterior_BlackOrder_co.paa),
+                    QPATHTOF(data\m998_interior_BlackOrder_co.paa),
+                    QPATHTOF(data\m1025_A2_parts_BlackOrder_co.paa),
+                    QPATHTOF(data\wheel_wranglermt_BlackOrder_co.paa),
+                    QPATHTOF(data\m998_mainbody_BlackOrder_co.paa),
+                    QPATHTOF(data\gratting_BlackOrder_co.paa),
+                    QPATHTOF(data\tile_exmetal_BlackOrder_co.paa),
+                    QPATHTOF(data\m1025_BlackOrder_co.paa),
+                    QPATHTOF(data\mk64mount_BlackOrder_co.paa)
+                };
+            };
+        };
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+            MACRO_ADDITEM(FirstAidKit,2);
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
+            MACRO_ADDMAGAZINE(SmokeShell,3);
+            MACRO_ADDMAGAZINE(Chemlight_red,2);
+            MACRO_ADDMAGAZINE(Chemlight_blue,2);
+            MACRO_ADDMAGAZINE(Chemlight_green,2);
+        };
+        class TransportWeapons {
+        };
+    };
+
     class rhsusf_m998_w_2dr_fulltop;
     class O_blackorder_veh_m998_2dr_fulltop_F : rhsusf_m998_w_2dr_fulltop {
         _generalMacro = "O_blackorder_veh_m998_2dr_fulltop";
