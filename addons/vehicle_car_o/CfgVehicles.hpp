@@ -1213,19 +1213,19 @@ class CfgVehicles {
         crew = "O_BlackOrder_Rifleman_F";
         typicalCargo[] = {"O_BlackOrder_Rifleman_F"};
         hiddenSelectionsTextures[] = {
-        	QPATHTOF(data\tigr_BlackOrder_co.paa),                      // "rhsafrf\addons\rhs_tigr\data\rhs_tigr_co.paa",
-        	QPATHTOF(data\tigr_int_01_BlackOrder_co.paa),        // "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_01_co.paa",
-        	"rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",      // "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",
-        	QPATHTOF(data\tigr_ext_ads_BlackOrder_co.paa),       // "rhsafrf\addons\rhs_tigr\sts_proxies\data\tigr_ext_ads_co.paa",
-        	QPATHTOF(data\tigr_m_adds_BlackOrder_co.paa),        // "rhsafrf\addons\rhs_tigr\m_proxies\data\tigr_m_adds_co.paa",
-        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
-        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
-        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
-        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
-        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
-        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
-        	QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
-        	QPATHTOF(data\decals\empty.paa)                             // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa"
+            QPATHTOF(data\tigr_BlackOrder_co.paa),                      // "rhsafrf\addons\rhs_tigr\data\rhs_tigr_co.paa",
+            QPATHTOF(data\tigr_int_01_BlackOrder_co.paa),        // "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_01_co.paa",
+            "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",      // "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",
+            QPATHTOF(data\tigr_ext_ads_BlackOrder_co.paa),       // "rhsafrf\addons\rhs_tigr\sts_proxies\data\tigr_ext_ads_co.paa",
+            QPATHTOF(data\tigr_m_adds_BlackOrder_co.paa),        // "rhsafrf\addons\rhs_tigr\m_proxies\data\tigr_m_adds_co.paa",
+            QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+            QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+            QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+            QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+            QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+            QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+            QPATHTOF(data\decals\empty.paa),                            // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+            QPATHTOF(data\decals\empty.paa)                             // "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa"
         };
         class textureSources {
             class O_blackorder_veh_m998_4dr_Texture {
@@ -1300,19 +1300,19 @@ class CfgVehicles {
         };
         
         hiddenSelectionsTextures[] = {
-        	QPATHTOF(data\tigr_BlackOrder_co.paa),
-        	QPATHTOF(data\tigr_int_01_BlackOrder_co.paa),
-        	"rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",
-        	QPATHTOF(data\tigr_ext_ads_BlackOrder_co.paa),
-        	QPATHTOF(data\tigr_m_adds_BlackOrder_co.paa),
-        	QPATHTOF(data\decals\empty.paa),
-        	QPATHTOF(data\decals\empty.paa),
-        	QPATHTOF(data\decals\empty.paa),
-        	QPATHTOF(data\decals\empty.paa),
-        	QPATHTOF(data\decals\empty.paa),
-        	QPATHTOF(data\decals\empty.paa),
-        	QPATHTOF(data\decals\empty.paa),
-        	QPATHTOF(data\decals\empty.paa)
+            QPATHTOF(data\tigr_BlackOrder_co.paa),
+            QPATHTOF(data\tigr_int_01_BlackOrder_co.paa),
+            "rhsafrf\addons\rhs_tigr\data\rhs_tigr_int_02_co.paa",
+            QPATHTOF(data\tigr_ext_ads_BlackOrder_co.paa),
+            QPATHTOF(data\tigr_m_adds_BlackOrder_co.paa),
+            QPATHTOF(data\decals\empty.paa),
+            QPATHTOF(data\decals\empty.paa),
+            QPATHTOF(data\decals\empty.paa),
+            QPATHTOF(data\decals\empty.paa),
+            QPATHTOF(data\decals\empty.paa),
+            QPATHTOF(data\decals\empty.paa),
+            QPATHTOF(data\decals\empty.paa),
+            QPATHTOF(data\decals\empty.paa)
         };
         class textureSources {
             class O_blackorder_veh_m998_4dr_Texture {
