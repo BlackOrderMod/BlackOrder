@@ -70,6 +70,40 @@ class CfgVehicles {
         typicalCargo[] = {"I_BlackOrder_HeliPilot_F"};
     };
 
+    class O_RHS_MELB_AH6M_BlackOrder_F;
+    class I_RHS_MELB_AH6M_BlackOrder_F : O_RHS_MELB_AH6M_BlackOrder_F {
+        _generalMacro = "I_RHS_MELB_AH6M_BlackOrder_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+
+        crew = "I_BlackOrder_HeliPilot_F";
+        typicalCargo[] = {"I_BlackOrder_HeliPilot_F"};
+    };
+    class O_RHS_MELB_MH6M_BlackOrder_F;
+    class I_RHS_MELB_MH6M_BlackOrder_F : O_RHS_MELB_MH6M_BlackOrder_F {
+        _generalMacro = "I_RHS_MELB_MH6M_BlackOrder_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+
+        crew = "I_BlackOrder_HeliPilot_F";
+        typicalCargo[] = {"I_BlackOrder_HeliPilot_F"};
+    };
+    class O_RHS_MELB_H6M_BlackOrder_F;
+    class I_RHS_MELB_H6M_BlackOrder_F : O_RHS_MELB_H6M_BlackOrder_F {
+        _generalMacro = "I_RHS_MELB_H6M_BlackOrder_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+
+        crew = "I_BlackOrder_HeliPilot_F";
+        typicalCargo[] = {"I_BlackOrder_HeliPilot_F"};
+    };
+
     class O_BlackOrder_VTOL_Infantry_F;
     class I_BlackOrder_VTOL_Infantry_F : O_BlackOrder_VTOL_Infantry_F {
         _generalMacro = "I_BlackOrder_VTOL_Infantry_F";
