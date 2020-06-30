@@ -227,6 +227,121 @@ class CfgVehicles {
         class TransportWeapons {};
     };
 
+    class RHS_MELB_AH6M;
+    class O_RHS_MELB_AH6M_BlackOrder_F : RHS_MELB_AH6M {
+        _generalMacro = "O_RHS_MELB_AH6M_BlackOrder_F";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(BlackOrder_AH1Z_Vehicle_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\O_RHS_AH1Z_BlackOrder_F.jpg);
+
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        crew = "O_BlackOrder_HeliPilot_F";
+        typicalCargo[] = {"O_BlackOrder_HeliPilot_F"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_melb_ext_co.paa),
+            "rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
+        };
+
+        class textureSources {
+            class O_BlackOrder_MELB_AH6M_Vehicle_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = ECSTRING(common,BlackOrder_Display);
+                factions[] = {"OPF_BlackOrder_F","OPF_BlackOrder_SCI_F","OPF_BlackOrder_MP_F","IND_BlackOrder_F","IND_BlackOrder_SCI_F","IND_BlackOrder_MP_F"};
+                textures[] = {
+                    QPATHTOF(data\blackorder_melb_ext_co.paa),
+                    "rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
+                };
+            };
+        };
+        
+        class Attributes {};
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
+    };
+    class RHS_MELB_MH6M;
+    class O_RHS_MELB_MH6M_BlackOrder_F : RHS_MELB_MH6M {
+        _generalMacro = "O_RHS_MELB_AH6M_BlackOrder_F";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(BlackOrder_AH1Z_Vehicle_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\O_RHS_AH1Z_BlackOrder_F.jpg);
+
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        crew = "O_BlackOrder_HeliPilot_F";
+        typicalCargo[] = {"O_BlackOrder_HeliPilot_F"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_melb_ext_co.paa),
+            "rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
+        };
+
+        class textureSources {
+            class O_BlackOrder_MELB_MH6M_Vehicle_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = ECSTRING(common,BlackOrder_Display);
+                factions[] = {"OPF_BlackOrder_F","OPF_BlackOrder_SCI_F","OPF_BlackOrder_MP_F","IND_BlackOrder_F","IND_BlackOrder_SCI_F","IND_BlackOrder_MP_F"};
+                textures[] = {
+                    QPATHTOF(data\blackorder_melb_ext_co.paa),
+                    "rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
+                };
+            };
+        };
+        
+        class Attributes {};
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
+    };
+    class RHS_MELB_H6M;
+    class O_RHS_MELB_H6M_BlackOrder_F : RHS_MELB_H6M {
+        _generalMacro = "O_RHS_MELB_H6M_BlackOrder_F";
+        scope = 2;
+        scopeCurator = 2;
+        //displayName = CSTRING(BlackOrder_AH1Z_Vehicle_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\O_RHS_AH1Z_BlackOrder_F.jpg);
+
+        faction = "OPF_BlackOrder_F";
+        side = 0;
+
+        crew = "O_BlackOrder_HeliPilot_F";
+        typicalCargo[] = {"O_BlackOrder_HeliPilot_F"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_melb_ext_co.paa),
+            "rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
+        };
+
+        class textureSources {
+            class O_BlackOrder_MELB_H6M_Vehicle_Texture {
+                author = ECSTRING(common,BlackOrderTeam);
+                displayName = ECSTRING(common,BlackOrder_Display);
+                factions[] = {"OPF_BlackOrder_F","OPF_BlackOrder_SCI_F","OPF_BlackOrder_MP_F","IND_BlackOrder_F","IND_BlackOrder_SCI_F","IND_BlackOrder_MP_F"};
+                textures[] = {
+                    QPATHTOF(data\blackorder_melb_ext_co.paa),
+                    "rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
+                };
+            };
+        };
+        
+        class Attributes {};
+
+        class TransportBackpacks {};
+        class TransportItems {};
+        class TransportMagazines {};
+        class TransportWeapons {};
+    };
+
     class O_T_VTOL_02_infantry_dynamicLoadout_F;
     class O_BlackOrder_VTOL_Infantry_F : O_T_VTOL_02_infantry_dynamicLoadout_F {
         _generalMacro = "O_BlackOrder_VTOL_Infantry_F";
