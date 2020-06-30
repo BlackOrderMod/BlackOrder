@@ -28,7 +28,7 @@ class CfgFactionClasses {
         displayName = CSTRING(Faction_DisplayName);
         author = CSTRING(BlackOrderTeam);
         flag = QPATHTOF(data\flag_blackorder_co.paa);
-        icon = QPATHTOF(data\cfgfactionclasses_blackorder_ca.paa);
+        icon = QPATHTOF(data\cfgfactionclasses_blackorder_i_ca.paa);
         priority = 0;
         side = 2;
     };
@@ -36,7 +36,7 @@ class CfgFactionClasses {
         displayName = CSTRING(FactionSCI_DisplayName);
         author = CSTRING(BlackOrderTeam);
         flag = QPATHTOF(data\flag_blackorder_co.paa);
-        icon = QPATHTOF(data\cfgfactionclasses_blackorder_ca.paa);
+        icon = QPATHTOF(data\cfgfactionclasses_blackorder_i_ca.paa);
         priority = 0;
         side = 2;
     };
@@ -44,7 +44,7 @@ class CfgFactionClasses {
         displayName = CSTRING(FactionMP_DisplayName);
         author = CSTRING(BlackOrderTeam);
         flag = QPATHTOF(data\flag_blackorder_co.paa);
-        icon = QPATHTOF(data\cfgfactionclasses_blackorder_ca.paa);
+        icon = QPATHTOF(data\cfgfactionclasses_blackorder_i_ca.paa);
         priority = 0;
         side = 2;
     };
