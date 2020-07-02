@@ -1347,7 +1347,7 @@ class CfgVehicles {
             MACRO_ADDITEM(FirstAidKit,2);
         };
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(rhsusf_200Rnd_556x45_box,4),
+            MACRO_ADDMAGAZINE(rhsusf_200Rnd_556x45_box,4);
             MACRO_ADDMAGAZINE(20Rnd_762x51_Mag,8);
             MACRO_ADDMAGAZINE(SmokeShell,3);
             MACRO_ADDMAGAZINE(Chemlight_red,2);
