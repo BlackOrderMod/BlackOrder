@@ -2,7 +2,7 @@
 class CfgVehicles {
     class B_Soldier_base_F;
     class O_BlackOrder_MP_base_F : B_Soldier_base_F {
-        _generalMacro = "O_BlackOrder_Sci_base_F";
+        _generalMacro = "O_BlackOrder_MP_base_F";
         scope = 1;
         scopeCurator = 1;
         displayName = CSTRING(MilitaryPolice_Display);
@@ -13,7 +13,7 @@ class CfgVehicles {
 
         genericNames = "EnglishMen";
         icon = "iconMan";
-        identityTypes[] = {"LanguageENG_F","Head_NATO","G_NATO_default"};
+        identityTypes[] = {"LanguageENG_F","Head_NATO","G_BlackOrder_default"};
 
         side = 0;
         faction = "OPF_BlackOrder_MP_F";

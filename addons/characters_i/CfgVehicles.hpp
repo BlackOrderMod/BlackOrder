@@ -129,7 +129,15 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
-
+    class O_BlackOrder_RadioOperator_F;
+    class I_BlackOrder_RadioOperator_F : O_BlackOrder_RadioOperator_F {
+        _generalMacro = "I_BlackOrder_RadioOperator_F";
+        scope = 2;
+        scopeCurator = 2;
+        side = 2;
+        faction = "IND_BlackOrder_F";
+    };
+    
     class O_BlackOrder_Officer_F;
     class I_BlackOrder_Officer_F : O_BlackOrder_Officer_F {
         _generalMacro = "I_BlackOrder_Officer_F";
