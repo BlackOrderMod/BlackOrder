@@ -9,6 +9,7 @@
  <a href="https://github.com/BlackOrderMod/BlackOrder/actions?query=workflow%3AArma">
 <img src="https://img.shields.io/github/workflow/status/BlackOrderMod/BlackOrder/Arma/master?logo=GitHub&style=for-the-badge" alt="cScripts Build">
 </a>
+ <a href="https://discord.gg/RNYptZZeZ4"><img src="https://img.shields.io/badge/Discord-Join-blue.svg?logo=Discord&style=for-the-badge" alt="Join Our Discord"></a>
  <a href='https://ko-fi.com/I2I01RWL4' target='_blank'><img height='29' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi5.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </p>
 
