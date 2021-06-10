@@ -7,10 +7,23 @@
             <English>Take</English>
         </Key>
 
+        <Key ID="STR_BlackOrder_ACE_Compat_Tag_Black_Display">
+            <English>Propaganda black</English>
+        </Key>
+        <Key ID="STR_BlackOrder_ACE_Compat_Tag_Blue_Display">
+            <English>Propaganda blue</English>
+        </Key>
+        <Key ID="STR_BlackOrder_ACE_Compat_Tag_Green_Display">
+            <English>Propaganda green</English>
+        </Key>
+        <Key ID="STR_BlackOrder_ACE_Compat_Tag_Red_Display">
+            <English>Propaganda red</English>
+        </Key>
+
         <Key ID="STR_BlackOrder_ACE_Compat_DMR_Display">
             <English>SIG 556 (Black Order)</English>
         </Key>
-        
+
         <Key ID="STR_BlackOrder_ACE_Compat_Plane_Fighter_04_AA_Display">
             <English>JAS 39 Gripen (AA)</English>
         </Key>
