@@ -276,6 +276,18 @@ class CfgWeapons {
         };
     };
 
+    class V_Plain_base_F;
+    class V_BlackOrder_PlainVest_F: V_Plain_base_F {
+        _generalMacro = "V_BlackOrder_PlainVest_F";
+        scope = 2;
+        displayName = CSTRING(Vest_PlainVest_Display);
+        author = ECSTRING(common,BlackOrderTeam);
+        picture = QPATHTOF(data\vest\icon\icon_V_BlackOrder_PlainVest_ca.paa);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\vest\V_BlackOrder_PlainVest_co.paa)
+        };
+    };
+
 
     class HeadgearItem;
     class H_HelmetB;

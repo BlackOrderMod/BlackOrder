@@ -1,0 +1,19 @@
+<Project name="BlackOrder">
+    <Package name="Characters_Mil_O">
+        <Key ID="STR_BlackOrder_Characters_Mil_O_Militia_Display">
+            <English>Militia</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_Mil_O_Militia_01_Display">
+            <English>Militia (Soldier)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_Mil_O_Militia_02_Display">
+            <English>Militia (Protector)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_Mil_O_Militia_03_Display">
+            <English>Militia (Defender)</English>
+        </Key>
+        <Key ID="STR_BlackOrder_Characters_Mil_O_Militia_04_Display">
+            <English>Militia (Guardian)</English>
+        </Key>
+    </Package>
+</Project>

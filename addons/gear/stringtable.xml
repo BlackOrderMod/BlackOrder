@@ -73,6 +73,10 @@
             <Spanish>Cartuchera Ligera (Médico Black Order)</Spanish>
         </Key>
 
+        <Key ID="STR_BlackOrder_Gear_Vest_PlainVest_Display">
+            <English>Identification Vest [Black Order]</English>
+        </Key>
+
         <Key ID="STR_BlackOrder_Gear_Headgear_CombatHelmet_Display">
             <English>Combat Helmet (Black Order)</English>
             <Spanish>Casco de Combate (Black Order)</Spanish>
