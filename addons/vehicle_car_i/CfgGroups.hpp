@@ -7,11 +7,11 @@ class CfgGroups {
                 class I_BlackOrder_MotInf_Team {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInfTeam0";
                     side = 2;
-                    faction = "OPF_BlackOrder_F";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    faction = "IND_BlackOrder_F";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     class Unit0 {
                         side = 2;
-                        vehicle = "I_blackorder_veh_m1025_m2_F";
+                        vehicle = "I_blackorder_tigr_m_F";
                         rank = "SERGEANT";
                         position[] = {0,0,0};
                     };
@@ -27,15 +27,27 @@ class CfgGroups {
                         rank = "PRIVATE";
                         position[] = {-5,-5,0};
                     };
+                    class Unit3 {
+                        side = 2;
+                        vehicle = "I_BlackOrder_Rifleman_2_F";
+                        rank = "PRIVATE";
+                        position[] = {-10,-10,0};
+                    };
+                    class Unit4 {
+                        side = 2;
+                        vehicle = "I_BlackOrder_Rifleman_2_F";
+                        rank = "PRIVATE";
+                        position[] = {10,-10,0};
+                    };
                 };
                 class I_BlackOrder_MotInf_AT {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_AT0";
                     side = 2;
-                    faction = "OPF_BlackOrder_F";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    faction = "IND_BlackOrder_F";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     class Unit0 {
                         side = 2;
-                        vehicle = "I_blackorder_veh_m998_4dr_F";
+                        vehicle = "I_blackorder_veh_m1045_w";
                         rank = "SERGEANT";
                         position[] = {0,0,0};
                     };
@@ -47,7 +59,7 @@ class CfgGroups {
                     };
                     class Unit2     {
                         side = 2;
-                        vehicle = "I_BlackOrder_Soldier_AT_F";
+                        vehicle = "I_BlackOrder_Rifleman_LAT_F";
                         rank = "PRIVATE";
                         position[] = {-5,-5,0};
                     };
@@ -61,8 +73,8 @@ class CfgGroups {
                 class I_BlackOrder_MotInf_AA {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_AA0";
                     side = 2;
-                    faction = "OPF_BlackOrder_F";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    faction = "IND_BlackOrder_F";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     class Unit0 {
                         side = 2;
                         vehicle = "I_blackorder_veh_m998_2dr_F";
@@ -91,8 +103,8 @@ class CfgGroups {
                 class I_BlackOrder_MotInf_MGTeam {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_MGTeam0";
                     side = 2;
-                    faction = "OPF_BlackOrder_F";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    faction = "IND_BlackOrder_F";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     class Unit0 {
                         side = 2;
                         vehicle = "I_blackorder_veh_m1025_m2_F";
@@ -121,8 +133,8 @@ class CfgGroups {
                 class I_BlackOrder_MotInf_GMGTeam {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_GMGTeam0";
                     side = 2;
-                    faction = "OPF_BlackOrder_F";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    faction = "IND_BlackOrder_F";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     class Unit0 {
                         side = 2;
                         vehicle = "I_blackorder_veh_m1025_mk19_F";
@@ -151,7 +163,7 @@ class CfgGroups {
                 class I_BlackOrder_MotInf_Reinforce {
                     name="$STR_A3_CFGGROUPS_WEST_BLU_F_MOTORIZED_BUS_MOTINF_REINFORCE0";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    faction = "OPF_BlackOrder_F";
+                    faction = "IND_BlackOrder_F";
                     side = 2;
                     class Unit0 {
                         position[] = {0,0,0};

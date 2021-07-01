@@ -133,7 +133,7 @@ class CfgGroups {
                         position[] = {-5,-5,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "I_BlackOrder_Soldier_AT_F";
+                        vehicle = "I_BlackOrder_RadioOperator_F";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};

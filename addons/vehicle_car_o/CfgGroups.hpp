@@ -11,7 +11,7 @@ class CfgGroups {
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     class Unit0 {
                         side = 0;
-                        vehicle = "O_blackorder_veh_m1025_m2_F";
+                        vehicle = "O_blackorder_tigr_m_F";
                         rank = "SERGEANT";
                         position[] = {0,0,0};
                     };
@@ -27,6 +27,18 @@ class CfgGroups {
                         rank = "PRIVATE";
                         position[] = {-5,-5,0};
                     };
+                    class Unit3 {
+                        side = 0;
+                        vehicle = "O_BlackOrder_Rifleman_2_F";
+                        rank = "PRIVATE";
+                        position[] = {-10,-10,0};
+                    };
+                    class Unit4 {
+                        side = 0;
+                        vehicle = "O_BlackOrder_Rifleman_2_F";
+                        rank = "PRIVATE";
+                        position[] = {10,-10,0};
+                    };
                 };
                 class O_BlackOrder_MotInf_AT {
                     name="$STR_A3_cfggroups_East_OPF_F_Motorized_MTP_OIA_MotInf_AT0";
@@ -35,7 +47,7 @@ class CfgGroups {
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     class Unit0 {
                         side = 0;
-                        vehicle = "O_blackorder_veh_m998_4dr_F";
+                        vehicle = "O_blackorder_veh_m1045_w";
                         rank = "SERGEANT";
                         position[] = {0,0,0};
                     };
@@ -47,7 +59,7 @@ class CfgGroups {
                     };
                     class Unit2     {
                         side = 0;
-                        vehicle = "O_BlackOrder_Soldier_AT_F";
+                        vehicle = "O_BlackOrder_Rifleman_LAT_F";
                         rank = "PRIVATE";
                         position[] = {-5,-5,0};
                     };
