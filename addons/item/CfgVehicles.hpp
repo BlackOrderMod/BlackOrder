@@ -174,4 +174,18 @@ class CfgVehicles {
             QPATHTOF(data\blackorder_Land_CampingTable_co.paa)
         };
     };
+
+    class Land_Sign_WarningMilitaryArea_F;
+    class blackorder_Land_Sign_Militarycheckpoint_F : Land_Sign_WarningMilitaryArea_F {
+        _generalMacro = "blackorder_Land_Sign_Militarycheckpoint_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(militarycheckpoint_display);
+        author = ECSTRING(common,BlackOrderTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\blackorder_Land_Sign_Militarycheckpoint_F.jpg);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\blackorder_Land_Militarycheckpoint_co.paa)
+        };
+    };
 };

@@ -283,7 +283,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(EditorPreviews\Box_blackorder_Uniforms_F.jpg);
 
         hiddenSelectionsTextures[] = {
-            QPATHTOEF(item,data\blackorder_Land_plasticcase_01_co.paa),
+            "a3\Props_F_Enoch\Military\Supplies\Data\PlasticCase_01_black_CO.paa",
             QPATHTOF(data\equipment_box_blackorder_ca.paa)
         };
         class TransportBackpacks {
