@@ -62,5 +62,9 @@
             <English>Camping Table (Small, Black)</English>
             <Spanish>Mesa de Acampar (Pequeño, Negro)</Spanish>
         </Key>
+        <Key ID="STR_BlackOrder_Item_militarycheckpoint_display">
+            <English>Sign (Checkpoint (Black Order) - International)</English>
+            <Spanish>Señal (Punto de control (Black Order) - Internacional)</Spanish>
+        </Key>
     </Package>
 </Project>

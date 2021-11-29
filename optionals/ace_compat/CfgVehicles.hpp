@@ -12,13 +12,13 @@ class CfgVehicles {
                 statement = "";
                 class BlackOrder_Cyanide {
                     displayName = CSTRING(Action_Cyanide_Display);
-                    condition = QUOTE(!(_player getVariable [ARR_2(QQGVAR(cyanide_flag), false])));
+                    condition = QUOTE(!_player getVariable [ARR_2(QQGVAR(cyanide_flag), false)]);
                     statement = "";
                     icon = QPATHTOF(UI\icon_cyanide_co.paa);
                     class BlackOrder_Cyanide_Take {
                         displayName = CSTRING(Action_Cyanide_Take_Display);
-                        condition = QUOTE(!(_player getVariable [ARR_2(QQGVAR(cyanide_flag), false])));
-                        statement = QUOTE((_player spawn {sleep (random [ARR_3(5, 10, 15)]); [_this] call ace_medical_fnc_setCardiacArrest;}); (_player setVariable [ARR_2(QQGVAR(cyanide_flag), true])));
+                        condition = QUOTE(!_player getVariable [ARR_2(QQGVAR(cyanide_flag), false)]);
+                        statement = QUOTE(_player spawn {sleep (random [ARR_3(5, 10, 15)]; [_this] call ace_medical_fnc_setCardiacArrest;}); (_player setVariable [ARR_2(QQGVAR(cyanide_flag), true)])));
                         icon = "";
                     };
                 };
